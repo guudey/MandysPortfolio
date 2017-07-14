@@ -1,0 +1,551 @@
+*, *::after, *::before {
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+}
+
+h1, h2, h3, h4{
+	font-family: 'Yanone Kaffeesatz', serif;
+}
+
+h1, h2{
+	letter-spacing: 0.2rem;
+	text-transform: uppercase;
+}
+
+h3{
+	letter-spacing: 0.25rem;
+	font-size: 1.1rem;
+}
+
+h4{
+	font-size: 0.85em;
+	letter-spacing: 0.12rem;
+}
+
+p, ol, ul{
+	font-family: 'Athiti', serif;
+	font-size: 0.9em;
+	color: #393B39;
+	letter-spacing: 0.1rem;
+	margin: 0.6rem 0 0 0.6rem;
+}
+
+a{
+	font-family: 'Athiti', serif;
+	font-size: 0.9em;
+	text-decoration: none;
+	color: #213040;
+	transition: color 0.4s;
+}
+
+a:active, a:hover, a:focus{
+	color: #FDCA8F;
+}
+
+button{
+	background-color: #F6D8D0;
+    border: none;
+    color: #F48A82;
+    padding: 15px 32px;
+    text-align: center;
+    font-family: 'Athiti';
+    text-transform: uppercase;
+    font-size: 0.6em;
+    letter-spacing: 0.15em;
+    transition: background-color 0.8s;
+}
+
+button:active, button:hover, button:focus{
+	background-color: #F48A82;
+	color: white;
+}
+
+select {
+    width: 50%;
+    padding: 2rem 3rem;
+    border: 1px solid #213040;
+    border-radius: 0;
+    background-color: white;
+}
+
+fieldset{
+	border: none;
+}
+
+.p_subtitle_padding{
+	margin: 1rem 0 0 0.5rem;
+}
+
+.accent_color{
+    color: #F79D34;
+}
+
+/* --- NAV BAR --- */
+.guide_navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 20%;
+
+    background-color: #FFF;
+    padding-left: 3%;
+    padding-top: 2%;
+}
+
+.navbar_li{
+	font-size: 0.9rem;
+	margin-bottom: 0.8rem;
+	text-transform: uppercase;
+	letter-spacing: 0.1rem;
+}
+
+.navbar_li a{
+	color: #000;
+}
+
+.navbar_li a:hover, .navbar_li a:active, .navbar_li a:focus{
+	color: #F48A82;
+}
+
+.navbar_logo{
+	margin: 0;
+	margin-right: 3%;
+	color: black;
+	text-decoration: none;
+}
+
+.navbar_logo:active, .navbar_logo:hover, .navbar_logo:focus{
+	color: black;
+	text-decoration: none;
+}
+
+.guide_logo{
+	width: 8rem;
+}
+
+.guide_logo_div{
+	margin-top: 2.5rem;
+	margin-bottom: 2rem;
+}
+
+.logo_title{
+	margin: 0;
+}
+
+/* --- MARGINS + SPACING --- */
+.navbar_margin{
+	margin-left: 20%;
+	margin-right: 2%;
+}
+
+.h2_padding_first{
+	padding: 3rem 0 3rem 0;
+	background-color: #F7D8D0;
+	margin: 0 0 0 0;
+	text-align: center;
+	color: #C06C66;
+}
+
+.h2_padding{
+	padding: 3rem 0 3rem 0;
+	background-color: #F7D8D0;
+	margin: 2rem 0 0 0;
+	text-align: center;
+	color: #C06C66;
+}
+
+/* --- FLEXBOX / GRIDS --- */
+
+.box{
+	display: flex;
+}
+
+.grid_item{
+	width: 50%;
+	padding: 0 1rem 0 0;
+}
+
+.color_item{
+	width: 33%;
+	padding: 1rem 2rem 1rem 2rem;
+}
+
+.form_item{
+	width: 50%;
+	padding-right: 4rem;
+}
+
+.sample_item{
+	width: 50%;
+}
+
+.info_item{
+	width: 100%;
+}
+
+.type_item{
+	width: 50%;
+	padding-bottom: 3rem;
+	padding-right: 5rem;
+}
+
+.service_item{
+	width: 33%;
+	padding-right: 2rem;
+}
+
+/* ------- IMAGES -------- */
+
+.grid_img{
+	width: 80%;
+}
+
+.small_grid_img{
+	width: 25%;
+}
+
+/* --- EXAMPLE CODE ---- */
+
+.example_box{
+	border: 1px #919191 solid;
+	padding: 2rem 2rem 2rem 2rem;
+	margin-bottom: 4rem;
+}
+
+.type_box{
+	border: 1px #919191 solid;
+	padding: 1rem 1rem 1rem 1rem;
+	margin-bottom: 2rem;
+	margin-top: 2rem;
+}
+
+.navbar{
+	width: 100%;
+	background-color: rgba( 255, 255, 255, 1);
+    border-bottom: solid #D4E8ED 0.25px;
+    margin: 0;
+    z-index: 1000;
+    justify-content: space-around;
+}
+
+.logo_box{
+	width: 100%;
+	margin-top: 1rem;
+	margin-bottom: 0.5rem;
+}
+
+.center_text{
+	text-align: center;
+}
+
+.center{
+	justify-content: center;
+}
+
+.logo{
+	width: 13.5rem;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.navbar_item{
+    display: inline-block;
+	margin: 0 1.5rem 1rem 1.5rem;
+
+	color: #213040;
+	text-decoration: none;
+	font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+
+	transition: color 0.4s;
+}
+
+.navbar_item:hover, .navbar_item:active, .navbar_item:focus{
+	color: #F79D34;
+}
+
+.dropdown_content {
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown_content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown_content a:hover {
+    color: #F79D34;
+}
+
+.dropdown:hover .dropdown_content{
+    display: block;
+}
+
+.hamburger_container{
+	display: block;
+	width: 100%;
+	height: 11%;
+	background-color: white;
+	z-index: 1000;
+}
+
+.hamburger_menu {
+    background-color: white;
+    overflow: hidden;
+    padding-top: 0.7rem;
+   	border-bottom: solid #D4E8ED 0.25px;
+}
+
+.hamburger_menu a {
+    float: left;
+    display: block;
+    color: #213040;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.hamburger_menu a:hover {
+    color: #F79E35;
+}
+
+.hamburger_menu a:not(:first-child) {
+	display: none;
+}
+
+.hamburger_menu a.icon {
+	float: right;
+	display: block;
+}
+
+.hamburger_menu.responsive {position: relative;}
+.hamburger_menu.responsive a.icon {
+	position: absolute;
+	right: 0;
+	top: 0.7rem;
+}
+
+.hamburger_menu.responsive a {
+	float: none;
+	display: block;
+	text-align: left;
+}
+
+.hamburger_logo {
+	top: 1rem;
+	width: 10rem;
+	margin-right: 2rem;
+	padding-bottom: 1rem;
+}
+
+.hamburg_spacing{
+	margin-top: 2rem;
+}
+
+.tab_section_padding{
+	padding-bottom: 2rem;
+}
+
+.tab{
+	background-color: white;
+	color: #213040;
+	width: 12rem;
+	font-size: 0.9rem;
+	margin: 0 1rem 0 1rem;
+
+	border-top: 0.01rem solid white;
+	border-left: 0.01rem solid white;
+	border-right: 0.01rem solid white;
+	border-bottom: 0.2rem solid white;
+
+	transition-timing-function: ease;
+}
+
+.tab:active, .tab:hover, .tab:focus{
+	background-color: white;
+	color: #213040;
+	outline: 0;
+
+	border-top: 0.01rem solid white;
+	border-left: 0.01rem solid white;
+	border-right: 0.01rem solid white;
+	border-bottom: 0.2rem solid #213040;
+	border-radius: 0.2rem;
+}
+
+.active_tab{
+	color: #213040;
+	outline: 0;
+	font-weight: bold;
+
+	border-top: 0.01rem solid white;
+	border-left: 0.01rem solid white;
+	border-right: 0.01rem solid white;
+	border-bottom: 0.2rem solid #213040;
+	border-radius: 0.2rem;
+}
+
+.h3_example{
+	text-transform: inherit;
+	font-weight: bold;
+	letter-spacing: 0.1em;
+}
+
+.h4_example{
+	font-size: 0.9em;
+	text-transform: inherit;
+}
+
+.page_description {
+    letter-spacing: 0.07rem;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    text-align: center;
+    margin: 0;
+}
+
+.overlay_text {
+    text-transform: uppercase;
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    letter-spacing: 0.4rem;
+    background: none;
+    text-align: center;
+}
+
+.img_caption {
+    margin-left: 1rem;
+    margin-right: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+    text-decoration: underline;
+    font-family: 'Crimson Text';
+    font-size: 1.1rem;
+}
+
+.menu_para {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding-bottom: 2.5rem;
+    text-align: center;
+    letter-spacing: 0.09rem;
+    line-height: 1.2rem;
+}
+
+.img_description{
+    font-size: 0.75rem;
+    color: #B4B6BD;
+    margin: 0.4rem 0 1rem 0;
+}
+
+.cancel_button{
+	background-color: #919191;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Athiti";
+    font-size: 0.6em;
+    letter-spacing: 0.15em;
+    transition: background-color 0.2s;
+    width: 10rem;
+    display: inline-block;
+}
+
+.cancel_button:active, .cancel_button:hover, .cancel_button:focus{
+	background-color: #F83F31;
+	color: white;
+	border: none;
+}
+
+.label_example{
+	color: #213040;
+	text-transform: uppercase;
+	letter-spacing: 0.05rem;
+	font-size: 0.8rem;
+	display: block;
+	margin-bottom: 1rem;
+}
+
+input[type=text] {
+    width: 70%;
+    padding: 0.5rem 1rem;
+    border: 1px solid #F48A82;
+}
+
+.checkboxes{
+	margin: 0;
+}
+
+.grey_bg{
+	background-color: #E4EAF1;
+}
+
+.img_div{
+	width: 33.33%;
+	padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+.example_img{
+	width: 100%;
+}
+
+.example_padding{
+	margin: 2rem 0 0 0;
+	padding-bottom: 0.8rem;
+}
+
+.subsubtitle_margin{
+	margin: 1.5rem 0 0 0;
+}
+
+.grid_title_margin{
+	margin: 2rem 0 0 0;
+}
+
+.subtitle_margin{
+	margin: 0;
+}
+
+.section_padding{
+	padding-bottom: 3rem;
+}
+
+.icons_margin{
+	margin: 0.5rem 0 0 0;
+}
+
+.element_subtitle{
+	margin: 1rem 0 0 0;
+}
+
+.nav_ex{
+	width: 100%;
+}
+
+.ham_ex{
+	width: 80%;
+}

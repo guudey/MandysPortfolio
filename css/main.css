@@ -1,0 +1,399 @@
+* {
+	  box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+}
+
+/* ------- TYPOGRAPHY ----------*/
+
+h1, h2, h3, h4{
+	font-family: 'Yanone Kaffeesatz', serif;
+}
+
+h1, h2{
+	letter-spacing: 0.2rem;
+	text-transform: uppercase;
+}
+
+h3{
+	letter-spacing: 0.25rem;
+	font-size: 1.1rem;
+}
+
+h4{
+	font-size: 0.85em;
+	letter-spacing: 0.12rem;
+}
+
+p, ol, ul{
+	font-family: 'Athiti', serif;
+	font-size: 0.9em;
+	color: #393B39;
+	letter-spacing: 0.1rem;
+}
+
+a{
+	font-family: 'Athiti', serif;
+	font-size: 0.9em;
+	text-decoration: none;
+	color: #213040;
+	transition: color 0.4s;
+}
+
+a:active, a:hover, a:focus{
+	color: #F48A82;
+}
+
+button{
+	background-color: #F6D8D0;
+    border: none;
+    color: #F48A82;
+    padding: 15px 32px;
+    text-align: center;
+    font-family: 'Athiti';
+    text-transform: uppercase;
+    font-size: 0.6em;
+    letter-spacing: 0.15em;
+    transition: background-color 0.8s;
+}
+
+button:active, button:hover, button:focus{
+	background-color: #F48A82;
+	color: white;
+}
+
+.center{
+	justify-content: center;
+}
+
+.center_text{
+	text-align: center;
+}
+
+.highlight{
+	font-weight: bold;
+	color: #F48A82;
+	/*background-color: rgba(246,216,208,0.6);*/
+}
+
+/*---------- NAVBAR ------------*/
+
+.navbar {
+	width: 100%;
+  	padding: 1rem 1.2rem 1rem 1.2rem;
+  	background: white;
+  	z-index: 2000;
+
+  	position: fixed;
+	top: 0;
+
+ 	margin: 0 auto;
+}
+
+.nav_list {
+  	text-transform: uppercase;
+  	list-style-type: none;
+  	text-align: center;
+  	padding: 0;
+}
+
+.nav_list li{
+	display: inline-block;
+  	text-align: center;
+	margin: 0 1rem;
+}
+
+.nav_list li:hover {
+	 color: #F48A82;
+}
+
+[type="checkbox"], label {
+	  display: none;
+}
+
+.logo{
+	width: 4rem;
+}
+
+.logo_div{
+	justify-content: center;
+	text-align: center;
+}
+
+.nav_div{
+	justify-content: center;
+	text-align: center;
+}
+
+.nav_li_highlight{
+	padding: 0 0.5rem;
+	background-color: rgba(246,216,208,0.8);
+	font-weight: bold;
+}
+
+.nav_li_highlight:hover, .nav_li_highlight:active, .nav_li_highlight:focus{
+	color: #000;
+	cursor: default;
+}
+
+.proj_back_div{
+	text-align: left;
+	padding-top: 1rem;
+}
+
+.next_proj_div{
+	text-align: right;
+	padding-top: 1rem;
+}
+
+.content{
+	margin-top: 8.5rem;
+}
+
+.project_content{
+	margin-top: 13rem;
+}
+/* -------- HOMEPAGE ----------*/
+
+.title_margin{
+	margin: 0;
+}
+
+.section_div{
+	margin-bottom: 3rem;
+}
+
+.name_div{
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
+
+.home_project_div{
+	height: 300px;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+
+	padding: 0 1rem 2rem 1rem;
+}
+
+.contact_div{
+	height: 150px;
+	text-align: center;
+}
+
+.project1_div{
+	height: 250px;
+	max-width: 100%;
+	padding: 0 2rem 0 1rem;
+
+	position: absolute;
+	right: 50%;
+	top: 0;
+
+	background-image: url('https://www.sfu.ca/~mmc29/IAT339/P03/Images/Project1_cover.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 60%;
+	transition: background-color 0.5s;
+	background-color: rgba(246,216,208,0.6);
+}
+
+.project1_div:hover, .project1_div:focus, .project1_div:active{
+	background-color: rgba(246,216,208,0.9);
+}
+
+.project2_div{
+	height: 250px;
+	max-width: 100%;
+	padding: 0 1rem 0 2rem;
+
+	position: absolute;
+	top: 4%;
+	left: 48%;
+
+	background-image: url('https://www.sfu.ca/~mmc29/IAT339/P03/Images/Project2_cover.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 60%;
+	transition: background-color 0.5s;
+	background-color: rgba(253,202,143,0.6);
+}
+
+.project2_div:hover, .project2_div:focus, .project2_div:active{
+	background-color: rgba(253,202,143,0.8);
+}
+
+.color_link{
+	color: #5578BB;
+	font-weight: bold;
+}
+
+/*------------- ABOUT PAGE----------------*/
+.about_title{
+	margin: 1rem 0 0 0;
+}
+
+.photo_div{
+	text-align: center;
+	background-color: #F6D8D0;
+	padding-top: 0.3rem;
+	margin-bottom: 1rem;
+}
+
+.self_photo{
+	width: 40%;
+}
+
+.about_div{
+	justify-content: center;
+}
+
+/*------------- PROJECT PAGE ------------*/
+
+.project_div{
+	height: 300px;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+
+	padding: 0 6rem 2rem 6rem;
+}
+
+.project_title{
+	position: absolute;
+	bottom: -35%;
+	text-align: center;
+}
+
+.active_textbook{
+	position: relative;
+	margin-right: 1rem;
+
+	height: 200px;
+	background-image: url('https://www.sfu.ca/~mmc29/IAT339/P03/Images/Project1_cover.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 55%;
+
+	border: 1px solid #F48A82;
+	transition: background-color 0.6s;
+}
+
+.active_textbook:hover, .active_textbook:active, .active_textbook:focus{
+	background-color: rgba(246,216,208,0.6);
+	border: 1px solid rgba(246,216,208,0.6);
+}
+
+.iat339_7Trades{
+	position: relative;
+	margin-left: 1rem;
+
+	height: 200px;
+	background-image: url('https://www.sfu.ca/~mmc29/IAT339/P03/Images/Project2_cover.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 60%;
+
+	border: 1px solid #FDCA8F;
+	transition: background-color 0.6s;
+}
+
+.iat339_7Trades:hover, .iat339_7Trades:active, .iat339_7Trades:focus{
+	background-color: rgba(253,202,143,0.8);
+	border: 1px solid rgba(253,202,143,0.8);
+}
+
+/*------------ RESUME PAGE ----------*/
+
+.resume_div{
+	text-align: center;
+}
+
+.resume_img{
+	width: 90%;
+}
+
+/*------------- PROJECT 1 --------------*/
+
+.project_header{
+	margin: 3rem 0 0 0;
+}
+
+.project_subheader{
+	margin: 1.5rem 0 0 0;
+}
+
+.project_body_margin{
+	margin-left: 9.5rem;
+	margin-right: 9.5rem;
+}
+
+.project_hero{
+	width: 50%;
+}
+
+.project_hero_div{
+	text-align: center;
+	/*background-color: #F6D8D0;*/
+	background-color: rgba(246,216,208,0.6);
+	margin-bottom: 2rem;
+}
+
+.toolbox_div{
+	border: 1px solid #F48A82;
+	margin: 3rem 0 1rem 0;
+	padding: 2rem 0 2rem 0;
+	width: 80%;
+}
+
+.toolbox_div h2{
+	text-align: center;
+	margin: 0;
+}
+
+.toolbox_div ul{
+/*	padding-left: 7rem;
+	list-style-position: inside;
+	list-style-type: circle;*/
+	text-align: center;
+	list-style-type: none;
+	padding: 0;
+	margin: 1rem 0 0 0;
+}
+
+.project_img_div{
+	margin: 1rem 0 1rem 0;
+	background-color: rgba(246,216,208,0.6);
+	justify-content: center;
+}
+
+.project_img{
+	width: 100%;
+	padding: 1rem 2rem 0 2rem;
+}
+
+.small_project_img{
+	width: 80%;
+	padding: 1rem 2rem 0 2rem;
+}
+
+.caption{
+	padding: 0 2rem 0 2rem;
+	font-size: 0.8rem;
+	color: #666666;
+}
+
+.source_div{
+	background-color: #F6D8D0;
+	padding: 0 2rem 0 2rem;
+}
+
+.project_text_div{
+	padding: 0 3rem 0 0
+}
