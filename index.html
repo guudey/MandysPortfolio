@@ -1,111 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <title>Mandy Cheung</title>
-  
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/grid.css">
-
-  <meta name=viewport content="width=device-width, initial-scale=1">
-
-  <link href="https://fonts.googleapis.com/css?family=Athiti" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Yanone%20Kaffeesatz" rel="stylesheet">
-</head>
-
-<body>
-  <nav class="navbar">
-    <div class="nav_div box">
-      <div class="col_1of2">
-        <a href="index.html" class="logo"><img src="img/logo.png" alt="Mandy Cheung logo" class="logo"></a>
+  <head>
+    <meta charset="UTF-8">
+    <title>Mandy Cheung</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Athiti" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Yanone%20Kaffeesatz" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar"> 
+      <div class="nav_div box">
+        <div class="col_1of2"><a class="logo" href="index.html"><img class="logo" src="img/logo.png" alt="Mandy Cheung logo"></a></div>
       </div>
-    </div>
-    <div class="nav_div box">
-      <div class="col_1of2">
-        <input type="checkbox" id="nav" /><label for="nav"></label>
-        <ul class="nav_list">
-          <li><a href="index.html" class="nav_li_highlight">Home</a></li> 
-          <li><a href="about.html">About</a></li>     
-          <li><a href="projects.html">Projects</a></li>
-          <li><a href="resume.html">Resumè</a></li>
-        </ul>
+      <div class="nav_div box">
+        <div class="col_1of2">
+          <input id="nav" type="checkbox">
+          <label for="nav"></label>
+          <ul class="nav_list">
+            <li><a class="nav_li_highlight" href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="resume.html">Resumè</a></li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
-
-  <div class="content">
-    <div class="section_div">
-      <div class="box name_div">
-        <div class="col_1of3">
-          <h3> Hi there, </h3>
-          <h1 class="title_margin"> Mandy here! </h1>
+    </nav>
+    <div class="content">
+      <div class="section_div">
+        <div class="box name_div">
+          <div class="col_1of3">
+            <h3> Hi there, </h3>
+            <h1 class="title_margin"> Mandy here! </h1>
           </div>
-      </div>
-
-      <div class="box name_div">
+        </div>
+        <div class="box name_div">
           <div class="col_1of2">
-          <p> I am a user experience designer that enjoys doing front end development. </p>
-          <a href="about.html" class="color_link"> read more </a>
+            <p> I am a user experience designer that enjoys doing front end development. </p><a class="color_link" href="about.html"> read more </a>
           </div>
-      </div>
-    </div>
-
-    <div class="section_div">
-      <div class="name_div box">
-        <div class="col_1of2">
-          <h1> Recent Projects</h1>
         </div>
       </div>
-
-      <div class="home_project_div box">
-        <div class="col_1of2">
-          <a href="project1.html">
-          <div class="project1_div">
-            <h1> Active Textbook: iOS App Re-design </h1>
+      <div class="section_div">
+        <div class="name_div box">
+          <div class="col_1of2">
+            <h1> Recent Projects</h1>
           </div>
-          </a>
         </div>
-
-        <div class="col_1of2">
-          <a href="project2.html">
-            <div class="project2_div">
-              <h1 class="project_text"> Designing a Catering Company Website </h1>
-            </div>
-          </a>
+        <div class="home_project_div box">
+          <div class="col_1of2"><a href="project1.html">
+              <div class="project1_div">
+                <h1> Active Textbook: iOS App Re-design </h1>
+              </div></a></div>
+          <div class="col_1of2"><a href="project2.html">
+              <div class="project2_div">
+                <h1 class="project_text"> Designing a Catering Company Website </h1>
+              </div></a></div>
+        </div>
+        <div class="box center">
+          <div class="col_1of2 name_div"><a class="color_link" href="projects.html"> see more projects </a></div>
         </div>
       </div>
-
-      <div class="box center">
-        <div class="col_1of2 name_div">
-          <a href="projects.html" class="color_link"> see more projects </a>
+      <div class="box name_div" id="contact">
+        <div class="col_1of3">
+          <h1> Contact Me</h1>
+        </div>
+      </div>
+      <div class="box contact_div">
+        <div class="col_1of3">
+          <h3> email </h3><a href="mailto:mandyy.cheung@gmail.com"> mandyy.cheung@gmail.com</a>
+        </div>
+        <div class="col_1of3">
+          <h3> phone number </h3><a href="tel:7788838602"> (778) 883-8602</a>
+        </div>
+        <div class="col_1of3">
+          <h3> resume </h3><a href="resume.html"> resumè </a>
         </div>
       </div>
     </div>
-
-    <div id="contact" class="box name_div">
-      <div class="col_1of3">
-        <h1> Contact Me</h1>
-      </div>
-    </div>
-
-    <div class="box contact_div">
-      <div class="col_1of3">
-        <h3> email </h3>
-        <a href="mailto:mandyy.cheung@gmail.com"> mandyy.cheung@gmail.com</a>
-      </div>
-
-      <div class="col_1of3">
-        <h3> phone number </h3>
-        <a href="tel:7788838602"> (778) 883-8602</a>
-      </div>
-
-      <div class="col_1of3">
-        <h3> resume </h3>
-        <a href="resume.html"> resumè </a>
-      </div>
-    </div>
-  </div>
-  
-</body>
+  </body>
 </html>

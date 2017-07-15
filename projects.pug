@@ -1,0 +1,44 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    title Mandy Cheung
+    link(rel='stylesheet', href='css/main.css')
+    link(rel='stylesheet', href='css/grid.css')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    link(href='https://fonts.googleapis.com/css?family=Athiti', rel='stylesheet')
+    link(href='https://fonts.googleapis.com/css?family=Yanone%20Kaffeesatz', rel='stylesheet')
+  body
+    nav.navbar
+      .nav_div.box
+        .col_1of2
+          a.logo(href='index.html')
+            img.logo(src='img/logo.png', alt='Mandy Cheung logo')
+      .nav_div.box
+        .col_1of2
+          input#nav(type='checkbox')
+          label(for='nav')
+          ul.nav_list
+            li
+              a(href='index.html') Home
+            li
+              a(href='about.html') About
+            li
+              a.nav_li_highlight(href='projects.html') Projects
+            li
+              a(href='resume.html') Resumè
+    .content
+      .section_div
+        .name_div.box
+          .col_1of2
+            h2  Check out my projects!
+        .project_div.box
+          .col_1of2
+            a(href='project1.html')
+              .active_textbook
+                h2.project_title  Redesign of Active Textbook's iOS App 
+              // <h2 > Active Textbook: iOS App Re-design </h2>
+          .col_1of2
+            a(href='project2.html')
+              .iat339_7Trades
+                h2.project_title  Designing a Catering Website 

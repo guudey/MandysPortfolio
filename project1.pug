@@ -1,0 +1,157 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    title Mandy Cheung
+    link(rel='stylesheet', href='css/main.css')
+    link(rel='stylesheet', href='css/grid.css')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    link(href='https://fonts.googleapis.com/css?family=Athiti', rel='stylesheet')
+    link(href='https://fonts.googleapis.com/css?family=Yanone%20Kaffeesatz', rel='stylesheet')
+  body
+    nav.navbar
+      .nav_div.box
+        .col_1of2
+          a.logo(href='index.html')
+            img.logo(src='img/logo.png', alt='Mandy Cheung logo')
+      .nav_div.box
+        .col_1of2
+          input#nav(type='checkbox')
+          label(for='nav')
+          ul.nav_list
+            li
+              a(href='index.html') Home
+            li
+              a(href='about.html') About
+            li
+              a.nav_li_highlight(href='projects.html') Projects
+            li
+              a(href='resume.html') Resumè
+      .nav_div.box
+        .col_1of6.proj_back_div
+          a(href='projects.html') back to all projects
+        .col_2of3
+          h1  Redesign of Active Textbook's iOS App 
+        .col_1of6.next_proj_div
+          a(href='project2.html') next project
+    .project_content
+      .box.center
+        .col_2of3.project_hero_div
+          img.project_hero(src='img/active_textbook_hero.png', alt='example image')
+      .project_body_margin
+        .box
+          .col_1of2.project_text_div
+            h1.project_header  Scope 
+            p
+              | I worked at a software company called
+              span.highlight  Evident Point
+              |  as a UX Designer. They asked me to 
+              span.highlight re-design their iOS app 
+              |  to make it more "app-like".
+          .col_1of2
+            h1.project_header  My Role 
+            p
+              | This was an 
+              span.highlight  individual project
+              | , I did all the research and design myself. I went to my co-workers to get information and insight about the existing applications to further my research.
+        .box.center
+          .box.toolbox_div
+            .col_1of2
+              h2  Skills 
+              ul
+                li  Research 
+                li  Communication 
+                li  Presentation 
+            .col_1of2
+              h2  Tools 
+              ul
+                li  Adobe Illustrator 
+                li  iPad, iPhone 
+        h1.project_header  Task 
+        .box
+          .col_2of3
+            p
+              | The reason the app wasn’t “app-like” was because it was missing white space or padding. Another reason is because some interactions don’t actually exist in iOS therefore, it looks weird on the iOS app. But I found that the main problem was that the app was not user friendly at all as a lot of the interactions were not intuitive.
+        .box.project_img_div
+          .col_1of3
+            img.project_img(src='img/atb_1.png', alt='cover view before re-design')
+            p.caption  Cover view for the books 
+          .col_1of3
+            img.project_img(src='img/atb_2.png', alt='list view before re-design')
+            p.caption  List view for the books 
+          .col_1of3
+            img.project_img(src='img/atb_3.png', alt='hamburger menu before re-design')
+            p.caption  Hamburger menu 
+        h1.project_header  Process 
+        .box
+          .col_2of3.project_text_div
+            h3.project_subheader  Research 
+            p
+              | To start off, I talked to people who are responsible for the app, to see where they thought existing problems were or where they thought the app could improve. Then I looked into the 
+              a.highlight(href='https://developer.apple.com/ios/human-interface-guidelines/overview/design-principles/')  design guidelines of apple 
+              | . In attempts to make it more “app-like” and to learn apple’s design language. Next, I looked into the actions a user would take if they were to use the app, or what purpose they would have when they are using the app.
+          //
+            <div class="col_1of3 source_div">
+            <h3> Sources </h3>
+            <p> <a href=" https://developer.apple.com/ios/human-interface-guidelines/overview/design-principles/"> apple style guide </a></p>
+            </div>
+        .box
+          .col_2of3.project_text_div
+            h3.project_subheader  High Fidelity Mock-ups 
+            p
+              | I made mockups using 
+              span.highlight  Adobe Illustrator 
+              |  for each screen that was needed from the research. For each mockup, I put in annotations on the purpose of each element and details about the element. So that the people reviewing my mockups will know what the purpose of each element is.
+        .box.project_img_div
+          .col_1of3
+            img.project_img(src='img/atb_new_1.png', alt='redesigned cover view')
+            p.caption  Updated cover view for the books 
+          .col_1of3
+            img.project_img(src='img/atb_new_2.png', alt='redesigned list view')
+            p.caption  Updated list view for the books 
+          .col_1of3
+            img.project_img(src='img/atb_new_3.png', alt='new account tab')
+            p.caption  New account tab 
+        .box
+          .col_2of3.project_text_div
+            h3.project_subheader  Conflict 
+            p
+              | After finishing the mockups, I show it to my co-worker and supervisor. We discuss what could be iterated upon. There were some difficulties with discussing the features in the app. For example, how the user will be able to find more information about the book in cover view. I came up with a few solutions, but the supervisor didn’t find the need to change the way book details was being accessed.
+            p
+              a.color_link(href='')  see presentation slides 
+          //
+            <div class="col_1of3 source_div">
+            <h3> Skills </h3>
+            <p> Presentation </p>
+            <p> Communication </p>
+            </div>
+        .box.project_img_div
+          .col_2of3
+            img.project_img(src='img/atb_4.jpg', alt='example presentation slides')
+            p.caption  Example of presentation slides 
+        .box
+          .col_2of3.project_text_div
+            h3.project_subheader  Solution 
+            p
+              | In the end, I kept iterating upon the design and convinced my supervisor on a solution that we were both happy with. Instead of having a floating icon, the user can access details about the book through a long press on the book. However, the user won’t be able to know about this action without instructions, therefore, I added onboarding to the app.
+        .box.project_img_div
+          .col_1of2
+            img.project_img(src='img/atb_sol_1.png', alt='solution to cover view problem ipad view')
+            p.caption  iPad view of the solution 
+          .col_1of2
+            img.small_project_img(src='img/atb_sol_2.png', alt='solution to cover view problem iphone view')
+            p.caption  iPhone view of the solution 
+        h1.project_header  Take away 
+        .col_2of3
+          p
+            | I wasn't completely happy with the solution of adding an onboarding to let the user know the interactions needed to access parts of the app, because not all people read or go through the onboarding. So they can actually miss the information. Also, onboarding can also be a lot of information to intake at once for the user, therefore I don't think it is the best solution, but it is a solution that my employer agreed to, to keep the design I made.
+        .box.project_img_div
+          .col_1of3
+            img.project_img(src='img/atb_sol_3.png', alt='onboarding step 1')
+            p.caption  Onboarding: Step 1 
+          .col_1of3
+            img.project_img(src='img/atb_sol_4.png', alt='onboarding step 2')
+            p.caption  Onboarding: Step 2 
+          .col_1of3
+            img.project_img(src='img/atb_sol_5.png', alt='onboarding step 3')
+            p.caption  Onboarding: Step 3 

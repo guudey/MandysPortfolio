@@ -1,233 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <title>Mandy Cheung</title>
-  
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/grid.css">
-
-  <meta name=viewport content="width=device-width, initial-scale=1">
-
-  <link href="https://fonts.googleapis.com/css?family=Athiti" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Yanone%20Kaffeesatz" rel="stylesheet">
-</head>
-
-<body>
-  <nav class="navbar">
-    <div class="nav_div box">
-      <div class="col_1of2">
-        <a href="index.html" class="logo"><img src="img/logo.png" alt="Mandy Cheung logo" class="logo"></a>
+  <head>
+    <meta charset="UTF-8">
+    <title>Mandy Cheung</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Athiti" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Yanone%20Kaffeesatz" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav_div box">
+        <div class="col_1of2"><a class="logo" href="index.html"><img class="logo" src="img/logo.png" alt="Mandy Cheung logo"></a></div>
       </div>
-    </div>
-    <div class="nav_div box">
-      <div class="col_1of2">
-        <input type="checkbox" id="nav" /><label for="nav"></label>
-        <ul class="nav_list">
-          <li><a href="index.html">Home</a></li> 
-          <li><a href="about.html">About</a></li>     
-          <li><a href="projects.html" class="nav_li_highlight">Projects</a></li>
-          <li><a href="resume.html">Resumè</a></li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="nav_div box">
-      <div class="col_1of6 proj_back_div">
-        <a href="projects.html">back to all projects</a>
-      </div> 
-
-      <div class="col_2of3">
-        <h1> Designing a Catering Website </h1>
-      </div>
-
-      <div class="col_1of6 next_proj_div">
-        <a href="project1.html">next project</a>
-      </div>
-    </div>
-  </nav>
-
-  <div class="project_content">
-    <div class="box center">
-      <div class="col_2of3 project_hero_div">
-        <img src="img/7Trades_hero.png" alt="example image" class="project_hero">
-      </div>
-    </div>
-
-    <div class="project_body_margin">
-      <div class="box">
+      <div class="nav_div box">
         <div class="col_1of2">
-        <h1> Scope </h1>
-        <p> School project in groups of two, to create a company website with an order process.</p>
-        </div>
-        <div class="col_1of2">
-          <h1> My Role </h1>
-          <p> My partner and I planned the website’s templates together. We split up the pages to do among ourselves. I did the order and menu pages. </p>
-        </div>
-      </div>
-
-      <div class="box center">
-        <div class="box toolbox_div">
-          <div class="col_1of2">
-            <h2> Skills </h2>
-            <ul>
-              <li> HTML </li>
-              <li> CSS </li>
-              <li> Javascript </li>
-            </ul>
-          </div>
-          <div class="col_1of2">
-            <h2> Tools </h2>
-            <ul>
-              <li> Adobe Illustrator </li>
-              <li> Adobe Photoshop </li>
-              <li> Git </li>
-            </ul>
-          </div>
+          <input id="nav" type="checkbox">
+          <label for="nav"></label>
+          <ul class="nav_list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a class="nav_li_highlight" href="projects.html">Projects</a></li>
+            <li><a href="resume.html">Resumè</a></li>
+          </ul>
         </div>
       </div>
-
-      <h1> Problem </h1>
-      <div class="box">
-        <div class="col_1of2">
-        <p> The order forms not give off the feeling legitimacy. Which would make users feel not safe and not trust the website to place an order. </p>
-        </div>
-      </div>
-
-      <h1> Process </h1>
-      <div class="box">
-        <div class="col_2of3 project_text_div">
-          <h3 class="project_subheader"> HTML + CSS </h3>
-          <p>I brainstormed the visual layout of the steps in the order process, I used HTML and CSS to code the template of the order process. The forms were visually appealing, but there was something about the forms that did not seem legitimate. </p>
-        </div>
-      </div>
-
-      <div class="box project_img_div">
-        <div class="col_1of2">
-          <img src="img/7Trades_1.png" alt="Step 1: Choose Menu" class="project_img">
-          <p class="caption"> Step 1: Choose Menu </p>
-        </div>
-        <div class="col_1of2">
-          <img src="img/7Trades2.png" alt="Step 2: Menu Details" class="project_img">
-          <p class="caption"> Step 2: Menu Details </p>
-        </div>
-      </div>
-
-      <div class="box project_img_div">
-        <div class="col_1of2">
-          <img src="img/7Trades3.png" alt="Step 3: Payment" class="project_img">
-          <p class="caption"> Step 3: Payment </p>
-        </div>
-        <div class="col_1of2">
-          <img src="img/7Trades4.png" alt="Step 4: Confirmation" class="project_img">
-          <p class="caption"> Step 4: Confirmation </p>
-        </div>
-      </div>
-
-      <div class="box project_img_div">
-        <div class="col_1of2">
-          <img src="img/7Trades2.png" alt="Step 5: Reciept" class="project_img">
-          <p class="caption"> Step 5: Reciept </p>
-        </div>
-      </div>
-
-      <div class="box">
-        <div class="col_2of3 project_text_div">
-          <h3 class="project_subheader"> Critique </h3>
-          <p> At school, our website was tested and critiqued in many ways. For example, if it was responsive, load time, functional without Javascript, and feeling of security. Feedback on our website was relatively positive, but there was a few critique and we took it to improve on our website. </p>
-          <p> What I took away from the critique that was more helpful than the feedback was seeing other classmate’s website. I got to see how other people did their order process, and how the homepage can be more impactful. </p>
-        </div>
-      </div>
-
-      <div class="box project_img_div">
-        <div class="col_1of2">
-          <img src="img/7Trades5.png" alt="Step 1: Choose a Menu" class="project_img">
-          <p class="caption"> Step 1: Choose a Menu </p>
-        </div>
-        <div class="col_1of2">
-          <img src="img/7Trades6.png" alt="Step 2: Menu Details" class="project_img">
-          <p class="caption"> Step 2: Menu Details </p>
-        </div>
-      </div>
-
-      <div class="box project_img_div">
-        <div class="col_1of2">
-          <img src="img/7Trades7.png" alt="Step 3: Payment" class="project_img">
-          <p class="caption"> Step 3: Payment </p>
-        </div>
-        <div class="col_1of2">
-          <img src="img/7Trades8.png" alt="Step 4: Confirmation" class="project_img">
-          <p class="caption"> Step 4: Confirmation</p>
-        </div>
-      </div>
-
-      <div class="box project_img_div">
-        <div class="col_1of2">
-          <img src="img/7Trades9.png" alt="Step 5: Reciept" class="project_img">
-          <p class="caption"> Step 5: Reciept </p>
-        </div>
-      </div>
-
-      <div class="box">
-        <div class="col_2of3 project_text_div">
-          <h3 class="project_subheader"> Creating legitimacy </h3>
-          <p> After the critique, I implemented a process bar into our website’s order process, taken from other classmate’s websites. However, just adding the process bar did not make it as legitimate as I wanted it to be. I tried to discuss with my partner what made it seem not legitimate. However, we couldn’t come up with a solution. </p>
-          <p> That night, I went through an order and purchase process online. As I was going through it, I took screen shots and saw what details made me feel like the purchase process was legitimate. The main difference was to put the content closer together, which meant putting a larger margin to wrap the content. </p>
-        </div>
-      </div>
-
-      <div class="box project_img_div">
+      <div class="nav_div box">
+        <div class="col_1of6 proj_back_div"><a href="projects.html">back to all projects</a></div>
         <div class="col_2of3">
-          <img src="img/7Trades_final1.png" alt="redesigned cover view" class="project_img">
-          <p class="caption"> Step 1 </p>
+          <h1> Designing a Catering Website </h1>
         </div>
+        <div class="col_1of6 next_proj_div"><a href="project1.html">next project</a></div>
       </div>
-
-      <h1 class="project_header"> Solution </h1>
-      <div class="col_2of3">
-        <p> I learned from this experience that I should look at real life examples for references and see what the standards are for any process. As it is important for to make the user feel safe when going through an order process. </p>
-      </div>
-
+    </nav>
+    <div class="project_content">
       <div class="box center">
-        <div class="1of2">
-          <a href="https://www.sfu.ca/~mmc29/IAT339/P02-cocoa/" class="color_link"> see full website </a>
-        </div>
+        <div class="col_2of3 project_hero_div"><img class="project_hero" src="img/7Trades_hero.png" alt="example image"></div>
       </div>
-
-     <div class="box project_img_div">
-        <div class="col_1of2">
-          <img src="img/7Trades_final1.png" alt="Step 1: Choosing Menu" class="project_img">
-          <p class="caption"> Step 1: Choosing Menu </p>
+      <div class="project_body_margin">
+        <div class="box">
+          <div class="col_1of2">
+            <h1> Scope </h1>
+            <p>School project in groups of two, to create a company website with an order process.</p>
+          </div>
+          <div class="col_1of2">
+            <h1> My Role </h1>
+            <p>My partner and I planned the website’s templates together. We split up the pages to do among ourselves. I did the order and menu pages.</p>
+          </div>
         </div>
-        <div class="col_1of2">
-          <img src="img/7Trades_final2.png" alt="Step 2: Menu Details" class="project_img">
-          <p class="caption"> Step 2: Menu Details </p>
+        <div class="box center">
+          <div class="box toolbox_div">
+            <div class="col_1of2">
+              <h2> Skills </h2>
+              <ul>
+                <li> HTML </li>
+                <li> CSS </li>
+                <li> Javascript </li>
+              </ul>
+            </div>
+            <div class="col_1of2">
+              <h2> Tools </h2>
+              <ul>
+                <li> Adobe Illustrator </li>
+                <li> Adobe Photoshop </li>
+                <li> Git </li>
+              </ul>
+            </div>
+          </div>
         </div>
-      </div>
-
-      <div class="box project_img_div">
-        <div class="col_1of2">
-          <img src="img/7Trades_final3.png" alt="Step 3: Payment" class="project_img">
-          <p class="caption"> Step 3: Payment </p>
+        <h1> Problem </h1>
+        <div class="box">
+          <div class="col_1of2">
+            <p>The order forms not give off the feeling legitimacy. Which would make users feel not safe and not trust the website to place an order.</p>
+          </div>
         </div>
-        <div class="col_1of2">
-          <img src="img/7Trades_final4.png" alt="Step 4: Confirmation" class="project_img">
-          <p class="caption"> Step 4: Confirmation </p>
+        <h1> Process </h1>
+        <div class="box">
+          <div class="col_2of3 project_text_div">
+            <h3 class="project_subheader"> HTML + CSS </h3>
+            <p>I brainstormed the visual layout of the steps in the order process, I used HTML and CSS to code the template of the order process. The forms were visually appealing, but there was something about the forms that did not seem legitimate.</p>
+          </div>
         </div>
-      </div>
-
-      <div class="box project_img_div">
-        <div class="col_1of2">
-          <img src="img/7Trades_final5.png" alt="Step 5: Reciept" class="project_img">
-          <p class="caption"> Step 5: Reciept </p>
+        <div class="box project_img_div">
+          <div class="col_1of2"><img class="project_img" src="img/7Trades_1.png" alt="Step 1: Choose Menu">
+            <p class="caption"> Step 1: Choose Menu </p>
+          </div>
+          <div class="col_1of2"><img class="project_img" src="img/7Trades2.png" alt="Step 2: Menu Details">
+            <p class="caption"> Step 2: Menu Details </p>
+          </div>
         </div>
-        <div class="col_1of2">
-          <img src="img/7Trades_final6.png" alt="Thank you page" class="project_img">
-          <p class="caption"> Thank you page </p>
+        <div class="box project_img_div">
+          <div class="col_1of2"><img class="project_img" src="img/7Trades3.png" alt="Step 3: Payment">
+            <p class="caption"> Step 3: Payment </p>
+          </div>
+          <div class="col_1of2"><img class="project_img" src="img/7Trades4.png" alt="Step 4: Confirmation">
+            <p class="caption"> Step 4: Confirmation </p>
+          </div>
+        </div>
+        <div class="box project_img_div">
+          <div class="col_1of2"><img class="project_img" src="img/7Trades2.png" alt="Step 5: Reciept">
+            <p class="caption"> Step 5: Reciept </p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="col_2of3 project_text_div">
+            <h3 class="project_subheader"> Critique </h3>
+            <p>At school, our website was tested and critiqued in many ways. For example, if it was responsive, load time, functional without Javascript, and feeling of security. Feedback on our website was relatively positive, but there was a few critique and we took it to improve on our website.</p>
+            <p>What I took away from the critique that was more helpful than the feedback was seeing other classmate’s website. I got to see how other people did their order process, and how the homepage can be more impactful.</p>
+          </div>
+        </div>
+        <div class="box project_img_div">
+          <div class="col_1of2"><img class="project_img" src="img/7Trades5.png" alt="Step 1: Choose a Menu">
+            <p class="caption"> Step 1: Choose a Menu </p>
+          </div>
+          <div class="col_1of2"><img class="project_img" src="img/7Trades6.png" alt="Step 2: Menu Details">
+            <p class="caption"> Step 2: Menu Details </p>
+          </div>
+        </div>
+        <div class="box project_img_div">
+          <div class="col_1of2"><img class="project_img" src="img/7Trades7.png" alt="Step 3: Payment">
+            <p class="caption"> Step 3: Payment </p>
+          </div>
+          <div class="col_1of2"><img class="project_img" src="img/7Trades8.png" alt="Step 4: Confirmation">
+            <p class="caption"> Step 4: Confirmation</p>
+          </div>
+        </div>
+        <div class="box project_img_div">
+          <div class="col_1of2"><img class="project_img" src="img/7Trades9.png" alt="Step 5: Reciept">
+            <p class="caption"> Step 5: Reciept </p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="col_2of3 project_text_div">
+            <h3 class="project_subheader"> Creating legitimacy </h3>
+            <p>After the critique, I implemented a process bar into our website’s order process, taken from other classmate’s websites. However, just adding the process bar did not make it as legitimate as I wanted it to be. I tried to discuss with my partner what made it seem not legitimate. However, we couldn’t come up with a solution.</p>
+            <p>That night, I went through an order and purchase process online. As I was going through it, I took screen shots and saw what details made me feel like the purchase process was legitimate. The main difference was to put the content closer together, which meant putting a larger margin to wrap the content.</p>
+          </div>
+        </div>
+        <div class="box project_img_div">
+          <div class="col_2of3"><img class="project_img" src="img/7Trades_final1.png" alt="redesigned cover view">
+            <p class="caption"> Step 1 </p>
+          </div>
+        </div>
+        <h1 class="project_header"> Solution </h1>
+        <div class="col_2of3">
+          <p>I learned from this experience that I should look at real life examples for references and see what the standards are for any process. As it is important for to make the user feel safe when going through an order process.</p>
+        </div>
+        <div class="box center">
+          <div class="col_1of2"><a class="color_link" href="https://www.sfu.ca/~mmc29/IAT339/P02-cocoa/"> see full website </a></div>
+        </div>
+        <div class="box project_img_div">
+          <div class="col_1of2"><img class="project_img" src="img/7Trades_final1.png" alt="Step 1: Choosing Menu">
+            <p class="caption"> Step 1: Choosing Menu </p>
+          </div>
+          <div class="col_1of2"><img class="project_img" src="img/7Trades_final2.png" alt="Step 2: Menu Details">
+            <p class="caption"> Step 2: Menu Details </p>
+          </div>
+        </div>
+        <div class="box project_img_div">
+          <div class="col_1of2"><img class="project_img" src="img/7Trades_final3.png" alt="Step 3: Payment">
+            <p class="caption"> Step 3: Payment </p>
+          </div>
+          <div class="col_1of2"><img class="project_img" src="img/7Trades_final4.png" alt="Step 4: Confirmation">
+            <p class="caption"> Step 4: Confirmation </p>
+          </div>
+        </div>
+        <div class="box project_img_div">
+          <div class="col_1of2"><img class="project_img" src="img/7Trades_final5.png" alt="Step 5: Reciept">
+            <p class="caption"> Step 5: Reciept </p>
+          </div>
+          <div class="col_1of2"><img class="project_img" src="img/7Trades_final6.png" alt="Thank you page">
+            <p class="caption"> Thank you page </p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</body>
+  </body>
 </html>

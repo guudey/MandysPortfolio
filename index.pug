@@ -1,0 +1,68 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    title Mandy Cheung
+    link(rel='stylesheet', href='css/main.css')
+    link(rel='stylesheet', href='css/grid.css')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    link(href='https://fonts.googleapis.com/css?family=Athiti', rel='stylesheet')
+    link(href='https://fonts.googleapis.com/css?family=Yanone%20Kaffeesatz', rel='stylesheet')
+  body
+    nav.navbar 
+      .nav_div.box
+        .col_1of2
+          a.logo(href='index.html')
+            img.logo(src='img/logo.png', alt='Mandy Cheung logo')
+      .nav_div.box
+        .col_1of2
+          input#nav(type='checkbox')
+          label(for='nav')
+          ul.nav_list
+            li
+              a.nav_li_highlight(href='index.html') Home
+            li
+              a(href='about.html') About
+            li
+              a(href='projects.html') Projects
+            li
+              a(href='resume.html') Resumè
+    .content
+      .section_div
+        .box.name_div
+          .col_1of3
+            h3  Hi there, 
+            h1.title_margin  Mandy here! 
+        .box.name_div
+          .col_1of2
+            p  I am a user experience designer that enjoys doing front end development. 
+            a.color_link(href='about.html')  read more 
+      .section_div
+        .name_div.box
+          .col_1of2
+            h1  Recent Projects
+        .home_project_div.box
+          .col_1of2
+            a(href='project1.html')
+              .project1_div
+                h1  Active Textbook: iOS App Re-design 
+          .col_1of2
+            a(href='project2.html')
+              .project2_div
+                h1.project_text  Designing a Catering Company Website 
+        .box.center
+          .col_1of2.name_div
+            a.color_link(href='projects.html')  see more projects 
+      #contact.box.name_div
+        .col_1of3
+          h1  Contact Me
+      .box.contact_div
+        .col_1of3
+          h3  email 
+          a(href='mailto:mandyy.cheung@gmail.com')  mandyy.cheung@gmail.com
+        .col_1of3
+          h3  phone number 
+          a(href='tel:7788838602')  (778) 883-8602
+        .col_1of3
+          h3  resume 
+          a(href='resume.html')  resumè 

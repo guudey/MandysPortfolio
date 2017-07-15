@@ -35,8 +35,9 @@ a {
   -webkit-transition: color 0.4s;
   -o-transition: color 0.4s;
   transition: color 0.4s; }
-  a:active, a:hover, a:focus {
-    color: #F48A82; }
+
+a:active, a:hover, a:focus {
+  color: #F48A82; }
 
 button {
   background-color: #F6D8D0;
@@ -51,9 +52,10 @@ button {
   -webkit-transition: background-color 0.8s;
   -o-transition: background-color 0.8s;
   transition: background-color 0.8s; }
-  button:active, button:hover, button:focus {
-    background-color: #F48A82;
-    color: white; }
+
+button:active, button:hover, button:focus {
+  background-color: #F48A82;
+  color: white; }
 
 .center {
   -webkit-box-pack: center;
@@ -84,12 +86,14 @@ button {
   list-style-type: none;
   text-align: center;
   padding: 0; }
-  .nav_list li {
-    display: inline-block;
-    text-align: center;
-    margin: 0 1rem; }
-    .nav_list li:hover {
-      color: #F48A82; }
+
+.nav_list li {
+  display: inline-block;
+  text-align: center;
+  margin: 0 1rem; }
+
+.nav_list li:hover {
+  color: #F48A82; }
 
 [type="checkbox"], label {
   display: none; }
@@ -97,7 +101,14 @@ button {
 .logo {
   width: 4rem; }
 
-.logo_div, .nav_div {
+.logo_div {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center; }
+
+.nav_div {
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -108,9 +119,10 @@ button {
   padding: 0 0.5rem;
   background-color: rgba(246, 216, 208, 0.8);
   font-weight: bold; }
-  .nav_li_highlight:hover, .nav_li_highlight:active, .nav_li_highlight:focus {
-    color: #000;
-    cursor: default; }
+
+.nav_li_highlight:hover, .nav_li_highlight:active, .nav_li_highlight:focus {
+  color: #000;
+  cursor: default; }
 
 .proj_back_div {
   text-align: left;
@@ -177,8 +189,9 @@ button {
   -o-transition: background-color 0.5s;
   transition: background-color 0.5s;
   background-color: rgba(246, 216, 208, 0.6); }
-  .project1_div:hover, .project1_div:focus, .project1_div:active {
-    background-color: rgba(246, 216, 208, 0.8); }
+
+.project1_div:hover, .project1_div:focus, .project1_div:active {
+  background-color: rgba(246, 216, 208, 0.9); }
 
 .project2_div {
   height: 250px;
@@ -195,8 +208,9 @@ button {
   -o-transition: background-color 0.5s;
   transition: background-color 0.5s;
   background-color: rgba(253, 202, 143, 0.6); }
-  .project2_div:hover, .project2_div:focus, .project2_div:active {
-    background-color: rgba(253, 202, 143, 0.8); }
+
+.project2_div:hover, .project2_div:focus, .project2_div:active {
+  background-color: rgba(253, 202, 143, 0.8); }
 
 .color_link {
   color: #5578BB;
@@ -253,9 +267,10 @@ button {
   -webkit-transition: background-color 0.6s;
   -o-transition: background-color 0.6s;
   transition: background-color 0.6s; }
-  .active_textbook:hover, .active_textbook:active, .active_textbook:focus {
-    background-color: rgba(246, 216, 208, 0.6);
-    border: 1px solid rgba(246, 216, 208, 0.6); }
+
+.active_textbook:hover, .active_textbook:active, .active_textbook:focus {
+  background-color: rgba(246, 216, 208, 0.6);
+  border: 1px solid rgba(246, 216, 208, 0.6); }
 
 .iat339_7Trades {
   position: relative;
@@ -269,9 +284,10 @@ button {
   -webkit-transition: background-color 0.6s;
   -o-transition: background-color 0.6s;
   transition: background-color 0.6s; }
-  .iat339_7Trades:hover, .iat339_7Trades:active, .iat339_7Trades:focus {
-    background-color: rgba(253, 202, 143, 0.8);
-    border: 1px solid rgba(253, 202, 143, 0.8); }
+
+.iat339_7Trades:hover, .iat339_7Trades:active, .iat339_7Trades:focus {
+  background-color: rgba(253, 202, 143, 0.8);
+  border: 1px solid rgba(253, 202, 143, 0.8); }
 
 /*------------ RESUME PAGE ----------*/
 .resume_div {
@@ -296,7 +312,7 @@ button {
 
 .project_hero_div {
   text-align: center;
-  /*background-color: $light-pink;*/
+  /*background-color: #F6D8D0;*/
   background-color: rgba(246, 216, 208, 0.6);
   margin-bottom: 2rem; }
 
@@ -305,17 +321,19 @@ button {
   margin: 3rem 0 1rem 0;
   padding: 2rem 0 2rem 0;
   width: 80%; }
-  .toolbox_div h2 {
-    text-align: center;
-    margin: 0; }
-  .toolbox_div ul {
-    /*	padding-left: 7rem;
-    	list-style-position: inside;
-    	list-style-type: circle;*/
-    text-align: center;
-    list-style-type: none;
-    padding: 0;
-    margin: 1rem 0 0 0; }
+
+.toolbox_div h2 {
+  text-align: center;
+  margin: 0; }
+
+.toolbox_div ul {
+  /*	padding-left: 7rem;
+	list-style-position: inside;
+	list-style-type: circle;*/
+  text-align: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 1rem 0 0 0; }
 
 .project_img_div {
   margin: 1rem 0 1rem 0;
