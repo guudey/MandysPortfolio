@@ -2,8 +2,8 @@ $main-pink: #F48A82;
 $light-pink: #F6D8D0;
 $hovered-pink: rgba(246, 216, 208, 0.8);
 $hovered-orange: rgba(253, 202, 143, 0.8);
-$faded-pink: rgba(246, 216, 208, 0.6);
-$faded-orange: rgba(253, 202, 143, 0.6);
+$faded-pink: rgba(246, 216, 208, 0.4);
+$faded-orange: rgba(253, 202, 143, 0.5);
 $blue: #5578BB;
 
 * {
@@ -88,7 +88,7 @@ button {
 
 .navbar {
   width: 100%;
-  padding: 1rem 1.2rem 1rem 1.2rem;
+  padding: 1rem 1.2rem 0 1.2rem;
   background: white;
   z-index: 2000;
   position: fixed;
@@ -145,7 +145,7 @@ button {
 }
 
 .content {
-  margin-top: 8.5rem;
+  margin-top: 7.9rem;
 }
 
 .project_content {
@@ -160,12 +160,30 @@ button {
 
 .section_div {
   margin-bottom: 3rem;
+  padding-top: 1rem;
+}
+
+.intro_div_hero{
+  height: 550px;
+  background-image: url('https://www.sfu.ca/~mmc29/IAT339/P03/Images/cover-photo.jpg');
+  background-position: 50% 85%;
+  background-size: 800px;
+  background-repeat: no-repeat;
+  background-color: $faded-pink;
 }
 
 .name_div {
   text-align: center;
   justify-content: center;
-  align-items: center;
+  h2{
+    margin: 0.5rem 0;
+  }
+}
+
+.more_projects{
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 4rem;
 }
 
 .home_project_div {
@@ -174,25 +192,46 @@ button {
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 0 1rem 2rem 1rem;
+  margin: 2rem 4rem 2rem 4rem;
 }
 
 .contact_div {
-  height: 150px;
+  background-color: $faded-pink;
+  padding: 0.5rem 0 1rem 0;
+}
+
+.contact_content{
+  justify-content: center;
   text-align: center;
+  a{
+    color: $blue;
+  }
+}
+
+.contact_sep{
+  margin: 0;
+}
+
+.project_text{
+  margin: 0;
+}
+
+.project_cover_img1{
+  width: 50%;
+  padding: 0.5rem 0;
+}
+
+.project_cover_img2{
+  width: 48%;
+  padding: 1rem 0 1rem 0;
 }
 
 .project1_div {
-  height: 250px;
-  max-width: 100%;
-  padding: 0 2rem 0 1rem;
+  height: 270px;
+  width: 50%;
   position: absolute;
-  right: 50%;
+  right: 49%;
   top: 0;
-  background-image: url('https://www.sfu.ca/~mmc29/IAT339/P03/Images/Project1_cover.png');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 60%;
   transition: background-color 0.5s;
   background-color: $faded-pink;
   &:hover, &:focus, &:active {
@@ -201,16 +240,11 @@ button {
 }
 
 .project2_div {
-  height: 250px;
-  max-width: 100%;
-  padding: 0 1rem 0 2rem;
+  height: 270px;
+  width: 50%;
   position: absolute;
-  top: 4%;
-  left: 48%;
-  background-image: url('https://www.sfu.ca/~mmc29/IAT339/P03/Images/Project2_cover.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 60%;
+  top: 8%;
+  left: 47%;
   transition: background-color 0.5s;
   background-color: $faded-orange;
   &:hover, &:focus, &:active {
@@ -231,17 +265,26 @@ button {
 
 .photo_div {
   text-align: center;
-  background-color: $light-pink;
-  padding-top: 0.3rem;
+  background-color: $faded-pink;
+  padding: 0.5rem 0 0.5rem 0;
   margin-bottom: 1rem;
 }
 
 .self_photo {
-  width: 40%;
+  width: 55%;
 }
 
 .about_div {
   justify-content: center;
+  padding-bottom: 1rem;
+}
+
+#last{
+  padding-bottom: 2rem;
+  a{
+    display: block;
+    padding-bottom: 0.2rem;
+  }
 }
 
 /*------------- PROJECT PAGE ------------*/

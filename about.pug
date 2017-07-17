@@ -10,11 +10,11 @@ html(lang='en')
     link(href='https://fonts.googleapis.com/css?family=Yanone%20Kaffeesatz', rel='stylesheet')
   body
     nav.navbar
-      .nav_div.box
+      .box.nav_div
         .col_1of2
           a.logo(href='index.html')
             img.logo(src='img/logo.png', alt='Mandy Cheung logo')
-      .nav_div.box
+      .box.nav_div
         .col_1of2
           input#nav(type='checkbox')
           label(for='nav')
@@ -29,13 +29,13 @@ html(lang='en')
               a(href='resume.html') Resumè
     .content
       .box.about_div
-        .col_2of3
+        .col_1of2
           h3  hi there ! 
       .box.about_div
         .col_1of2.photo_div
-          img.self_photo(src='img/mandy.jpg', alt='photo of mandy')
+          img.self_photo(src='img/profile_1.jpg', alt='photo of mandy')
       .box.about_div
-        .col_2of3
+        .col_1of2
           p
             | My name is 
             span.highlight  Mandy 
@@ -44,24 +44,17 @@ html(lang='en')
             | that enjoys doing 
             span.highlight front end development
             | . I value interfaces that work by give users what they expect an interface to do. Oh, and I think micro-interactions are pretty cool too. I am a pretty simple straight forward person, therefore what I design or make turns out that way too. Sometimes I get caught up in the smallest details, which I find are quite impactful.
-      .box.about_div
-        .col_2of3
-          h3.about_title  resumè 
-      .box.about_div
-        .col_2of3
-          p
-            a.color_link(href='https://www.sfu.ca/~mmc29/Resume_Fall2016.pdf')  my resume
-      .box.about_div
-        .col_2of3
-          h3.about_title  contact me ! 
-      .box.about_div
-        .col_2of3
-          p
-            | email: 
-            a.color_link(href='mailto:mandyy.cheung@gmail.com')  mandyy.cheung@gmail.com
-          p
-            | social media: 
-            a.color_link(href='https://www.linkedin.com/in/mandy-cheung-261b9b93/')  Linked In 
-            | , 
-            a.color_link(href='https://www.instagram.com/rxxrika/')  Instagram 
-            |  !
+      .box.about_div#last
+        .box.col_1of2
+          .col_1of2
+            h3.about_title  contact me ! 
+            p
+              | email: 
+              a.color_link(href='mailto:mandyy.cheung@gmail.com')  mandyy.cheung@gmail.com
+              | phone number: 
+              a.color_link(href='mailto:mandyy.cheung@gmail.com')  778-883-8602
+          .col_1of2
+            h3.about_title  follow me !
+            p
+              a.color_link(href='https://www.linkedin.com/in/mandy-cheung-261b9b93/')  Linked In 
+              a.color_link(href='https://www.instagram.com/rxxrika/')  Instagram 
