@@ -90,8 +90,24 @@ button {
   position: -webkit-sticky;
   position: sticky;
   top: 0.5%; }
-  .nav_div h1 {
-    margin-bottom: 0; }
+
+.bottom_nav_div {
+  width: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #FBEFEC;
+  text-align: center;
+  position: fixed;
+  bottom: 0; }
+  .bottom_nav_div a {
+    color: #5578BB;
+    -webkit-transition: color 0.5s;
+    -o-transition: color 0.5s;
+    transition: color 0.5s; }
+    .bottom_nav_div a:hover, .bottom_nav_div a:active, .bottom_nav_div a:focus {
+      color: #F48A82; }
 
 .logo {
   width: 4rem; }

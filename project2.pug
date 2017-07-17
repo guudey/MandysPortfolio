@@ -9,7 +9,19 @@ html(lang='en')
     link(href='https://fonts.googleapis.com/css?family=Athiti', rel='stylesheet')
     link(href='https://fonts.googleapis.com/css?family=Yanone%20Kaffeesatz', rel='stylesheet')
   body
-    include includes/project_nav.pug
+    include includes/navbar.pug
+    nav.navbar
+      include includes/project_nav.pug
+      .box.nav_div
+        .col_2of3
+          h1  Designing a Catering Website
+      .box.bottom_nav_div     
+         .col_1of3.proj_previous_div
+           a(href='project1.html') previous project
+         .col_1of3.proj_back_div
+           a(href='projects.html') back to all projects
+         .col_1of3.next_proj_div
+           a(href='project1.html') next project
     .project_content
       .box.center
         .col_2of3.project_hero_div

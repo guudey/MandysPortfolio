@@ -1,5 +1,6 @@
 $main-pink: #F48A82;
 $light-pink: #F6D8D0;
+$lightest-pink: #FBEFEC;
 $hovered-pink: rgba(246, 216, 208, 0.8);
 $hovered-orange: rgba(253, 202, 143, 0.8);
 $faded-pink: rgba(246, 216, 208, 0.4);
@@ -102,9 +103,24 @@ button {
   text-align: center;
   position: sticky;
   top: 0.5%;
+}
 
-  h1{
-    margin-bottom: 0;
+.bottom_nav_div{
+  width: 100%;
+  justify-content: center;
+  // border-top: 1px solid $main-pink;
+  background-color: $lightest-pink;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+
+  a{
+    color: $blue;
+
+    transition: color 0.5s;
+    &:hover, &:active, &:focus{
+      color: $main-pink;
+    }
   }
 }
 
