@@ -72,12 +72,13 @@ button {
 /*---------- NAVBAR ------------*/
 .navbar {
   width: 100%;
-  padding: 1rem 1.2rem 0 1.2rem;
+  height: 50px;
   background: white;
   z-index: 2000;
-  position: fixed;
-  top: 0;
-  margin: 0 auto; }
+  margin: 0 auto;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0; }
 
 .nav_list {
   text-transform: uppercase;
@@ -97,12 +98,23 @@ button {
 .logo {
   width: 4rem; }
 
-.logo_div, .nav_div {
+.logo_div {
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  text-align: center; }
+  text-align: center;
+  padding: 1rem 0 0 0; }
+
+.nav_div {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0; }
 
 .nav_li_highlight {
   padding: 0 0.5rem;
@@ -119,9 +131,6 @@ button {
 .next_proj_div {
   text-align: right;
   padding-top: 1rem; }
-
-.content {
-  margin-top: 7.9rem; }
 
 .project_content {
   margin-top: 13rem; }

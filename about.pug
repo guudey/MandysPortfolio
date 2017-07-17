@@ -9,24 +9,7 @@ html(lang='en')
     link(href='https://fonts.googleapis.com/css?family=Athiti', rel='stylesheet')
     link(href='https://fonts.googleapis.com/css?family=Yanone%20Kaffeesatz', rel='stylesheet')
   body
-    nav.navbar
-      .box.nav_div
-        .col_1of2
-          a.logo(href='index.html')
-            img.logo(src='img/logo.png', alt='Mandy Cheung logo')
-      .box.nav_div
-        .col_1of2
-          input#nav(type='checkbox')
-          label(for='nav')
-          ul.nav_list
-            li
-              a(href='index.html') Home
-            li
-              a.nav_li_highlight(href='about.html') About
-            li
-              a(href='projects.html') Projects
-            li
-              a(href='resume.html') Resumè
+    include includes/navbar.pug
     .content
       .box.about_div
         .col_1of2
@@ -39,11 +22,11 @@ html(lang='en')
           p
             | My name is 
             span.highlight  Mandy 
-            |  and I am a 
+            |  and I am an 
             span.highlight user experience designer 
             | that enjoys doing 
             span.highlight front end development
-            | . I value interfaces that work by give users what they expect an interface to do. Oh, and I think micro-interactions are pretty cool too. I am a pretty simple straight forward person, therefore what I design or make turns out that way too. Sometimes I get caught up in the smallest details, which I find are quite impactful.
+            | . I value interfaces that work by giving users what they expect an interface to do. Oh, and I think micro-interactions are pretty cool too. I am a pretty simple straight forward person, therefore what I design or make turns out that way too. Sometimes I get caught up in the smallest details, which I find are quite impactful.
       .box.about_div#last
         .box.col_1of2
           .col_1of2

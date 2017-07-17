@@ -9,24 +9,7 @@ html(lang='en')
     link(href='https://fonts.googleapis.com/css?family=Athiti', rel='stylesheet')
     link(href='https://fonts.googleapis.com/css?family=Yanone%20Kaffeesatz', rel='stylesheet')
   body
-    nav.navbar 
-      .nav_div.box
-        .col_1of2
-          a.logo(href='index.html')
-            img.logo(src='img/logo.png', alt='Mandy Cheung logo')
-      .nav_div.box
-        .col_1of2
-          input#nav(type='checkbox')
-          label(for='nav')
-          ul.nav_list
-            li
-              a.nav_li_highlight(href='index.html') Home
-            li
-              a(href='about.html') About
-            li
-              a(href='projects.html') Projects
-            li
-              a(href='resume.html') Resumè
+    include includes/navbar.pug
     .content
       .section_div.intro_div_hero
         .box.name_div
@@ -35,7 +18,7 @@ html(lang='en')
             h1.title_margin  Mandy here! 
         .box.name_div
           .col_1of2
-            p  I am a user experience designer that enjoys doing front end development. 
+            p  I am an user experience designer that enjoys doing front end development. 
             a.color_link(href='about.html')  read more 
       .section_div
         .box.name_div
