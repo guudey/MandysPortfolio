@@ -72,28 +72,26 @@ button {
 /*---------- NAVBAR ------------*/
 .navbar {
   width: 100%;
-  height: 50px;
-  background: white;
+  height: 60px;
+  background-color: white;
   z-index: 2000;
   margin: 0 auto;
   position: -webkit-sticky;
   position: sticky;
   top: 0; }
 
-.nav_list {
-  text-transform: uppercase;
-  list-style-type: none;
+.nav_div {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: white;
   text-align: center;
-  padding: 0; }
-  .nav_list li {
-    display: inline-block;
-    text-align: center;
-    margin: 0 1rem; }
-    .nav_list li:hover {
-      color: #F48A82; }
-
-[type="checkbox"], label {
-  display: none; }
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0.5%; }
+  .nav_div h1 {
+    margin-bottom: 0; }
 
 .logo {
   width: 4rem; }
@@ -106,15 +104,21 @@ button {
   text-align: center;
   padding: 1rem 0 0 0; }
 
-.nav_div {
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+.nav_list {
+  text-transform: uppercase;
+  list-style-type: none;
   text-align: center;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0; }
+  padding: 0;
+  margin-bottom: 0; }
+  .nav_list li {
+    display: inline-block;
+    text-align: center;
+    margin: 0 1rem; }
+    .nav_list li:hover {
+      color: #F48A82; }
+
+[type="checkbox"], label {
+  display: none; }
 
 .nav_li_highlight {
   padding: 0 0.5rem;
@@ -124,16 +128,20 @@ button {
     color: #000;
     cursor: default; }
 
-.proj_back_div {
+.proj_previous_div {
   text-align: left;
-  padding-top: 1rem; }
+  padding: 0 0 0.6rem 2rem; }
+
+.proj_back_div {
+  text-align: center;
+  padding: 0 0 0.6rem 0; }
 
 .next_proj_div {
   text-align: right;
-  padding-top: 1rem; }
+  padding: 0 2rem 0.6rem 0; }
 
 .project_content {
-  margin-top: 13rem; }
+  margin-top: 4rem; }
 
 /* -------- HOMEPAGE ----------*/
 .title_margin {
@@ -340,7 +348,6 @@ button {
 
 .project_hero_div {
   text-align: center;
-  /*background-color: $light-pink;*/
   background-color: rgba(246, 216, 208, 0.4);
   margin-bottom: 2rem; }
 

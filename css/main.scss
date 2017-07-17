@@ -88,12 +88,34 @@ button {
 
 .navbar {
   width: 100%;
-  height: 50px;
-  background: white;
+  height: 60px;
+  background-color: white;
   z-index: 2000;
   margin: 0 auto;
   position: sticky; 
   top: 0; 
+}
+
+.nav_div{
+  justify-content: center;
+  background-color: white;
+  text-align: center;
+  position: sticky;
+  top: 0.5%;
+
+  h1{
+    margin-bottom: 0;
+  }
+}
+
+.logo {
+  width: 4rem;
+}
+
+.logo_div {
+  justify-content: center;
+  text-align: center;
+  padding: 1rem 0 0 0;
 }
 
 .nav_list {
@@ -101,6 +123,7 @@ button {
   list-style-type: none;
   text-align: center;
   padding: 0;
+  margin-bottom: 0;
   li {
     display: inline-block;
     text-align: center;
@@ -115,23 +138,6 @@ button {
   display: none;
 }
 
-.logo {
-  width: 4rem;
-}
-
-.logo_div {
-  justify-content: center;
-  text-align: center;
-  padding: 1rem 0 0 0;
-}
-
-.nav_div{
-  justify-content: center;
-  text-align: center;
-  position: sticky;
-  top: 0;
-}
-
 .nav_li_highlight {
   padding: 0 0.5rem;
   background-color: $hovered-pink;
@@ -142,14 +148,20 @@ button {
   }
 }
 
-.proj_back_div {
+.proj_previous_div {
   text-align: left;
-  padding-top: 1rem;
+  padding: 0 0 0.6rem 2rem;
+}
+
+.proj_back_div{
+  text-align: center;
+  padding: 0 0 0.6rem 0;
+
 }
 
 .next_proj_div {
   text-align: right;
-  padding-top: 1rem;
+  padding: 0 2rem 0.6rem 0;
 }
 
 .content {
@@ -157,7 +169,7 @@ button {
 }
 
 .project_content {
-  margin-top: 13rem;
+  margin-top: 4rem;
 }
 
 /* -------- HOMEPAGE ----------*/
@@ -375,7 +387,6 @@ button {
 
 .project_hero_div {
   text-align: center;
-  /*background-color: $light-pink;*/
   background-color: $faded-pink;
   margin-bottom: 2rem;
 }

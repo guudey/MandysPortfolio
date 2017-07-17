@@ -10,6 +10,20 @@ html(lang='en')
     link(href='https://fonts.googleapis.com/css?family=Yanone%20Kaffeesatz', rel='stylesheet')
   body
     include includes/navbar.pug
+    nav.navbar
+      .box.nav_div
+        .col_1of2
+          input#nav(type='checkbox')
+          label(for='nav')
+          ul.nav_list
+            li
+              a(href='index.html') Home
+            li
+              a.nav_li_highlight(href='about.html') About
+            li
+              a(href='projects.html') Projects
+            li
+              a(href='resume.html') Resumè
     .content
       .box.about_div
         .col_1of2
