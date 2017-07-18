@@ -186,6 +186,7 @@ button {
 
 .project_content {
   margin-top: 4rem;
+  // margin-bottom: 4rem;
 }
 
 /* -------- HOMEPAGE ----------*/
@@ -429,24 +430,37 @@ button {
 
 .project_img_div {
   margin: 1rem 0 1rem 0;
-  background-color: $faded-pink;
   justify-content: center;
+}
+
+.sticky_img_div{
+  margin: 5rem 0 0 0;
+}
+
+.img_div_padding{
+  padding: 0 2rem 0 2rem;
+}
+
+.sticky_content{
+  position: sticky; 
+  top: 8rem; 
 }
 
 .project_img {
   width: 100%;
-  padding: 1rem 2rem 0 2rem;
+  padding-bottom: 0.4rem;
 }
 
 .small_project_img {
   width: 80%;
-  padding: 1rem 2rem 0 2rem;
+  padding-bottom: 0.4rem;
 }
 
 .caption {
-  padding: 0 2rem 0 2rem;
   font-size: 0.8rem;
   color: #666666;
+  margin: 0;
+  padding-bottom: 1rem;
 }
 
 .source_div {
@@ -456,4 +470,8 @@ button {
 
 .project_text_div {
   padding: 0 3rem 0 0;
+}
+
+.process_div{
+  padding-bottom: 3rem;
 }
