@@ -111,7 +111,6 @@ button {
 .bottom_nav_div{
   width: 100%;
   justify-content: center;
-  // border-top: 1px solid $main-pink;
   background-color: $lightest-pink;
   text-align: center;
   position: fixed;
@@ -184,12 +183,10 @@ button {
 }
 
 .content {
-  // margin-top: 7.9rem;
 }
 
 .project_content {
   margin-top: 4rem;
-  // margin-bottom: 4rem;
 }
 
 /* -------- HOMEPAGE ----------*/
@@ -210,6 +207,8 @@ button {
   background-size: 800px;
   background-repeat: no-repeat;
   background-color: $faded-pink;
+
+  transition: height 0.5s;
 }
 
 .name_div {
@@ -233,6 +232,8 @@ button {
   align-items: center;
   text-align: center;
   margin: 2rem 4rem 2rem 4rem;
+
+  transition: margin 0.5s;
 }
 
 .contact_div {
@@ -254,16 +255,21 @@ button {
 
 .project_text{
   margin: 0;
+  font-size: 120%;
 }
 
 .project_cover_img1{
   width: 50%;
   padding: 0.5rem 0;
+
+  transition: width 0.5s
 }
 
 .project_cover_img2{
   width: 48%;
   padding: 1rem 0 1rem 0;
+
+  transition: width 0.5s;
 }
 
 .project1_div {

@@ -173,7 +173,10 @@ button {
   background-position: 50% 85%;
   background-size: 800px;
   background-repeat: no-repeat;
-  background-color: rgba(246, 216, 208, 0.4); }
+  background-color: rgba(246, 216, 208, 0.4);
+  -webkit-transition: height 0.5s;
+  -o-transition: height 0.5s;
+  transition: height 0.5s; }
 
 .name_div {
   text-align: center;
@@ -204,7 +207,10 @@ button {
   -ms-flex-align: center;
   align-items: center;
   text-align: center;
-  margin: 2rem 4rem 2rem 4rem; }
+  margin: 2rem 4rem 2rem 4rem;
+  -webkit-transition: margin 0.5s;
+  -o-transition: margin 0.5s;
+  transition: margin 0.5s; }
 
 .contact_div {
   background-color: rgba(246, 216, 208, 0.4);
@@ -223,15 +229,22 @@ button {
   margin: 0; }
 
 .project_text {
-  margin: 0; }
+  margin: 0;
+  font-size: 120%; }
 
 .project_cover_img1 {
   width: 50%;
-  padding: 0.5rem 0; }
+  padding: 0.5rem 0;
+  -webkit-transition: width 0.5s;
+  -o-transition: width 0.5s;
+  transition: width 0.5s; }
 
 .project_cover_img2 {
   width: 48%;
-  padding: 1rem 0 1rem 0; }
+  padding: 1rem 0 1rem 0;
+  -webkit-transition: width 0.5s;
+  -o-transition: width 0.5s;
+  transition: width 0.5s; }
 
 .project1_div {
   height: 270px;
