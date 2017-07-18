@@ -6,6 +6,8 @@ $faded-pink: rgba(246, 216, 208, 0.6);
 $faded-orange: rgba(253, 202, 143, 0.6);
 $blue: #5578BB;
 
+$project_column_margin: 0;
+
 /* -------------- GRID --------------*/
 
 .box {
@@ -52,6 +54,11 @@ $blue: #5578BB;
 
   .project_cover_img2{
     width: 55%;
+  }
+
+  /*------ PROJECT PAGE ------*/
+  .project_cover{
+    width: 70%;
   }
 }
 
@@ -157,6 +164,23 @@ $blue: #5578BB;
 
     padding: 0rem 1.5rem 1.5rem 1.5rem;
     margin-bottom: 2rem;
+  }
+
+  /*--------- PROJECT PAGE --------*/
+  .left_column {
+    margin-right: $project_column_margin;
+  }
+
+  .left_column_text{
+    margin-right: $project_column_margin;
+  }
+
+  .right_column{
+    margin-left: $project_column_margin;
+  }
+
+  .right_column_text{
+    margin-left: $project_column_margin;
   }
 }
 

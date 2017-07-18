@@ -228,7 +228,7 @@ button {
 .contact_sep {
   margin: 0; }
 
-.project_text {
+.project_title {
   margin: 0;
   font-size: 120%; }
 
@@ -304,7 +304,6 @@ button {
 
 /*------------- PROJECT PAGE ------------*/
 .project_div {
-  height: 300px;
   position: relative;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
@@ -315,12 +314,9 @@ button {
   -ms-flex-align: center;
   align-items: center;
   text-align: center;
-  padding: 0 6rem 2rem 6rem; }
-
-.project_title {
-  position: absolute;
-  bottom: -35%;
-  text-align: center; }
+  padding: 2rem 6rem; }
+  .project_div h3 {
+    text-align: left; }
 
 .left_column {
   position: relative;
@@ -334,6 +330,9 @@ button {
     background-color: rgba(246, 216, 208, 0.4);
     border: 1px solid rgba(246, 216, 208, 0.4); }
 
+.left_column_text {
+  margin-right: 1rem; }
+
 .right_column {
   position: relative;
   margin-left: 1rem;
@@ -345,6 +344,15 @@ button {
   .right_column:hover, .right_column:active, .right_column:focus {
     background-color: rgba(253, 202, 143, 0.5);
     border: 1px solid rgba(253, 202, 143, 0.5); }
+
+.right_column_text {
+  margin-left: 1rem; }
+
+.project_cover {
+  width: 55%;
+  -webkit-transition: width 0.5s;
+  -o-transition: width 0.5s;
+  transition: width 0.5s; }
 
 /*------------ RESUME PAGE ----------*/
 .resume_div {

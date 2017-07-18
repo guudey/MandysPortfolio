@@ -9,6 +9,7 @@ $faded-orange: rgba(253, 202, 143, 0.5);
 $blue: #5578BB;
 
 $proj_bottom_padding: 0.3rem;
+$project_column_margin: 1rem;
 
 * {
   box-sizing: border-box;
@@ -253,7 +254,7 @@ button {
   margin: 0;
 }
 
-.project_text{
+.project_title{
   margin: 0;
   font-size: 120%;
 }
@@ -336,23 +337,20 @@ button {
 /*------------- PROJECT PAGE ------------*/
 
 .project_div {
-  height: 300px;
   position: relative;
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 0 6rem 2rem 6rem;
-}
+  padding: 2rem 6rem;
 
-.project_title {
-  position: absolute;
-  bottom: -35%;
-  text-align: center;
+  h3{
+    text-align: left;
+  }
 }
 
 .left_column {
   position: relative;
-  margin-right: 1rem;
+  margin-right: $project_column_margin;
   height: 200px;
   border: 1px solid $main-pink;
   transition: background-color 0.6s;
@@ -362,9 +360,13 @@ button {
   }
 }
 
+.left_column_text{
+  margin-right: $project_column_margin;
+}
+
 .right_column{
   position: relative;
-  margin-left: 1rem;
+  margin-left: $project_column_margin;
   height: 200px;
   border: 1px solid #FDCA8F;
   transition: background-color 0.6s;
@@ -372,6 +374,16 @@ button {
     background-color: $faded-orange;
     border: 1px solid $faded-orange;
   }
+}
+
+.right_column_text{
+  margin-left: $project_column_margin;
+}
+
+.project_cover{
+  width: 55%;
+
+  transition: width 0.5s;
 }
 
 /*------------ RESUME PAGE ----------*/
