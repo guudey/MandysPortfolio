@@ -22,10 +22,15 @@ html(lang='en')
            a(href='projects.html') back to all projects
          .col_1of3.next_proj_div
            a(href='project1.html') next project
+
     .project_content
-      .box.center
-        .col_2of3.project_hero_div
-          img.project_hero(src='img/7Trades_hero.png', alt='example image')
+      .project_hero_div
+        .box.center
+          .col_2of3.hero_img_div
+            img.project_hero(src='img/7Trades_hero.png', alt='7Trades home page image')
+        .box.center
+          .col_1of3.center_text
+            a.color_link(href='') view full website
       .project_body_margin
         .box
           .col_1of2
@@ -35,7 +40,7 @@ html(lang='en')
           .col_1of2
             h1  My Role 
             p
-              | My partner and I planned the website’s templates together. We split up the pages to do among ourselves. I did the order and menu pages.
+              | My partner and I planned the website’s templates together. We split up the pages to do among ourselves. I did the order, menu and homepage. I also coded the style guide and did the branding and styling of the company.
         .box.center
           .box.toolbox_div
             .col_1of2
@@ -50,96 +55,119 @@ html(lang='en')
                 li  Adobe Illustrator 
                 li  Adobe Photoshop 
                 li  Git 
-        h1  Problem 
-        .box
-          .col_1of2
+        h1 Process 
+        .box.process_div
+          .col_1of2.project_text_div
+            h3.project_subheader Site Map + Templating 
             p
-              | The order forms not give off the feeling legitimacy. Which would make users feel not safe and not trust the website to place an order.
-        h1  Process 
-        .box
-          .col_2of3.project_text_div
-            h3.project_subheader  HTML + CSS 
+              | Together, my partner and I made a sitemap that includes all the pages and content that would go into each page. 
             p
-              | I brainstormed the visual layout of the steps in the order process, I used HTML and CSS to code the template of the order process. The forms were visually appealing, but there was something about the forms that did not seem legitimate.
-        .box.project_img_div
-          .col_1of2
-            img.project_img(src='img/7Trades_1.png', alt='Step 1: Choose Menu')
-            p.caption  Step 1: Choose Menu 
-          .col_1of2
-            img.project_img(src='img/7Trades2.png', alt='Step 2: Menu Details')
-            p.caption  Step 2: Menu Details 
-        .box.project_img_div
-          .col_1of2
-            img.project_img(src='img/7Trades3.png', alt='Step 3: Payment')
-            p.caption  Step 3: Payment 
-          .col_1of2
-            img.project_img(src='img/7Trades4.png', alt='Step 4: Confirmation')
-            p.caption  Step 4: Confirmation 
-        .box.project_img_div
-          .col_1of2
-            img.project_img(src='img/7Trades2.png', alt='Step 5: Reciept')
-            p.caption  Step 5: Reciept 
-        .box
-          .col_2of3.project_text_div
-            h3.project_subheader  Critique 
+              | When we weren’t too entirely sure on what a catering website should have we 
+              span.highlight researched 
+              | into existing websites and see what pages they have and see if it’s applicable to our company.
+            .orange_box
+              p.title Future Improvement
+              p
+                | Next time have specific templates that would be used for each page
+          .col_1of2.project_img_div
+            img.project_img(src='img/7Trades/P02_SiteMap.jpg', alt='Site map of 7Trades Catering Company')
+            p.caption  7 Trades Site Map
+        .box.process_div
+          .col_1of2.project_text_div
+            .sticky_content
+              h3.project_subheader Branding 
+              p
+                | The brand colours chosen of 7Trades was chosen between my partner and I. We felt blue gave off the feeling of high-class or luxury. 
+              p
+                | The font and other styled elements was inspired from modern coffee shops and their websites. 
+              p
+                | We wanted the website to give off a clean vibrant look along with being professional and not too playful. Thus, the photos in the website has to be bright, colourful and vibrant. The background of the website is white to give off the clean feel. 
+              p
+                a.color_link(href='')  see full style guide
+          .col_1of2.sticky_img_div
+            img.project_img(src='img/7Trades/styleguide.jpg', alt='7 Trades Style Guide')
+            p.caption Snippet of 7 Trades Style Guide
+        .box.process_div
+          .col_1of2.project_text_div
+            .sticky_content
+              h3.project_subheader Coding HTML + CSS
+              p
+                | Then we split the pages up among ourselves I used HTML and CSS to code the 
+                span.highlight homepage
+                | , 
+                span.highlight menu 
+                |and 
+                span.highlight order process
+                | . 
+              p 
+                | Whenever I didn’t know how to code something, I would look on 
+                a.highlight(href='https://www.w3schools.com/') W3School 
+                | or 
+                a.highlight(href='https://developer.mozilla.org/en-US/') MDN 
+                | to check for the correct syntax. 
+          .col_1of2.sticky_img_div
+            img.project_img(src='img/7Trades/code.jpg', alt='7 Trades Style Guide')
+            p.caption  Snippet of 7 Trades Style Guide
+        .box.process_div
+          .col_1of2.project_text_div
+            h3.project_subheader First iteration 
             p
-              | At school, our website was tested and critiqued in many ways. For example, if it was responsive, load time, functional without Javascript, and feeling of security. Feedback on our website was relatively positive, but there was a few critique and we took it to improve on our website.
+              | With the first iteration, there was still a lot unsure elements in the website. For example, the nav bar at the top has weird alignment. 
+            p 
+             | The menu items has a image underlay which makes the text hard to read. The layout organization could be improved upon as well, as it was confusing that all the menus were just listed in a 3x3 grid.
+          .col_1of2.project_text_div
+            img.project_img(src='img/7Trades/iteration_1.jpg', alt='First iteration of Order Page')
+            p.caption  First iteration of Order Page
+        .box.process_div
+          .col_1of2.project_text_div
+            h3.project_subheader Critique 
             p
-              | What I took away from the critique that was more helpful than the feedback was seeing other classmate’s website. I got to see how other people did their order process, and how the homepage can be more impactful.
-        .box.project_img_div
-          .col_1of2
-            img.project_img(src='img/7Trades5.png', alt='Step 1: Choose a Menu')
-            p.caption  Step 1: Choose a Menu 
-          .col_1of2
-            img.project_img(src='img/7Trades6.png', alt='Step 2: Menu Details')
-            p.caption  Step 2: Menu Details 
-        .box.project_img_div
-          .col_1of2
-            img.project_img(src='img/7Trades7.png', alt='Step 3: Payment')
-            p.caption  Step 3: Payment 
-          .col_1of2
-            img.project_img(src='img/7Trades8.png', alt='Step 4: Confirmation')
-            p.caption  Step 4: Confirmation
-        .box.project_img_div
-          .col_1of2
-            img.project_img(src='img/7Trades9.png', alt='Step 5: Reciept')
-            p.caption  Step 5: Reciept 
-        .box
-          .col_2of3.project_text_div
-            h3.project_subheader  Creating legitimacy 
+              | At school, our website was tested and critiqued in many ways. For example it was test for: responsiveness, load time, functional without Javascript, and feeling of security for the user. 
             p
-              | After the critique, I implemented a process bar into our website’s order process, taken from other classmate’s websites. However, just adding the process bar did not make it as legitimate as I wanted it to be. I tried to discuss with my partner what made it seem not legitimate. However, we couldn’t come up with a solution.
+              | Feedback on our website was relatively positive, but there was a few critique and we took to improve on our website.
+            .orange_box
+              p.title What I learned
+              p
+                | I learned more from looking at other classmates’ websites than the feedback my partner and I got from our classmates. We used other classmates’ websites as inspiration to improve on our own.
+          .col_1of2.project_img_div
+            img.project_img(src='img/7Trades/preprogressbar.jpg', alt='Order page before progress bar was implemented')
+            p.caption What the order page looks like going into the critique
+        .box.process_div
+          .col_1of2.project_text_div
+            h3.project_subheader Iteration: Creating legitimacy 
             p
-              | That night, I went through an order and purchase process online. As I was going through it, I took screen shots and saw what details made me feel like the purchase process was legitimate. The main difference was to put the content closer together, which meant putting a larger margin to wrap the content.
-        .box.project_img_div
-          .col_2of3
-            img.project_img(src='img/7Trades_final1.png', alt='redesigned cover view')
-            p.caption  Step 1 
-        h1.project_header  Solution 
-        .col_2of3
-          p
-            | I learned from this experience that I should look at real life examples for references and see what the standards are for any process. As it is important for to make the user feel safe when going through an order process.
-        .box.center
-          .col_1of2
-            a.color_link(href='https://www.sfu.ca/~mmc29/IAT339/P02-cocoa/')  see full website 
-        .box.project_img_div
-          .col_1of2
-            img.project_img(src='img/7Trades_final1.png', alt='Step 1: Choosing Menu')
-            p.caption  Step 1: Choosing Menu 
-          .col_1of2
-            img.project_img(src='img/7Trades_final2.png', alt='Step 2: Menu Details')
-            p.caption  Step 2: Menu Details 
-        .box.project_img_div
-          .col_1of2
-            img.project_img(src='img/7Trades_final3.png', alt='Step 3: Payment')
-            p.caption  Step 3: Payment 
-          .col_1of2
-            img.project_img(src='img/7Trades_final4.png', alt='Step 4: Confirmation')
-            p.caption  Step 4: Confirmation 
-        .box.project_img_div
-          .col_1of2
-            img.project_img(src='img/7Trades_final5.png', alt='Step 5: Reciept')
-            p.caption  Step 5: Reciept 
-          .col_1of2
-            img.project_img(src='img/7Trades_final6.png', alt='Thank you page')
-            p.caption  Thank you page 
+              | From the critique, I felt that our order process was lacking legitimacy. I implemented a process bar to show progress in the order form.
+            p
+              | But the form was still lacking. I tried discussing with my partner to try to figure out what was missing. 
+          .col_1of2.project_img_div
+            img.project_img(src='img/7Trades/implement_progressbar.jpg', alt='First iteration of implementing progress bar')
+            p.caption  Progress bar implementation
+        .box.process_div
+          .col_1of2.project_text_div
+            .sticky_content
+              h3.project_subheader Analysis 
+              p
+                | I went through a purchase process on STEAM, a online platform that sells games. From that, I screenshotted and analyzed what made me feel “safe” or what made the purchase process feel legitimate. 
+              p
+                | I noticed that the form is restricted to a certain size, there were fine print throughout the form to inform the user in case they felt insecure about something. They specifically let the user know when they were purchasing.  
+          .col_1of2.sticky_img_div
+            img.project_img(src='img/7Trades/steam_1.jpg', alt='Steam Purchase Screen: Cart')
+            p.caption  Steam's Cart
+            img.project_img(src='img/7Trades/steam_3.jpg', alt='Steam Purchase Screen: payment page')
+            p.caption  Steam's Payment Page
+        .box.process_div
+          .col_1of2.project_text_div
+            h3.project_subheader Results 
+            p
+              | For 7Trades’ order process, I put in margins so the form was a set size, and it instantly made the forms look more legitimate. 
+          .col_1of2.project_text_div
+            img.project_img(src='img/7Trades/order_final.jpg', alt='Final iteration of the order page')
+            p.caption  Last iteration of order page
+        .box.process_div
+          .col_1of2.project_text_div
+            .sticky_content
+              h1.project_header Take away 
+              p
+                | I learned from this experience that I should look at real life examples for references and see what the standards are for any process. As it is important for to make the user feel safe when going through an order process.
+          .col_1of2.sticky_img_div
+              img.project_img(src='img/7Trades/homepage.jpg', alt='7Trades Homepage')

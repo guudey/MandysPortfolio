@@ -146,15 +146,15 @@ button {
 
 .proj_previous_div {
   text-align: left;
-  padding: 0 0 0.6rem 2rem; }
+  padding: 0.3rem 0 0.3rem 2rem; }
 
 .proj_back_div {
   text-align: center;
-  padding: 0 0 0.6rem 0; }
+  padding: 0.3rem 0 0.3rem 0; }
 
 .next_proj_div {
   text-align: right;
-  padding: 0 2rem 0.6rem 0; }
+  padding: 0.3rem 2rem 0.3rem 0; }
 
 .project_content {
   margin-top: 4rem; }
@@ -309,37 +309,29 @@ button {
   bottom: -35%;
   text-align: center; }
 
-.active_textbook {
+.left_column {
   position: relative;
   margin-right: 1rem;
   height: 200px;
-  background-image: url("https://www.sfu.ca/~mmc29/IAT339/P03/Images/Project1_cover.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 55%;
   border: 1px solid #F48A82;
   -webkit-transition: background-color 0.6s;
   -o-transition: background-color 0.6s;
   transition: background-color 0.6s; }
-  .active_textbook:hover, .active_textbook:active, .active_textbook:focus {
+  .left_column:hover, .left_column:active, .left_column:focus {
     background-color: rgba(246, 216, 208, 0.4);
     border: 1px solid rgba(246, 216, 208, 0.4); }
 
-.iat339_7Trades {
+.right_column {
   position: relative;
   margin-left: 1rem;
   height: 200px;
-  background-image: url("https://www.sfu.ca/~mmc29/IAT339/P03/Images/Project2_cover.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 60%;
   border: 1px solid #FDCA8F;
   -webkit-transition: background-color 0.6s;
   -o-transition: background-color 0.6s;
   transition: background-color 0.6s; }
-  .iat339_7Trades:hover, .iat339_7Trades:active, .iat339_7Trades:focus {
-    background-color: rgba(253, 202, 143, 0.8);
-    border: 1px solid rgba(253, 202, 143, 0.8); }
+  .right_column:hover, .right_column:active, .right_column:focus {
+    background-color: rgba(253, 202, 143, 0.5);
+    border: 1px solid rgba(253, 202, 143, 0.5); }
 
 /*------------ RESUME PAGE ----------*/
 .resume_div {
@@ -362,9 +354,11 @@ button {
 .project_hero {
   width: 50%; }
 
-.project_hero_div {
+.hero_img_div {
   text-align: center;
-  background-color: rgba(246, 216, 208, 0.4);
+  background-color: rgba(246, 216, 208, 0.4); }
+
+.project_hero_div {
   margin-bottom: 2rem; }
 
 .toolbox_div {
@@ -376,9 +370,6 @@ button {
     text-align: center;
     margin: 0; }
   .toolbox_div ul {
-    /*	padding-left: 7rem;
-    	list-style-position: inside;
-    	list-style-type: circle;*/
     text-align: center;
     list-style-type: none;
     padding: 0;
@@ -398,6 +389,11 @@ button {
   padding: 0 2rem 0 2rem; }
 
 .sticky_content {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 8rem; }
+
+.project_section_title {
   position: -webkit-sticky;
   position: sticky;
   top: 8rem; }
@@ -425,3 +421,18 @@ button {
 
 .process_div {
   padding-bottom: 3rem; }
+
+.orange_box {
+  margin-top: 2rem;
+  background-color: rgba(253, 202, 143, 0.3);
+  padding: 1.5rem; }
+  .orange_box p {
+    margin: 0; }
+  .orange_box p.title {
+    font-weight: bold;
+    font-style: italic;
+    padding-bottom: 0.5rem; }
+
+.pink_box {
+  padding: 1.5rem;
+  background-color: #FBEFEC; }
