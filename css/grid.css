@@ -38,21 +38,22 @@
     width: 55%; }
   /*------ PROJECT PAGE ------*/
   .project_cover {
-    width: 70%; } }
+    width: 75%; } }
 
 @media screen and (max-width: 990px) {
   /*------ HOME PAGE --------*/
   .project_cover_img1 {
     width: 62%; }
   .project_cover_img2 {
-    width: 60%; } }
+    width: 60%; }
+  /*------ PROJECT PAGE ------*/
+  .project_cover {
+    width: 80%; } }
 
-@media screen and (max-width: 990px) {
-  /*------ HOME PAGE --------*/
-  .project_cover_img1 {
-    width: 62%; }
-  .project_cover_img2 {
-    width: 60%; } }
+@media screen and (max-width: 950px) {
+  /*------ PROJECT PAGE ------*/
+  .project_div {
+    padding: 2rem 4rem; } }
 
 @media screen and (max-width: 920px) {
   /*------ HOME PAGE --------*/
@@ -60,6 +61,11 @@
     width: 67%; }
   .project_cover_img2 {
     width: 65%; } }
+
+@media screen and (max-width: 900px) {
+  /*------ PROJECT PAGE ------*/
+  .project_cover {
+    width: 85%; } }
 
 @media screen and (max-width: 870px) {
   /*------ HOME PAGE --------*/
@@ -70,12 +76,26 @@
   .project_cover_img2 {
     width: 72%; } }
 
+@media screen and (max-width: 850px) {
+  /*------ PROJECT PAGE ------*/
+  .project_div {
+    padding: 2rem 1rem; }
+  .project_cover {
+    width: 80%; }
+  .right_column {
+    margin-left: 0.5rem; }
+  .left_column {
+    margin-right: 0.5rem; } }
+
 @media screen and (max-width: 800px) {
   /*------ HOME PAGE --------*/
   .home_project_div {
     margin: 2rem 0rem 2rem 0rem; }
   .project2_div {
-    width: 52%; } }
+    width: 52%; }
+  /*------ PROJECT PAGE ------*/
+  .project_cover {
+    width: 85%; } }
 
 @media screen and (max-width: 730px) {
   /*------  GRID --------*/
@@ -109,11 +129,26 @@
   .left_column {
     margin-right: 0; }
   .left_column_text {
-    margin-right: 0; }
+    margin-right: 0;
+    height: 6rem; }
   .right_column {
     margin-left: 0; }
   .right_column_text {
-    margin-left: 0; } }
+    margin-left: 0;
+    height: 6rem; }
+  /*------ PROJECT PAGE ------*/
+  .project_cover {
+    width: 75%; } }
+
+@media screen and (max-width: 700px) {
+  /*------ PROJECT PAGE ------*/
+  .project_cover {
+    width: 80%; } }
+
+@media screen and (max-width: 550px) {
+  /*------ PROJECT PAGE ------*/
+  .project_cover {
+    width: 85%; } }
 
 @media screen and (max-width: 608px) {
   /*------  GRID --------*/
@@ -123,17 +158,26 @@
 @media screen and (max-width: 521px) {
   /*------  GRID --------*/
   .col_1of2 {
-    width: 90%; } }
+    width: 90%; }
+  /*------ PROJECT PAGE ------*/
+  .project_cover {
+    width: 70%; } }
 
 @media screen and (max-width: 476px) {
   /*------ HOME PAGE --------*/
   .intro_div_hero {
-    height: 600px; } }
+    height: 600px; }
+  /*------ PROJECT PAGE ------*/
+  .project_cover {
+    width: 75%; } }
 
 @media screen and (max-width: 440px) {
   /*------ ABOUT PAGE --------*/
   .contact_info_div {
-    width: 100%; } }
+    width: 100%; }
+  /*------ PROJECT PAGE ------*/
+  .project_cover {
+    width: 80%; } }
 
 @media screen and (max-width: 405px) {
   /*------  GRID --------*/
@@ -143,9 +187,22 @@
   .about_div {
     padding: 0 1.5rem; } }
 
+@media screen and (max-width: 385px) {
+  /*------ PROJECT PAGE ------*/
+  .project_cover {
+    width: 85%; } }
+
 @media screen and (max-width: 365px) {
   /*------  NAVBAR --------*/
   .nav_list li {
     display: block; }
   .content {
-    padding-top: 3rem; } }
+    padding-top: 3rem; }
+  /*------ PROJECT PAGE ------*/
+  .project_cover {
+    width: 85%; } }
+
+@media screen and (max-width: 350px) {
+  /*------ PROJECT PAGE ------*/
+  .project_cover {
+    width: 95%; } }

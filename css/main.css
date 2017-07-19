@@ -316,7 +316,13 @@ button {
   text-align: center;
   padding: 2rem 6rem; }
   .project_div h3 {
-    text-align: left; }
+    text-align: left;
+    text-transform: uppercase;
+    margin: 1rem 0 0 0; }
+  .project_div p {
+    text-align: left;
+    margin: 0;
+    color: #666; }
 
 .left_column {
   position: relative;
@@ -331,7 +337,8 @@ button {
     border: 1px solid rgba(246, 216, 208, 0.4); }
 
 .left_column_text {
-  margin-right: 1rem; }
+  margin-right: 1rem;
+  height: 2rem; }
 
 .right_column {
   position: relative;
@@ -346,10 +353,11 @@ button {
     border: 1px solid rgba(253, 202, 143, 0.5); }
 
 .right_column_text {
-  margin-left: 1rem; }
+  margin-left: 1rem;
+  height: 2rem; }
 
 .project_cover {
-  width: 55%;
+  width: 60%;
   -webkit-transition: width 0.5s;
   -o-transition: width 0.5s;
   transition: width 0.5s; }
