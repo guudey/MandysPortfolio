@@ -66,8 +66,11 @@ button {
 
 .highlight {
   font-weight: bold;
-  color: #F48A82;
-  /*background-color: rgba(246,216,208,0.6);*/ }
+  color: #F48A82; }
+
+.color_link {
+  color: #5578BB;
+  font-weight: bold; }
 
 /*---------- NAVBAR ------------*/
 .navbar {
@@ -146,7 +149,10 @@ button {
 
 .proj_previous_div {
   text-align: left;
-  padding: 0.3rem 0 0.3rem 2rem; }
+  padding: 0.3rem 0 0.3rem 2rem;
+  -webkit-transition: padding 0.5s;
+  -o-transition: padding 0.5s;
+  transition: padding 0.5s; }
 
 .proj_back_div {
   text-align: center;
@@ -154,10 +160,18 @@ button {
 
 .next_proj_div {
   text-align: right;
-  padding: 0.3rem 2rem 0.3rem 0; }
+  padding: 0.3rem 2rem 0.3rem 0;
+  -webkit-transition: padding 0.5s;
+  -o-transition: padding 0.5s;
+  transition: padding 0.5s; }
 
 .project_content {
-  margin-top: 4rem; }
+  margin-top: 4rem;
+  margin-left: 9.5rem;
+  margin-right: 9.5rem;
+  -webkit-transition: margin 0.5s;
+  -o-transition: margin 0.5s;
+  transition: margin 0.5s; }
 
 /* -------- HOMEPAGE ----------*/
 .title_margin {
@@ -167,13 +181,9 @@ button {
   margin-bottom: 3rem;
   padding-top: 1rem; }
 
-.intro_div_hero {
-  height: 550px;
-  background-image: url("https://www.sfu.ca/~mmc29/IAT339/P03/Images/cover-photo.jpg");
-  background-position: 50% 85%;
-  background-size: 800px;
-  background-repeat: no-repeat;
+.pink_bg {
   background-color: rgba(246, 216, 208, 0.4);
+  padding: 2rem 0;
   -webkit-transition: height 0.5s;
   -o-transition: height 0.5s;
   transition: height 0.5s; }
@@ -272,9 +282,13 @@ button {
   .project2_div:hover, .project2_div:focus, .project2_div:active {
     background-color: rgba(253, 202, 143, 0.8); }
 
-.color_link {
-  color: #5578BB;
-  font-weight: bold; }
+.down_arrow {
+  width: 2rem; }
+
+.hero_img {
+  margin-top: 2rem;
+  width: 100%;
+  margin-bottom: 2rem; }
 
 /*------------- ABOUT PAGE----------------*/
 .about_title {
@@ -381,11 +395,11 @@ button {
   margin-right: 9.5rem; }
 
 .project_hero {
-  width: 50%; }
+  width: 40%; }
 
 .hero_img_div {
-  text-align: center;
-  background-color: rgba(246, 216, 208, 0.4); }
+  background-color: rgba(246, 216, 208, 0.4);
+  text-align: center; }
 
 .project_hero_div {
   margin-bottom: 2rem; }
@@ -414,8 +428,9 @@ button {
 .sticky_img_div {
   margin: 5rem 0 0 0; }
 
-.img_div_padding {
-  padding: 0 2rem 0 2rem; }
+.ipad_img_div {
+  padding: 0 2rem 0 2rem;
+  text-align: center; }
 
 .sticky_content {
   position: -webkit-sticky;
@@ -436,6 +451,12 @@ button {
   padding-bottom: 0.4rem; }
 
 .caption {
+  font-size: 0.8rem;
+  color: #666666;
+  margin: 0;
+  padding-bottom: 1rem; }
+
+.caption_last {
   font-size: 0.8rem;
   color: #666666;
   margin: 0;

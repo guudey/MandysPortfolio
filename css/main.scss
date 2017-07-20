@@ -11,6 +11,7 @@ $blue: #5578BB;
 $proj_bottom_padding: 0.3rem;
 $project_column_margin: 1rem;
 $project_title_div: 2rem;
+$project_content_margin: 9.5rem;
 
 * {
   box-sizing: border-box;
@@ -87,7 +88,11 @@ button {
 .highlight {
   font-weight: bold;
   color: $main-pink;
-  /*background-color: rgba(246,216,208,0.6);*/
+}
+
+.color_link {
+  color: $blue;
+  font-weight: bold;
 }
 
 /*---------- NAVBAR ------------*/
@@ -171,24 +176,29 @@ button {
 .proj_previous_div {
   text-align: left;
   padding: $proj_bottom_padding 0 $proj_bottom_padding 2rem;
+
+  transition: padding 0.5s;
 }
 
 .proj_back_div{
   text-align: center;
   padding: $proj_bottom_padding 0 $proj_bottom_padding 0;
-
 }
 
 .next_proj_div {
   text-align: right;
   padding: $proj_bottom_padding 2rem $proj_bottom_padding 0;
-}
 
-.content {
+  transition: padding 0.5s;
 }
 
 .project_content {
   margin-top: 4rem;
+
+  margin-left: $project_content_margin;
+  margin-right: $project_content_margin;
+
+  transition: margin 0.5s;
 }
 
 /* -------- HOMEPAGE ----------*/
@@ -202,14 +212,9 @@ button {
   padding-top: 1rem;
 }
 
-.intro_div_hero{
-  height: 550px;
-  background-image: url('https://www.sfu.ca/~mmc29/IAT339/P03/Images/cover-photo.jpg');
-  background-position: 50% 85%;
-  background-size: 800px;
-  background-repeat: no-repeat;
+.pink_bg{
   background-color: $faded-pink;
-
+  padding: 2rem 0;
   transition: height 0.5s;
 }
 
@@ -300,9 +305,14 @@ button {
   }
 }
 
-.color_link {
-  color: $blue;
-  font-weight: bold;
+.down_arrow{
+  width: 2rem;
+}
+
+.hero_img{
+  margin-top: 2rem;
+  width: 100%;
+  margin-bottom: 2rem;
 }
 
 /*------------- ABOUT PAGE----------------*/
@@ -423,12 +433,12 @@ button {
 }
 
 .project_hero {
-  width: 50%;
+  width: 40%;
 }
 
 .hero_img_div{
+  background-color: $faded_pink;
   text-align: center;
-  background-color: $faded-pink;
 }
 
 .project_hero_div {
@@ -461,8 +471,9 @@ button {
   margin: 5rem 0 0 0;
 }
 
-.img_div_padding{
+.ipad_img_div{
   padding: 0 2rem 0 2rem;
+  text-align: center;
 }
 
 .sticky_content{
@@ -487,6 +498,13 @@ button {
 }
 
 .caption {
+  font-size: 0.8rem;
+  color: #666666;
+  margin: 0;
+  padding-bottom: 1rem;
+}
+
+.caption_last{
   font-size: 0.8rem;
   color: #666666;
   margin: 0;

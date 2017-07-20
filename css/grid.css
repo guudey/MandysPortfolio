@@ -14,6 +14,12 @@
 .contact_info_div {
   width: 50%; }
 
+.project_content_div {
+  width: 50%; }
+
+.intro_img_div {
+  width: 60%; }
+
 .col_1of4 {
   width: 25%;
   padding: 0 2rem; }
@@ -38,7 +44,11 @@
     width: 55%; }
   /*------ PROJECT PAGE ------*/
   .project_cover {
-    width: 75%; } }
+    width: 75%; }
+  /*------ PROJECT --------*/
+  .project_content {
+    margin-left: 6rem;
+    margin-right: 6rem; } }
 
 @media screen and (max-width: 990px) {
   /*------ HOME PAGE --------*/
@@ -63,6 +73,9 @@
     width: 65%; } }
 
 @media screen and (max-width: 900px) {
+  /*------ HOME PAGE ------*/
+  .intro_img_div {
+    width: 75%; }
   /*------ PROJECT PAGE ------*/
   .project_cover {
     width: 85%; } }
@@ -74,9 +87,16 @@
   .project_cover_img1 {
     width: 74%; }
   .project_cover_img2 {
-    width: 72%; } }
+    width: 72%; }
+  /*------ PROJECT --------*/
+  .project_content {
+    margin-left: 2rem;
+    margin-right: 2rem; } }
 
 @media screen and (max-width: 850px) {
+  /*------ HOME PAGE ------*/
+  .intro_img_div {
+    width: 80%; }
   /*------ PROJECT PAGE ------*/
   .project_div {
     padding: 2rem 1rem; }
@@ -88,14 +108,45 @@
     margin-right: 0.5rem; } }
 
 @media screen and (max-width: 800px) {
-  /*------ HOME PAGE --------*/
+  /*------ HOME PAGE ------*/
+  .intro_img_div {
+    width: 85%; }
   .home_project_div {
     margin: 2rem 0rem 2rem 0rem; }
   .project2_div {
     width: 52%; }
   /*------ PROJECT PAGE ------*/
   .project_cover {
-    width: 85%; } }
+    width: 85%; }
+  /*------ PROJECT --------*/
+  .project_content {
+    margin-left: 7rem;
+    margin-right: 7rem; }
+  .project_content_div {
+    width: 100%; }
+  .sticky_img_div {
+    margin: 2rem 0 0 0; }
+  .project_img_div {
+    margin: 0.5rem 0 0 0; }
+  .project_hero {
+    width: 60%; }
+  .project_text_div {
+    padding: 0; }
+  .skills_padding {
+    padding-bottom: 1.5rem; }
+  .caption {
+    padding-bottom: 2rem; }
+  .caption_last {
+    padding-bottom: 0; }
+  .process_div {
+    padding-bottom: 2rem; }
+  .project_hero {
+    width: 70%; } }
+
+@media screen and (max-width: 750px) {
+  /*------ HOME PAGE ------*/
+  .intro_img_div {
+    width: 90%; } }
 
 @media screen and (max-width: 730px) {
   /*------  GRID --------*/
@@ -136,24 +187,37 @@
   .right_column_text {
     margin-left: 0;
     height: 6rem; }
-  /*------ PROJECT PAGE ------*/
   .project_cover {
     width: 75%; } }
 
 @media screen and (max-width: 700px) {
+  /*------ HOME PAGE ------*/
+  .intro_img_div {
+    width: 95%; }
   /*------ PROJECT PAGE ------*/
   .project_cover {
     width: 80%; } }
 
-@media screen and (max-width: 550px) {
-  /*------ PROJECT PAGE ------*/
-  .project_cover {
-    width: 85%; } }
+@media screen and (max-width: 630px) {
+  /*------ PROJECT --------*/
+  .project_content {
+    margin-left: 5rem;
+    margin-right: 5rem; }
+  /*------ PROJECT --------*/
+  .proj_previous_div {
+    padding-left: 1rem; }
+  .next_proj_div {
+    padding-right: 1rem; } }
 
 @media screen and (max-width: 608px) {
   /*------  GRID --------*/
   .col_1of2 {
     width: 70%; } }
+
+@media screen and (max-width: 550px) {
+  /*------ PROJECT PAGE ------*/
+  .project_cover {
+    width: 85%; } }
 
 @media screen and (max-width: 521px) {
   /*------  GRID --------*/
@@ -161,15 +225,32 @@
     width: 90%; }
   /*------ PROJECT PAGE ------*/
   .project_cover {
-    width: 70%; } }
+    width: 70%; }
+  /*------ PROJECT --------*/
+  .project_content {
+    margin-left: 3rem;
+    margin-right: 3rem; }
+  .project_hero {
+    width: 80%; }
+  .project_header {
+    margin-top: 2rem; }
+  .toolbox_div {
+    margin-top: 2rem; }
+  .project_img_div {
+    margin-top: 1.5rem; }
+  .padding-bottom {
+    margin-bottom: 1rem; } }
 
 @media screen and (max-width: 476px) {
   /*------ HOME PAGE --------*/
   .intro_div_hero {
-    height: 600px; }
+    padding-bottom: 4rem; }
   /*------ PROJECT PAGE ------*/
   .project_cover {
-    width: 75%; } }
+    width: 75%; }
+  /*------ PROJECT --------*/
+  .project_hero {
+    width: 85%; } }
 
 @media screen and (max-width: 440px) {
   /*------ ABOUT PAGE --------*/
@@ -177,7 +258,10 @@
     width: 100%; }
   /*------ PROJECT PAGE ------*/
   .project_cover {
-    width: 80%; } }
+    width: 80%; }
+  /*------ PROJECT --------*/
+  .project_hero {
+    width: 100%; } }
 
 @media screen and (max-width: 405px) {
   /*------  GRID --------*/
@@ -193,6 +277,11 @@
     width: 85%; } }
 
 @media screen and (max-width: 365px) {
+  /*------ HOME PAGE --------*/
+  .intro_div_hero {
+    padding: 1rem 0; }
+  .intro_img_div {
+    width: 90%; }
   /*------  NAVBAR --------*/
   .nav_list li {
     display: block; }
@@ -200,7 +289,10 @@
     padding-top: 3rem; }
   /*------ PROJECT PAGE ------*/
   .project_cover {
-    width: 85%; } }
+    width: 85%; }
+  /*------ PROJECT PAGE ------*/
+  .project_content {
+    margin-top: 10rem; } }
 
 @media screen and (max-width: 350px) {
   /*------ PROJECT PAGE ------*/
