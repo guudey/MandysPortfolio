@@ -11,7 +11,7 @@ $blue: #5578BB;
 $proj_bottom_padding: 0.3rem;
 $project_column_margin: 1rem;
 $project_title_div: 2rem;
-$project_content_margin: 9.5rem;
+$project_content_margin: 15%;
 
 * {
   box-sizing: border-box;
@@ -229,7 +229,8 @@ button {
 .more_projects{
   text-align: center;
   justify-content: center;
-  padding-bottom: 4rem;
+  padding-top: 4rem;
+  padding-bottom: 3rem;
 }
 
 .home_project_div {
@@ -266,21 +267,21 @@ button {
 }
 
 .project_cover_img1{
-  width: 50%;
+  width: 45%;
   padding: 0.5rem 0;
 
   transition: width 0.5s
 }
 
 .project_cover_img2{
-  width: 48%;
+  width: 45%;
   padding: 1rem 0 1rem 0;
 
   transition: width 0.5s;
 }
 
 .project1_div {
-  height: 270px;
+  height: 350px;
   width: 50%;
   position: absolute;
   right: 49%;
@@ -293,7 +294,7 @@ button {
 }
 
 .project2_div {
-  height: 270px;
+  height: 350px;
   width: 50%;
   position: absolute;
   top: 8%;
@@ -370,7 +371,7 @@ button {
 .left_column {
   position: relative;
   margin-right: $project_column_margin;
-  height: 200px;
+  height: 300px;
   border: 1px solid $main-pink;
   transition: background-color 0.6s;
   &:hover, &:active, &:focus {
@@ -387,7 +388,7 @@ button {
 .right_column{
   position: relative;
   margin-left: $project_column_margin;
-  height: 200px;
+  height: 300px;
   border: 1px solid #FDCA8F;
   transition: background-color 0.6s;
   &:hover, &:active, &:focus {
@@ -402,7 +403,7 @@ button {
 }
 
 .project_cover{
-  width: 60%;
+  width: 55%;
 
   transition: width 0.5s;
 }

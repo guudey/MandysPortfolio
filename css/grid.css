@@ -33,7 +33,78 @@
 .col_1of6 {
   width: 16.666667%; }
 
-/* --------- MEDIA QUERY -----------*/
+@media screen and (max-width: 1680px) {
+  /*------ HOME PAGE --------*/
+  .project_cover_img1 {
+    width: 54%; }
+  .project_cover_img2 {
+    width: 54%; }
+  /*------ PROJECT PAGE ------*/
+  .project_cover {
+    width: 60%; } }
+
+@media screen and (max-width: 1585px) {
+  /*------ PROJECT PAGE ------*/
+  .project_cover {
+    width: 65%; } }
+
+@media screen and (max-width: 1550px) {
+  /*------ HOME PAGE --------*/
+  .project_cover_img1 {
+    width: 60%; }
+  .project_cover_img2 {
+    width: 60%; } }
+
+@media screen and (max-width: 1500px) {
+  /*------ PROJECT PAGE ------*/
+  .project_cover {
+    width: 70%; } }
+
+@media screen and (max-width: 1400px) {
+  /*------ PROJECT PAGE ------*/
+  .project_cover {
+    width: 75%; } }
+
+@media screen and (max-width: 1350px) {
+  /*------ HOME PAGE --------*/
+  .project_cover_img1 {
+    width: 70%; }
+  .project_cover_img2 {
+    width: 70%; }
+  /*------ PROJECT PAGE ------*/
+  .project_cover {
+    width: 80%; } }
+
+@media screen and (max-width: 1300px) {
+  /*------ HOME PAGE --------*/
+  .project1_div {
+    height: 270px; }
+  .project2_div {
+    height: 270px; }
+  .project_cover_img1 {
+    width: 50%; }
+  .project_cover_img2 {
+    width: 50%; }
+  .more_projects {
+    padding-top: 0; }
+  /*------ PROJECT PAGE ------*/
+  .left_column {
+    height: 250px; }
+  .right_column {
+    height: 250px; }
+  .project_cover {
+    width: 75%; } }
+
+@media screen and (max-width: 1200px) {
+  /*------ PROJECT PAGE ------*/
+  .project_cover {
+    width: 80%; } }
+
+@media screen and (max-width: 1100px) {
+  /*------ PROJECT PAGE ------*/
+  .project_cover {
+    width: 85%; } }
+
 @media screen and (max-width: 1040px) {
   /*------ HOME PAGE --------*/
   .home_project_div {
@@ -43,6 +114,10 @@
   .project_cover_img2 {
     width: 55%; }
   /*------ PROJECT PAGE ------*/
+  .left_column {
+    height: 200px; }
+  .right_column {
+    height: 200px; }
   .project_cover {
     width: 75%; }
   /*------ PROJECT --------*/
@@ -141,7 +216,10 @@
   .process_div {
     padding-bottom: 2rem; }
   .project_hero {
-    width: 70%; } }
+    width: 70%; }
+  /*---------- ABOUT --------*/
+  .self_photo {
+    width: 100%; } }
 
 @media screen and (max-width: 750px) {
   /*------ HOME PAGE ------*/

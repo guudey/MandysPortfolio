@@ -167,8 +167,8 @@ button {
 
 .project_content {
   margin-top: 4rem;
-  margin-left: 9.5rem;
-  margin-right: 9.5rem;
+  margin-left: 15%;
+  margin-right: 15%;
   -webkit-transition: margin 0.5s;
   -o-transition: margin 0.5s;
   transition: margin 0.5s; }
@@ -203,7 +203,8 @@ button {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  padding-bottom: 4rem; }
+  padding-top: 4rem;
+  padding-bottom: 3rem; }
 
 .home_project_div {
   height: 300px;
@@ -243,21 +244,21 @@ button {
   font-size: 120%; }
 
 .project_cover_img1 {
-  width: 50%;
+  width: 45%;
   padding: 0.5rem 0;
   -webkit-transition: width 0.5s;
   -o-transition: width 0.5s;
   transition: width 0.5s; }
 
 .project_cover_img2 {
-  width: 48%;
+  width: 45%;
   padding: 1rem 0 1rem 0;
   -webkit-transition: width 0.5s;
   -o-transition: width 0.5s;
   transition: width 0.5s; }
 
 .project1_div {
-  height: 270px;
+  height: 350px;
   width: 50%;
   position: absolute;
   right: 49%;
@@ -270,7 +271,7 @@ button {
     background-color: rgba(246, 216, 208, 0.8); }
 
 .project2_div {
-  height: 270px;
+  height: 350px;
   width: 50%;
   position: absolute;
   top: 8%;
@@ -341,7 +342,7 @@ button {
 .left_column {
   position: relative;
   margin-right: 1rem;
-  height: 200px;
+  height: 300px;
   border: 1px solid #F48A82;
   -webkit-transition: background-color 0.6s;
   -o-transition: background-color 0.6s;
@@ -357,7 +358,7 @@ button {
 .right_column {
   position: relative;
   margin-left: 1rem;
-  height: 200px;
+  height: 300px;
   border: 1px solid #FDCA8F;
   -webkit-transition: background-color 0.6s;
   -o-transition: background-color 0.6s;
@@ -371,7 +372,7 @@ button {
   height: 2rem; }
 
 .project_cover {
-  width: 60%;
+  width: 55%;
   -webkit-transition: width 0.5s;
   -o-transition: width 0.5s;
   transition: width 0.5s; }
