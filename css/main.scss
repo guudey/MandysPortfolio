@@ -159,9 +159,9 @@ button {
   }
 }
 
-[type="checkbox"], label {
-  display: none;
-}
+// [type="checkbox"], label {
+//   display: none;
+// }
 
 .nav_li_highlight {
   padding: 0 0.5rem;
@@ -482,7 +482,6 @@ button {
   top: 8rem; 
 }
 
-//making title sections sticky 'eg. process section'
 .project_section_title{
   position: sticky; 
   top: 8rem;

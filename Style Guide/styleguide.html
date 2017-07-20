@@ -1,518 +1,306 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/styleguide.css">
     <script type="text/javascript" src="js/javascript.js"></script>
-
     <title>Mandy Cheung's Portfolio Style Guide</title>
-
     <link href="https://fonts.googleapis.com/css?family=Athiti" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Yanone%20Kaffeesatz" rel="stylesheet">
-</head>
-
-<body>
-
+  </head>
+  <body>
     <div class="navbar_margin">
-        <ul class="guide_navbar">
-            <li class="navbar_li guide_logo_div">
-                <img src="assets/logo.png" alt="logo" class="guide_logo">
-                <p class="logo_title"> Mandy's Portfolio </p>
-                <p class="logo_title"> Style Guide </p>
-            </li>
-            <li class="navbar_li"><a href="#grid"> The Grid </a>
-            </li>
-            <li class="navbar_li"><a href="#color"> Colour Palette</a>
-            </li>
-            <li class="navbar_li"><a href="#nav"> Navigation </a>
-            </li>
-            <li class="navbar_li"><a href="#typography"> Typography </a>
-            </li>
-            <li class="navbar_li"><a href="#form"> Form Elements </a>
-            </li>
-        </ul>
+      <ul class="guide_navbar">
+        <li class="navbar_li guide_logo_div"><img class="guide_logo" src="assets/logo.png" alt="logo">
+          <p class="logo_title"> Mandy's Portfolio </p>
+          <p class="logo_title"> Style Guide </p>
+        </li>
+        <li class="navbar_li"><a href="#grid"> The Grid </a></li>
+        <li class="navbar_li"><a href="#color"> Colour Palette</a></li>
+        <li class="navbar_li"><a href="#nav"> Navigation </a></li>
+        <li class="navbar_li"><a href="#typography"> Typography </a></li>
+        <li class="navbar_li"><a href="#form"> Form Elements </a></li>
+      </ul>
     </div>
-
     <div class="navbar_margin">
-        
-        <!-- ////// GRIDS ///// -->
-
-        <h2 id="grid" class="h2_padding_first"> The Grid </h2>
-
-        <h4 class="grid_title_margin"> Large Screens </h4>
-        <div class="box">
-            <div class="grid_item">
-                <p class="p_subtitle_padding"> 1 column grid </p>
-                <img src="assets/column1.jpg" alt="Large screen 1 column grid" class="grid_img">
-            </div>
-            <div class="grid_item">
-                <p class="p_subtitle_padding"> 2 column grid </p>
-                <img src="assets/column2.jpg" alt="Large screen 2 column grid" class="grid_img">
-            </div>
+      <!-- ////// GRIDS /////-->
+      <h2 class="h2_padding_first" id="grid"> The Grid </h2>
+      <h3 class="grid_title_margin"> Large and Medium Screens</h3>
+      <p>Using 6 column grids</p>
+      <div class="box">
+        <div class="grid_item">
+          <p class="p_subtitle_padding"> 2 column </p><img class="grid_img" src="assets/column2.jpg" alt="Large screen 2 column grid">
         </div>
-
-        <div class="box">
-            <div class="grid_item">
-                <p class="p_subtitle_padding"> 3 column grid </p>
-                <img src="assets/column3.jpg" alt="Large screen 3 column grid" class="grid_img">
-            </div>
-            <div class="grid_item">
-                <p class="p_subtitle_padding"> 6 column grid </p>
-                <img src="assets/column6.jpg" alt="Large screen 6 column grid" class="grid_img">
-            </div>
+        <div class="grid_item">
+          <p class="p_subtitle_padding"> 3 column </p><img class="grid_img" src="assets/column3.jpg" alt="Large screen 3 column grid">
         </div>
-
-        <h4 class="grid_title_margin"> Medium Screens </h4>
-        <div class="box">
-            <div class="grid_item">
-                <p class="p_subtitle_padding"> 1 column grid </p>
-                <img src="assets/ipad_column1.jpg" alt="Medium screen 1 column grid" class="grid_img">
-            </div>
-            <div class="grid_item">
-                <p class="p_subtitle_padding"> 2 column grid </p>
-                <img src="assets/ipad_column2.jpg" alt="Medium screen 1 column grid" class="grid_img">
-            </div>
+      </div>
+      <div class="box">
+        <div class="grid_item">
+          <h3 class="grid_title_margin"> Small Screens </h3>
+          <p> 1 column </p><img class="small_grid_img" src="assets/phone.jpg" alt="Small screen 1 column grid">
         </div>
-
-        <div class="box"> 
-            <div class="grid_item">
-                <h4 class="grid_title_margin"> Small Screens </h4>
-                <p> 1 column grid </p>
-                <img src="assets/phone.jpg" alt="Small screen 1 column grid" class="small_grid_img">
-            </div>
-
-            <div class="grid_item">
-                <h4 class="grid_title_margin"> Tiny Screens </h4>
-                <p> 1 column grid </p>
-                <img src="assets/smartwatch.jpg" alt="Tiny screen 1 column grid" class="small_grid_img">
-            </div>
+        <div class="grid_item">
+          <h3 class="grid_title_margin"> Tiny Screens </h3>
+          <p> 1 column </p><img class="small_grid_img" src="assets/smartwatch.jpg" alt="Tiny screen 1 column grid">
         </div>
-
-        <h3 class=""> Breakpoints</h3>
-
-        <div class="box">
-            <div class="grid_item">
-                <h4> Large screens </h4>
-                <p> Break Point: <code> @media (min-width: 1024px)</code>
-                </p>
-                <p> Example: TV Screens, Large monitors</p>
-            </div>
-
-            <div class="grid_item">
-                <h4> Medium screens </h4>
-                <p> Break Point: <code> @media (max-width: 1024px) and (min-width: 667px)</code>
-                </p>
-                <p> Example: Laptops / Tablets</p>
-            </div>
+      </div>
+      <h3> Breakpoints</h3>
+      <div class="box">
+        <div class="grid_item">
+          <h4> Laptop / Smaller monitors</h4>
+          <p>Break Point: <code> @media (max-width: 1300px)</code></p>
+          <p> Details; 2 or 3 columns</p>
         </div>
-
-        <div class="box">
-            <div class="grid_item">
-                <h4> Small screens </h4>
-                <p> Break Point: <code> @media (max-width: 667px) and (min-width: 375px)</code>
-                </p>
-                <p> Example: Smart Phones</p>
-            </div>
-
-            <div class="grid_item">
-                <h4> Tiny screens </h4>
-                <p> Break Point: <code> @media (max-width: 375px)</code>
-                </p>
-                <p> Example: Smart Watch</p>
-            </div>
+        <div class="grid_item">
+          <h4> Tablets</h4>
+          <p>Break Point: <code> @media (max-width: 800px)</code></p>
+          <p> Details: 1 or 2 columns</p>
         </div>
-		
-        <!-- ///////// COLOURPALLETE //////////////////// -->
-
-        <h2 id="color" class="h2_padding"> Colour Palette</h2>
-        <div class="box">
-            <div class="color_item">
-                <h4> Main Color </h4>
-                <img src="assets/pink.jpg" alt="pink" height="100">
-                <p> #F48A82 </p>
-            </div>
-
-            <div class="color_item">
-                <h4> Accent Color </h4>
-                <img src="assets/yellow.jpg" alt="yellow" height="100">
-                <p> #FDCA8F </p>
-            </div>
-
-            <div class="color_item">
-                <h4> Secondary Color  </h4>
-                <img src="assets/ashe_pink.jpg" alt="ash pink" height="100">
-                <p> #C06C66 </p>
-            </div>
+      </div>
+      <div class="box">
+        <div class="grid_item">
+          <h4> Smaller Tablets </h4>
+          <p>Break Point: <code> @media (max-width: 730px)</code></p>
+          <p> Details: 1 column</p>
         </div>
-
-        <div class="box">
-            <div class="color_item">
-                <h4> Tertiary Color </h4>
-                <img src="assets/light_pink.jpg" alt="light pink" height="100">
-                <p> #F6D8D0 </p>
-            </div>
-
-            <div class="color_item">
-                <h4> Paragraph Text </h4>
-                <img src="assets/dark_grey.png" alt="dark_grey" height="100">
-                <p> #393B39 </p>
-            </div>
-
-            <div class="color_item">
-                <h4> Background </h4>
-                <img src="assets/white.png" alt="white" height="100">
-                <p> #736160 </p>
-            </div>
+        <div class="grid_item">
+          <h4> Smart Phones  </h4>
+          <p>Break Point: <code> @media (max-width: 521px)</code></p>
+          <p> Details: 1 column</p>
         </div>
-
-        <!-- COLOUR PALLETE -->
-
-        <h2 id="nav" class="h2_padding"> Navigation </h2>
-
-            <div class="info_item">
-                <h4 class="subsubtitle_margin"> Css Selectors </h4>
-                <p> .navbar </p>
-                <p> nav > ul </p>
-                <p> label </p>
-                <p> nav > ul > li </p>
-                <p> .logo </p>
-
-                <h4 class="subsubtitle_margin"> About </h4>
-                <p> The main navigation bar is fixed at the top of the page, with the logo and navigation links centered. This navigation bar will be the main way for a user to access different pages on the website. Used for large to medium sized screens.</p>
-            </div>
-
-            <h4 class="example_padding"> Example </h4>
-            <div class="example_box">
-                <img src="assets/main_navigation.jpg" alt="main navigation example" class="nav_ex">
-            </div>
-
-            <h4 class="example_padding"> Example </h4>
-            <div class="example_box">
-                <img src="assets/hamburger.jpg" alt="main navigation example" class="ham_ex">
-            </div>
-
-        <!-- TYPOGRAPHY -->
-
-        <h2 id="typography" class="h2_padding"> Typography </h2>
-
-            <div class="box type_box" id="typographyinfo">
-                <div class="sample_item">
-                    <h3> Title Fonts </h3>
-                    <h4> Yanone Kaffeesatz </h4>
-                </div>
-
-                <div class="sample_item">
-                    <h3> Paragraph Font </h3>
-                    <h4> Athiti </h4>
-                </div>
-            </div>
-
-        <h3 class="subtitle_margin">Page Titles </h3>
-
-        <div class="box">
-            <div class="type_item">
-                <h4 class="subsubtitle_margin"> Css Selector </h4>
-                <p> h1 </p>
-                <h4 class="subsubtitle_margin"> About </h4>
-                <p> Mainly used for titles in hero images throughout the webpage. </p>
-            </div>
-            <div class="type_item">
-                <h4 class="subsubtitle_margin"> Example </h4>
-                <h1> This is a title </h1>
-            </div>
+      </div>
+      <div class="box">
+        <div class="grid_item">
+          <h4> Small Smart Phones / Smart Watches</h4>
+          <p>Break Point: <code> @media (max-width: 365px)</code></p>
+          <p> Details: 1 column</p>
         </div>
-
-        <h3 class="subtitle_margin">Page Subtitles </h3>
-        <div class="box">
-            <div class="type_item">
-                <h4 class="subsubtitle_margin"> Css Selector </h4>
-                <p> h2 </p>
-                <h4 class="subsubtitle_margin"> About </h4>
-                <p> Used for Titles in the webpage that is not a hero title. </p>
-            </div>
-            <div class="type_item">
-                <h4 class="subsubtitle_margin"> Example </h4>
-                <h2> This is a Subtitle </h2>
-            </div>
+      </div>
+      <!-- ///////// COLOURPALLETE ////////////////////-->
+      <h2 class="h2_padding" id="color"> Colour Palette</h2>
+      <div class="box">
+        <div class="color_item">
+          <h4> Main Color </h4><img src="assets/light_pink.jpg" alt="light pink" height="100">
+          <p class="color_caption">#F48A82</p>
+          <p class="color_caption">scss: $light-pink</p>
         </div>
-
-        <h3 class="subtitle_margin"> Section Headers </h3>
-
-        <div class="box">
-            <div class="type_item">
-                <h4 class="subsubtitle_margin"> Css Selector </h4>
-                <p> h3 </p>
-                <h4 class="subsubtitle_margin"> About </h4>
-                <p> H3 is used for subtitles (titles under h2). </p>
-            </div>
-            <div class="type_item">
-                <h4 class="subsubtitle_margin"> Example </h4>
-                <h3 class="h3_example"> This is a Section Header </h3>
-            </div>
+        <div class="color_item">
+          <h4> Secondary Color </h4><img src="assets/yellow.jpg" alt="orange" height="100">
+          <p class="color_caption"> #FDCA8F</p>
+          <p class="color_caption">scss: $orange  </p>
         </div>
-
-
-        <h3 class="subtitle_margin"> H4: SubHeaders </h3>
-        <div class="box">
-            <div class="type_item">
-                <h4 class="subsubtitle_margin"> Css Selector </h4>
-                <p> h4 </p>
-                <h4 class="subsubtitle_margin"> About </h4>
-                <p> Further down the list, H4 is used for titles under h3. Sometimes used to create hierarchy between paragraph text. </p>
-            </div>
-            <div class="type_item">
-                <h4 class="subsubtitle_margin"> Example </h4>
-                <h4 class="h4_example"> This is a subheader</h4>
-            </div>
+        <div class="color_item">
+          <h4> Tertiary Color </h4><img src="assets/pink.jpg" alt="pink" height="100">
+          <p class="color_caption"> #F6D8D0</p>
+          <p class="color_caption">scss: $pink</p>
         </div>
-
-        <h3 class="subtitle_margin"> P: Regular Text </h3>
-
-        <div class="box">
-            <div class="type_item">
-                <h4 class="subsubtitle_margin"> Css Selector </h4>
-                <p> p </p>
-                <h4 class="subsubtitle_margin"> About </h4>
-                <p> Regular text in paragraphs or sentences. </p>
-            </div>
-
-            <div class="type_item">
-                <h4 class="subsubtitle_margin"> Example </h4>
-                <p> This is a paragraph example... Cras rhoncus pulvinar elementum. Phasellus commodo est vel erat bibendum venenatis. Nulla ut eleifend magna, nec condimentum mi. Duis justo odio, imperdiet in augue ac, venenatis tincidunt urna. Integer condimentum euismod enim, dictum finibus ipsum porta sit amet. Aenean at posuere urna, a tincidunt risus. Curabitur rutrum purus nisi, sit amet tincidunt nulla commodo in. Aliquam rutrum diam lorem, non auctor dui posuere vitae. </p>
-            </div>
+      </div>
+      <div class="box">
+        <div class="color_item">
+          <h4> Background Highlight Color  </h4><img src="assets/lightest_pink.jpg" alt="ash pink" height="100">
+          <p class="color_caption"> #FBEFEC</p>
+          <p class="color_caption">scss: $lightest-pink </p>
         </div>
-
-        <h3 class="subtitle_margin"> Navbar links </h3>
-
-        <div class="box">
-            <div class="type_item">
-                <h4 class="subsubtitle_margin"> Css Selector </h4>
-                <p> .navbar_item </p>
-                <p> .navbar_item:hover </p>
-                <h4 class="subsubtitle_margin"> About </h4>
-                <p> Used for Main navigation bar links to get to other pages on the website. </p>
-            </div>
-
-            <div class="type_item">
-                <h4 class="subsubtitle_margin"> Example </h4>
-                <a class="navbar_item"> About </a>
-                <a class="navbar_item"> Events </a>
-                <a class="navbar_item"> Menu </a>
-            </div>
+        <div class="color_item">
+          <h4> Accent Color </h4><img src="assets/blue.jpg" alt="blue" height="100">
+          <p class="color_caption"> #5578BB</p>
+          <p class="color_caption">scss: $blue</p>
         </div>
-
-        <h3 class="subtitle_margin"> Page Descriptions </h3>
-
-        <div class="box">
-            <div class="type_item">
-                <h4 class="subsubtitle_margin"> Css Selector </h4>
-                <p> .page_description </p>
-                <p> .accent_color </p>
-                <h4 class="subsubtitle_margin"> About </h4>
-                <p> Each page has a description of the page at the top, this is the styling used for that section. </p>
-            </div>
-
-            <div class="type_item">
-                <h4 class="subsubtitle_margin"> Example </h4>
-                <p class="page_description"> Unfortunately we will be closed from <span class="accent_color"> December 23 to December 28, 2017 </span> for our winter holiday break! Sorry for the inconvenience </p>
-            </div>
+        <div class="color_item">
+          <h4> Paragraph Text </h4><img src="assets/dark_grey.png" alt="dark_grey" height="100">
+          <p class="color_caption"> #393B39</p>
         </div>
-
-        <h3 class="subtitle_margin"> Image Descriptions </h3>
-
-        <div class="box">
-            <div class="type_item">
-                <h4 class="subsubtitle_margin"> Css Selector </h4>
-                <p> .img_description </p>
-                <h4 class="subsubtitle_margin"> About </h4>
-                <p> Used when extra instructions is needed to guide the user. Mainly used in forms. </p>
-            </div>
-
-            <div class="type_item">
-                <h4 class="subsubtitle_margin"> Example </h4>
-                <p class="img_description"> Enter your email to get a receipt. </p>
-            </div>
+      </div>
+      <!-- COLOUR PALLETE-->
+      <h2 class="h2_padding" id="nav"> Navigation </h2>
+      <div class="box">
+        <div class="info_item">
+          <h4 class="subsubtitle_margin"> Css Selectors 
+            <p> .navbar </p>
+            <p> .nav_div</p>
+            <p> .logo_div</p>
+            <p> .nav_list </p>
+            <p> .logo </p>
+            <p> .nav_li_highlight</p>
+          </h4>
         </div>
-
-        <h3 class="subtitle_margin"> Links </h3>
-
-        <div class="box">
-            <div class="type_item">
-                <h4 class="subsubtitle_margin"> Css Selector </h4>
-                <p> a </p>
-                <p> a:focus, a:hover, a:active </p>
-                <h4 class="subsubtitle_margin"> About </h4>
-                <p> Used when want to link to other pages through text. </p>
-            </div>
-            <div class="type_item">
-                <h4 class="subsubtitle_margin"> Example </h4>
-                <a> This is a link </a>
-            </div>
+        <div class="info_item">
+          <h4 class="subsubtitle_margin"> About 
+            <p>The main navigation bar is fixed at the top of the page, with the logo and navigation links centered. This navigation bar will be the main way for a user to access different pages on the website. Used for large to medium sized screens.</p>
+          </h4>
         </div>
-
-        <h3 class="subtitle_margin"> Unordered Lists </h3>
-
-        <div class="box">
-            <div class="type_item">
-                <h4 class="subsubtitle_margin"> Css Selector </h4>
-                <p> ul </p>
-                <p> li </p>
-                <h4 class="subsubtitle_margin"> About </h4>
-                <p> Used in situations where the order of the items in the list don't matter. </p>
-            </div>
-            <div class="type_item">
-                <h4 class="subsubtitle_margin"> Example </h4>
-                <ul>
-                    <li> This is an unordered list item </li>
-                    <li> This is an unordered list item </li>
-                    <li> This is an unordered list item </li>
-                </ul>
-            </div>
+      </div>
+      <h4 class="example_padding"> Example </h4>
+      <div class="example_box">
+        <div class="box logo_div">
+          <div class="col_1of2"><a class="logo" href="index.html"><img class="logo" src="assets/logo.png" alt="Mandy Cheung logo"></a></div>
         </div>
-
-        <h3 class="subtitle_margin"> Ordered List </h3>
-
-        <div class="box">
-            <div class="type_item">
-                <h4 class="subsubtitle_margin"> Css Selector </h4>
-                <p> ol </p>
-                <p> li </p>
-                <h4 class="subsubtitle_margin"> About </h4>
-                <p> Ordered list is only used for when lists need numbers in them. </p>
+        <nav class="navbar">
+          <div class="box nav_div">
+            <div class="col_1of2">
+              <label for="nav"></label>
+              <ul class="nav_list">
+                <li><a class="nav_li_highlight" href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="resume.html">Resumè</a></li>
+              </ul>
             </div>
-            <div class="type_item">
-                <h4 class="subsubtitle_margin"> Example </h4>
-                <ol>
-                    <li> This is an ordered list item </li>
-                    <li> This is an ordered list item </li>
-                    <li> This is an ordered list item </li>
-                </ol>
-            </div>
+          </div>
+        </nav>
+      </div>
+      <!-- TYPOGRAPHY-->
+      <h2 class="h2_padding" id="typography"> Typography </h2>
+      <div class="box type_box" id="typographyinfo">
+        <div class="sample_item">
+          <h3> Title Fonts </h3>
+          <h4> Yanone Kaffeesatz </h4>
         </div>
-
-
-        <!-- FORM ELEMENTS -->
-
-        <h2 id="form" class="h2_padding"> Form Elements </h2>
-        <br>
-
-        <h3 class="element_subtitle"> Small Text Input Field + Labels </h3>
-        <div class="box section_padding">
-            <div class="form_item">
-                <h4> Css Selector </h4>
-                <p> label </p>
-                <p> .label </p>
-                <p> input[type=text] </p>
-                <p> .form_input_bar </p>
-                <h4 class="subsubtitle_margin"> About </h4>
-                <p> Label is used to label the text input box. Text input box is used in Forms for the user to fill out.</p>
-            </div>
-            <div class="sample_item">
-                <h4>Example</h4>
-                <form>
-                    <label class="label_example" for="example label"> Label </label>
-                    <input type="text" title="example text input">
-                </form>
-            </div>
+        <div class="sample_item">
+          <h3> Paragraph Font </h3>
+          <h4> Athiti </h4>
         </div>
-
-        <h3 class="element_subtitle"> Large Text Input Field + Labels </h3>
-        <div class="box section_padding">
-            <div class="form_item">
-                <h4> Css Selector </h4>
-                <p> label </p>
-                <p> .label </p>
-                <p> textarea </p>
-                <p> .form_input_text_area </p>
-                <p> input[type=text] </p>
-                <h4 class="subsubtitle_margin"> About </h4>
-                <p> Label is used to label the text input box. Text input box is used in Forms for the user to fill out.</p>
-            </div>
-            <div class="sample_item">
-                <h4>Example</h4>
-                <form>
-                    <label class="label_example"> Label </label>
-                    <input type="text">
-                </form>
-            </div>
+      </div>
+      <h3 class="subtitle_margin">Page Titles </h3>
+      <div class="box">
+        <div class="type_item">
+          <h4 class="subsubtitle_margin"> Css Selector </h4>
+          <p> h1 </p>
+          <h4 class="subsubtitle_margin"> About </h4>
+          <p> Mainly used for titles in hero images throughout the webpage. </p>
         </div>
-
-        <h3 class="element_subtitle"> Default Button </h3>
-        <div class="box section_padding">
-            <div class="form_item">
-                <h4> Css Selector </h4>
-                <p> button </p>
-                <p> button:focus, button:hover, button:active </p>
-                <h4 class="subsubtitle_margin"> About </h4>
-                <p> These are the default buttons to be used throughout the website. They are dark blue with white text. When the mouse hovers over it, the button's background will change white with dark blue outline and text.</p>
-            </div>
-            <div class="sample_item">
-                <h4> Example</h4>
-                <button> Example button </button>
-            </div>
+        <div class="type_item">
+          <h4 class="subsubtitle_margin"> Example </h4>
+          <h1> This is a title </h1>
         </div>
-
-        <h3 class="element_subtitle"> Cancel Button </h3>
-        <div class="box section_padding">
-            <div class="form_item">
-                <h4> Css Selector </h4>
-                <p> .cancel_button </p>
-                <p> .cancel_button:active, .cancel_button:hover, .cancel_button:focus </p>
-                <h4 class="subsubtitle_margin"> About </h4>
-                <p> The cancel button would be used in the ordering process. When the user doesn't want to continue ordering anymore they are able to stop any time. The button will default with a light grey background and white text. It will hover red to alert the user they are canceling their order.</p>
-            </div>
-            <div class="sample_item">
-                <h4> Example </h4>
-                <button class="cancel_button"> Cancel button </button>
-            </div>
+      </div>
+      <h3 class="subtitle_margin">Page Subtitles </h3>
+      <div class="box">
+        <div class="type_item">
+          <h4 class="subsubtitle_margin"> Css Selector </h4>
+          <p> h2 </p>
+          <h4 class="subsubtitle_margin"> About </h4>
+          <p> Used for Titles in the webpage that is not a hero title. </p>
         </div>
-
-        <h3 class="element_subtitle"> Radio Button </h3>
-        <div class="box section_padding">
-            <div class="form_item">
-                <h4> Css Selector </h4>
-                <p> .radio </p>
-                <h4 class="subsubtitle_margin"> About </h4>
-                <p> Radio buttons are used when users are going through the ordering process and choose which foods they want on their menu. Radio buttons are used when there is only one item that could be selected in the options to choose from.</p>
-            </div>
-            <div class="sample_item">
-                <h4>Example</h4>
-                <fieldset>
-                    <p>
-                        <input type="radio" name="button" value="1" title="example radio button"> Example Radio Button </p>
-                    <p>
-                        <input type="radio" name="button" value="2" title="example radio button"> Example Radio Button </p>
-                    <p>
-                        <input type="radio" name="button" value="3" title="example radio button"> Example Radio Button </p>
-                </fieldset>
-            </div>
+        <div class="type_item">
+          <h4 class="subsubtitle_margin"> Example </h4>
+          <h2> This is a Subtitle </h2>
         </div>
-
-        <h3 class="element_subtitle"> Checkboxes </h3>
-        <div class="box section_padding">
-            <div class="form_item">
-                <h4> Css Selector </h4>
-                <p>.checkboxes </p>
-                <h4 class="subsubtitle_margin"> About </h4>
-                <p> Check buttons are used when users are going through the ordering process and choose which foods they want on their menu. Checkboxes are used when there are multiple choices to be chosen from.</p>
-            </div>
-            <div class="sample_item">
-                <h4>Example</h4>
-                <fieldset>
-                    <p class="checkboxes">
-                        <input type="checkbox" name="checkbox" value="1" title="example checkbox"> Item 1 </p>
-                    <br>
-                    <p class="checkboxes">
-                        <input type="checkbox" name="checkbox" value="2" title="example checkbox"> Item 2 </p>
-                    <br>
-                    <p class="checkboxes">
-                        <input type="checkbox" name="checkbox" value="3" title="example checkbox"> Item 3 </p>
-                </fieldset>
-            </div>
+      </div>
+      <h3 class="subtitle_margin"> Section Headers </h3>
+      <div class="box">
+        <div class="type_item">
+          <h4 class="subsubtitle_margin"> Css Selector </h4>
+          <p> h3 </p>
+          <h4 class="subsubtitle_margin"> About </h4>
+          <p> H3 is used for subtitles (titles under h2). </p>
         </div>
-
+        <div class="type_item">
+          <h4 class="subsubtitle_margin"> Example </h4>
+          <h3 class="h3_example"> This is a Section Header </h3>
+        </div>
+      </div>
+      <h3 class="subtitle_margin"> H4: SubHeaders </h3>
+      <div class="box">
+        <div class="type_item">
+          <h4 class="subsubtitle_margin"> Css Selector </h4>
+          <p> h4 </p>
+          <h4 class="subsubtitle_margin"> About </h4>
+          <p>Further down the list, H4 is used for titles under h3. Sometimes used to create hierarchy between paragraph text.</p>
+        </div>
+        <div class="type_item">
+          <h4 class="subsubtitle_margin"> Example </h4>
+          <h4 class="h4_example"> This is a subheader</h4>
+        </div>
+      </div>
+      <h3 class="subtitle_margin"> P: Regular Text </h3>
+      <div class="box">
+        <div class="type_item">
+          <h4 class="subsubtitle_margin"> Css Selector </h4>
+          <p> p </p>
+          <h4 class="subsubtitle_margin"> About </h4>
+          <p> Regular text in paragraphs or sentences. </p>
+        </div>
+        <div class="type_item">
+          <h4 class="subsubtitle_margin"> Example </h4>
+          <p>This is a paragraph example... Cras rhoncus pulvinar elementum. Phasellus commodo est vel erat bibendum venenatis. Nulla ut eleifend magna, nec condimentum mi. Duis justo odio, imperdiet in augue ac, venenatis tincidunt urna. Integer condimentum euismod enim, dictum finibus ipsum porta sit amet. Aenean at posuere urna, a tincidunt risus. Curabitur rutrum purus nisi, sit amet tincidunt nulla commodo in. Aliquam rutrum diam lorem, non auctor dui posuere vitae.</p>
+        </div>
+      </div>
+      <h3 class="subtitle_margin">Captions </h3>
+      <div class="box">
+        <div class="type_item">
+          <h4 class="subsubtitle_margin"> Css Selector </h4>
+          <p> .caption</p>
+          <p> .caption_last </p>
+          <h4 class="subsubtitle_margin"> About </h4>
+          <p>Captions of pictures in the portfolio. .caption_last is used for the last caption in the div it has different margin attributes.</p>
+        </div>
+        <div class="type_item">
+          <h4 class="subsubtitle_margin"> Example </h4>
+          <p class="caption"> Caption of a photo </p>
+        </div>
+      </div>
+      <h3 class="subtitle_margin"> Links </h3>
+      <div class="box">
+        <div class="type_item">
+          <h4 class="subsubtitle_margin"> Css Selector </h4>
+          <p> a </p>
+          <p> a:focus, a:hover, a:active </p>
+          <h4 class="subsubtitle_margin"> About </h4>
+          <p> Used when want to link to other pages through text. </p>
+        </div>
+        <div class="type_item">
+          <h4 class="subsubtitle_margin"> Example </h4><a> This is a link </a>
+        </div>
+      </div>
+      <h3 class="subtitle_margin"> Unordered Lists </h3>
+      <div class="box">
+        <div class="type_item">
+          <h4 class="subsubtitle_margin"> Css Selector </h4>
+          <p> toolbox_div.ul </p>
+          <h4 class="subsubtitle_margin"> About </h4>
+          <p> Used to list about skills and tools used in a project </p>
+        </div>
+        <div class="type_item">
+          <h4 class="subsubtitle_margin"> Example </h4>
+          <ul>
+            <li> This is an unordered list item </li>
+            <li> This is an unordered list item </li>
+            <li> This is an unordered list item </li>
+          </ul>
+        </div>
+      </div>
+      <!-- FORM ELEMENTS-->
+      <h2 class="h2_padding" id="form"> Website Elements </h2>
+      <h3 class="element_subtitle"> Links </h3>
+      <div class="box section_padding">
+        <div class="form_item">
+          <h4> Css Selector </h4>
+          <p> .color_links </p>
+          <h4 class="subsubtitle_margin"> About </h4>
+          <p>Links to acess different parts of the portfolio or external sites.</p>
+        </div>
+        <div class="sample_item">
+          <h4>Example
+            <p> <a class="color_link">Test Link</a></p>
+          </h4>
+        </div>
+      </div>
+      <h3 class="element_subtitle"> Highlight </h3>
+      <div class="box section_padding">
+        <div class="form_item">
+          <h4> Css Selector </h4>
+          <p> .highlight </p>
+          <h4 class="subsubtitle_margin"> About </h4>
+          <p>Text that's highlighted in pink and bolded to created emphasis</p>
+        </div>
+        <div class="sample_item">
+          <h4>Example
+            <p class="highlight">Highlighted Text</p>
+          </h4>
+        </div>
+      </div>
     </div>
-</body>
-
+  </body>
 </html>
