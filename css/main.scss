@@ -196,6 +196,7 @@ button {
 
 .project_content {
   margin-top: 4rem;
+  margin-bottom: 2rem;
 
   margin-left: $project_content_margin;
   margin-right: $project_content_margin;
@@ -211,20 +212,17 @@ button {
   padding: 1rem 2rem 2rem 2rem;
 }
 
-.column{
-  height: 28em;
-  width: 18em;
-  border: 1px solid #FDCA8F;
-  transition: background-color 0.6s;
-  &:hover, &:active, &:focus {
-    background-color: $faded-pink;
-    border: 1px solid $faded-pink;
-  }
+.project_bg{
+  background-color: $light-pink;
 }
 
 .column_text{
   width: 60%;
   height: $project_title_div;
+}
+
+.project_img{
+  width: 50%;
 }
 
 .contact_div {
@@ -306,6 +304,10 @@ button {
   text-align: center;
 }
 
+.skills_padding{
+  padding-bottom: 1.5rem;
+}
+
 .project_hero_div {
   margin-bottom: 2rem;
 }
@@ -328,12 +330,12 @@ button {
 }
 
 .project_img_div {
-  margin: 1.5rem 0 1rem 0;// originally 1rem 0 1rem 0;
+  margin: 1.5rem 0 1rem 0; // originally 1rem 0 1rem 0;
   justify-content: center;
 }
 
 .sticky_img_div{
-  margin: 5rem 0 0 0;
+  margin: 2rem 0 0 0;
 }
 
 .ipad_img_div{
@@ -353,7 +355,7 @@ button {
 
 .project_img {
   width: 100%;
-  padding-bottom: 0.4rem;
+  padding: 3rem;
 }
 
 .small_project_img {
@@ -365,14 +367,14 @@ button {
   font-size: 0.8rem;
   color: #666666;
   margin: 0;
-  padding-bottom: 1rem;
+  padding-bottom: 2rem //original 1rem;
 }
 
 .caption_last{
   font-size: 0.8rem;
   color: #666666;
   margin: 0;
-  padding-bottom: 1rem;
+  padding-bottom: 0 // original 1rem;
 }
 
 .source_div {
@@ -381,12 +383,11 @@ button {
 }
 
 .project_text_div {
-  // padding: 0 3rem 0 0; (original)
   padding: 0;
 }
 
 .process_div{
-  padding-bottom: 3rem;
+  padding-bottom: 1.5rem;
 }
 
 .orange_box{

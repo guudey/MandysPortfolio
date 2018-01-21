@@ -18,7 +18,7 @@ $blue: #5578BB;
 }
 
 .col_1of2 {
-  width: 100%; // originally 50%;
+  width: 100%;
 }
 
 .navbar_size{
@@ -26,11 +26,10 @@ $blue: #5578BB;
 }
 
 .contact_info_div{
-  width: 100%; // originally 50%;
+  width: 100%;
 }
 
 .project_content_div{
-  // width: 50% (originally)
   width: 100%;
 }
 
@@ -39,104 +38,7 @@ $blue: #5578BB;
 }
 
 .col_2of3 {
-  width: 66.66666667%; //originally 66.66666667
-}
-
-// @media screen and (max-width: 1040px){
-
-//   /*------ PROJECT --------*/
-//   .project_content{
-//     margin-left: 6rem;
-//     margin-right: 6rem;
-//   }
-// }
-
-// @media screen and (max-width: 870px){
-
-//   /*------ PROJECT --------*/
-//   .project_content{
-//     margin-left: 2rem;
-//     margin-right: 2rem;
-//   }
-// }
-
-// @media screen and (max-width: 800px){
-
-//   /*------ PROJECT --------*/
-//   .project_content{
-//     margin-left: 7rem;
-//     margin-right: 7rem;
-//   }
-
-//   .project_content_div{
-//     width: 100%
-//   }
-
-//   .sticky_img_div{
-//     margin: 2rem 0 0 0;
-//   }
-
-//   .project_img_div{
-//     margin: 0.5rem 0 0 0;
-//   }
-
-//   .project_hero{
-//     width: 60%;
-//   }
-
-//   .project_text_div{
-//     padding: 0;
-//   }
-
-//   .skills_padding{
-//     padding-bottom: 1.5rem;
-//   }
-
-//   .caption{
-//     padding-bottom: 2rem;
-//   }
-
-//   .caption_last{
-//     padding-bottom: 0;
-//   }
-
-//   .process_div{
-//     padding-bottom: 2rem;
-//   }
-
-//   .project_hero{
-//     width: 70%;
-//   }
-
-//   /*---------- ABOUT --------*/
-//   .self_photo {
-//     width: 100%;
-//   }
-// }
-
-// @media screen and (max-width: 630px) {
-
-//   /*------ PROJECT --------*/
-//   .project_content{
-//     margin-left: 5rem;
-//     margin-right: 5rem;
-//   }
-
-//   .proj_previous_div{
-//     padding-left: 1rem;
-//   }
-
-//   .next_proj_div{
-//     padding-right: 1rem;
-//   }
-// }
-
-@media screen and (min-width: 768px) {
-  /*------ PROJECT --------*/
-  .project_content_div{
-    // width: 50% (originally)
-    width: 50%;
-  }
+  width: 66.66666667%;
 }
 
 @media screen and (min-width: 521px) {
@@ -150,4 +52,92 @@ $blue: #5578BB;
     width: 80%;
   }
 
+  .project_div{
+    margin: 0 2rem;
+  }
+}
+
+@media screen and (min-width: 630px) {
+
+  /*------ GRID --------*/
+  .col_1of3{
+    width: 90%;
+  }
+
+  /*------ ABOUT --------*/
+  .contact_info_div{
+    width: 50%;
+  }
+
+  /*------ ALL PROJECT --------*/
+  .project_img {
+    padding: 4rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  /*------ GRID --------*/
+  .col_1of3 {
+    width: 33.333333%;
+  }
+
+  /*------ PROJECT --------*/
+  .project_content_div{
+    width: 50%;
+  }
+
+  .sticky_img_div{
+    margin: 5rem 0 0 0;
+  }
+
+  .project_text_div {
+    padding: 0 3rem 0 0;
+  }
+
+  .project_hero{
+    width: 60%;
+  }
+
+  .process_div{
+    padding-bottom: 3rem;
+  }
+
+  /*------ ALL PROJECT --------*/
+
+  .project_div{
+    margin: 0 1rem;
+  }
+
+  .project_img {
+    padding: 1rem;
+  }
+
+  /*------ ABOUT ME --------*/
+  .about_div {
+    padding: 0 5rem;
+  }
+}
+
+@media screen and (min-width: 950px) {
+
+  /*------ PROJECT --------*/
+  .project_hero{
+    width: 50%;
+  }
+
+  /*------ ABOUT ME --------*/
+  .about_div {
+    padding: 0 10rem;
+  }
+
+  .self_photo {
+    width: 40%;
+  }
+}
+
+@media screen and (min-width: 1050px) {
+/*------ PROJECT --------*/
+  .project_hero{
+    width: 40%;
+  }
 }
