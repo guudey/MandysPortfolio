@@ -6,9 +6,6 @@ $faded-pink: rgba(246, 216, 208, 0.6);
 $faded-orange: rgba(253, 202, 143, 0.6);
 $blue: #5578BB;
 
-$project_column_margin: 0;
-$project_title_div: 6rem;
-
 /* -------------- GRID --------------*/
 
 .box {
@@ -24,10 +21,6 @@ $project_title_div: 6rem;
   width: 50%;
 }
 
-.col_1of4{
-  width: 25%;
-}
-
 .contact_info_div{
   width: 50%;
 }
@@ -36,132 +29,16 @@ $project_title_div: 6rem;
   width: 50%
 }
 
-.intro_img_div{
-  width: 60%;
-}
-
 .col_2of3 {
   width: 66.66666667%;
 }
 
-@media screen and (max-width: 1680px){
-
-  /*------ PROJECT PAGE ------*/
-  .project_cover{
-    width: 60%;
-  }
-}
-
-@media screen and (max-width: 1585px){
-  /*------ PROJECT PAGE ------*/
-  .project_cover{
-    width: 65%;
-  }
-}
-
-@media screen and (max-width: 1500px){
-  /*------ PROJECT PAGE ------*/
-  .project_cover{
-    width: 70%;
-  }
-}
-
-@media screen and (max-width: 1400px){
-  /*------ PROJECT PAGE ------*/
-  .project_cover{
-    width: 75%;
-  }
-}
-
-@media screen and (max-width: 1350px){
-
-  /*------ PROJECT PAGE ------*/
-  .project_cover{
-    width: 80%;
-  }
-}
-
-@media screen and (max-width: 1300px){
-
-  /*------ PROJECT PAGE ------*/
-  .left_column{
-    height: 250px;
-  }
-
-  .right_column{
-    height: 250px;
-  }
-
-  .project_cover{
-    width: 75%;
-  }
-}
-
-@media screen and (max-width: 1200px){
-
-  /*------ PROJECT PAGE ------*/
-  .project_cover{
-    width: 80%;
-  }
-}
-
-@media screen and (max-width: 1100px){
-
-  /*------ PROJECT PAGE ------*/
-  .project_cover{
-    width: 85%;
-  }
-}
-
 @media screen and (max-width: 1040px){
-
-  /*------ PROJECT PAGE ------*/
-  .left_column{
-    height: 200px;
-  }
-
-  .right_column{
-    height: 200px;
-  }
-  .project_cover{
-    width: 75%;
-  }
 
   /*------ PROJECT --------*/
   .project_content{
     margin-left: 6rem;
     margin-right: 6rem;
-  }
-}
-
-@media screen and (max-width: 990px){
-
-  /*------ PROJECT PAGE ------*/
-  .project_cover{
-    width: 80%;
-  }
-}
-
-@media screen and (max-width: 950px){
-
-  /*------ PROJECT PAGE ------*/
-  .project_div{
-    padding: 2rem 4rem;
-  }
-}
-
-@media screen and (max-width: 920px){
-
-  .project_cover_img2{
-    width: 65%;
-  }
-}
-
-@media screen and (max-width: 900px){
-
-  /*------ PROJECT PAGE ------*/
-  .project_cover{
-    width: 85%;
   }
 }
 
@@ -174,32 +51,7 @@ $project_title_div: 6rem;
   }
 }
 
-@media screen and (max-width: 850px){
-
-  /*------ PROJECT PAGE ------*/
-  .project_div{
-    padding: 2rem 1rem;
-  }
-
-  .project_cover{
-    width: 80%;
-  }
-
-  .right_column{
-    margin-left: 0.5rem;
-  }
-
-  .left_column{
-    margin-right: 0.5rem;
-  }
-}
-
 @media screen and (max-width: 800px){
-
-  /*------ PROJECT PAGE ------*/
-  .project_cover{
-    width: 85%;
-  }
 
   /*------ PROJECT --------*/
   .project_content{
@@ -259,37 +111,6 @@ $project_title_div: 6rem;
   .col_1of2{
     width: 60%;
   }
-
-  /*--------- PROJECT PAGE --------*/
-  .left_column {
-    margin-right: $project_column_margin;
-  }
-
-  .left_column_text{
-    margin-right: $project_column_margin;
-    height: $project_title_div;
-  }
-
-  .right_column{
-    margin-left: $project_column_margin;
-  }
-
-  .right_column_text{
-    margin-left: $project_column_margin;
-    height: $project_title_div;
-  }
-
-  .project_cover{
-    width: 75%;
-  }
-}
-
-@media screen and (max-width: 700px){
-
-  /*------ PROJECT PAGE ------*/
-  .project_cover{
-    width: 80%;
-  }
 }
 
 @media screen and (max-width: 630px) {
@@ -300,10 +121,10 @@ $project_title_div: 6rem;
     margin-right: 5rem;
   }
 
-  /*------ PROJECT --------*/
   .proj_previous_div{
     padding-left: 1rem;
   }
+
   .next_proj_div{
     padding-right: 1rem;
   }
@@ -317,23 +138,11 @@ $project_title_div: 6rem;
   }
 }
 
-@media screen and (max-width: 550px){
-  /*------ PROJECT PAGE ------*/
-  .project_cover{
-    width: 85%;
-  }
-}
-
 @media screen and (max-width: 521px) {
 
   /*------  GRID --------*/
   .col_1of2{
     width: 90%;
-  }
-
-  /*------ PROJECT PAGE ------*/
-  .project_cover{
-    width: 70%;
   }
 
   /*------ PROJECT --------*/
@@ -365,11 +174,6 @@ $project_title_div: 6rem;
 
 @media screen and (max-width: 476px){
 
-  /*------ PROJECT PAGE ------*/
-  .project_cover{
-    width: 75%;
-  }
-
   /*------ PROJECT --------*/
   .project_hero{
     width: 85%;
@@ -381,11 +185,6 @@ $project_title_div: 6rem;
   /*------ ABOUT PAGE --------*/
   .contact_info_div{
     width: 100%;
-  }
-
-  /*------ PROJECT PAGE ------*/
-  .project_cover{
-    width: 80%;
   }
 
   /*------ PROJECT --------*/
@@ -407,13 +206,6 @@ $project_title_div: 6rem;
   }
 }
 
-@media screen and (max-width: 385px){
-  /*------ PROJECT PAGE ------*/
-  .project_cover{
-    width: 85%;
-  }
-}
-
 @media screen and (max-width: 365px) {
 
   /*------  NAVBAR --------*/
@@ -425,20 +217,8 @@ $project_title_div: 6rem;
     padding-top: 3rem;
   }
 
-  /*------ PROJECT PAGE ------*/
-  .project_cover{
-    width: 85%;
-  }
-
-  /*------ PROJECT PAGE ------*/
+  /*------  PROJECT  ------*/
   .project_content{
     margin-top: 10rem;
-  }
-}
-
-@media screen and (max-width: 350px){
-  /*------ PROJECT PAGE ------*/
-  .project_cover{
-    width: 95%;
   }
 }

@@ -173,6 +173,8 @@ button {
   }
 }
 
+/*---------- PROJECT NAV ------------*/
+
 .proj_previous_div {
   text-align: left;
   padding: $proj_bottom_padding 0 $proj_bottom_padding 2rem;
@@ -201,28 +203,7 @@ button {
   transition: margin 0.5s;
 }
 
-/*------------- PROJECT PAGE ------------*/
-
-.project_div {
-  padding: 2rem 6rem;
-  position: relative;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-
-  h3{
-    text-align: left;
-    text-transform: uppercase;
-    margin: 1rem 0 0 0;
-  }
-
-  p{
-    text-align: center;
-    margin: 0;
-    color: #666;
-    padding-top: 1rem;
-  }
-}
+/*---------- ALL PROJECT PAGE ------------*/
 
 .section_div {
   // margin-bottom: 3rem;
@@ -241,22 +222,9 @@ button {
   }
 }
 
-// .test_center{
-//   position: relative;
-//   justify-content: center;
-//   align-items: center;
-//   text-align: center;
-// }
-
 .column_text{
   width: 60%;
   height: $project_title_div;
-}
-
-.project_cover{
-  width: 55%;
-
-  transition: width 0.5s;
 }
 
 .contact_div {
@@ -314,7 +282,7 @@ button {
   width: 90%;
 }
 
-/*------------- PROJECT 1 --------------*/
+/*------------- PROJECT CONTENT PAGE --------------*/
 
 .project_header {
   margin: 3rem 0 0 0;
