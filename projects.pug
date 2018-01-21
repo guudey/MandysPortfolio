@@ -16,30 +16,38 @@ html(lang='en')
           label(for='nav')
           ul.nav_list
             li
-              a(href='index.html') Home
+              a.nav_li_highlight(href='projects.html') Projects
             li
               a(href='about.html') About
             li
-              a.nav_li_highlight(href='projects.html') Projects
-            li
               a(href='resume.html') Resumè
     .content
-      .section_div
-        .box.name_div
-          .col_1of2
-            h2  Check out my projects!
-        .box.project_div
-          .col_1of2
-            a(href='project1.html')
-              .left_column
-                img.project_cover(src='img/active_textbook_hero.png' alt="Active Textbook redesign project")
-              .left_column_text
-                h3 Redesign of Active Textbook's iOS App
-                p {UX | UI } 
-          .col_1of2
-            a(href='project2.html')
-              .right_column
-                img.project_cover(src='img/7Trades_hero.png' alt="Catering website project")
-              .right_column_text
-                h3 Designing a Catering Website
-                p {UX | Branding | HTML & CSS }
+      .box.section_div
+        .col_1of3
+          a(href='project1.html')
+            .column
+              //- img.project_cover(src='img/active_textbook_hero.png' alt="Active Textbook redesign project")
+            .column_text
+              //- h3 Redesign of Active Textbook's iOS App
+              p {UX | UI } 
+        .col_1of3
+          a(href='project2.html')
+            .column
+              //- img.project_cover(src='img/7Trades_hero.png' alt="Catering website project")
+            .column_text
+              //- h3 Designing a Catering Website
+              p {UX | Branding | HTML & CSS }
+        .col_1of3
+          a(href='project2.html')
+            .column
+              //- img.project_cover(src='img/7Trades_hero.png' alt="Catering website project")
+            .column_text
+              //- h3 Designing a Catering Website
+              p { TEST }
+        //- .contact_div
+        //-   .box.name_div
+        //-     .col_1of2
+        //-       h2  Contact Me
+        //-   .box.contact_content
+        //-     .col_1of2
+        //-       a(href='mailto:mandyy.cheung@gmail.com')  mandyy.cheung@gmail.com
