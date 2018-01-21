@@ -14,211 +14,140 @@ $blue: #5578BB;
 }
 
 .col_1of3 {
-  width: 33.33333%;
+  width: 100%; //originally 33.33333%
 }
 
 .col_1of2 {
-  width: 50%;
+  width: 100%; // originally 50%;
+}
+
+.navbar_size{
+  width: 100%;
 }
 
 .contact_info_div{
-  width: 50%;
+  width: 100%; // originally 50%;
 }
 
 .project_content_div{
-  width: 50%
+  // width: 50% (originally)
+  width: 100%;
+}
+
+.project_nav{
+  width: 33.33333%;
 }
 
 .col_2of3 {
-  width: 66.66666667%;
+  width: 66.66666667%; //originally 66.66666667
 }
 
-@media screen and (max-width: 1040px){
+// @media screen and (max-width: 1040px){
 
+//   /*------ PROJECT --------*/
+//   .project_content{
+//     margin-left: 6rem;
+//     margin-right: 6rem;
+//   }
+// }
+
+// @media screen and (max-width: 870px){
+
+//   /*------ PROJECT --------*/
+//   .project_content{
+//     margin-left: 2rem;
+//     margin-right: 2rem;
+//   }
+// }
+
+// @media screen and (max-width: 800px){
+
+//   /*------ PROJECT --------*/
+//   .project_content{
+//     margin-left: 7rem;
+//     margin-right: 7rem;
+//   }
+
+//   .project_content_div{
+//     width: 100%
+//   }
+
+//   .sticky_img_div{
+//     margin: 2rem 0 0 0;
+//   }
+
+//   .project_img_div{
+//     margin: 0.5rem 0 0 0;
+//   }
+
+//   .project_hero{
+//     width: 60%;
+//   }
+
+//   .project_text_div{
+//     padding: 0;
+//   }
+
+//   .skills_padding{
+//     padding-bottom: 1.5rem;
+//   }
+
+//   .caption{
+//     padding-bottom: 2rem;
+//   }
+
+//   .caption_last{
+//     padding-bottom: 0;
+//   }
+
+//   .process_div{
+//     padding-bottom: 2rem;
+//   }
+
+//   .project_hero{
+//     width: 70%;
+//   }
+
+//   /*---------- ABOUT --------*/
+//   .self_photo {
+//     width: 100%;
+//   }
+// }
+
+// @media screen and (max-width: 630px) {
+
+//   /*------ PROJECT --------*/
+//   .project_content{
+//     margin-left: 5rem;
+//     margin-right: 5rem;
+//   }
+
+//   .proj_previous_div{
+//     padding-left: 1rem;
+//   }
+
+//   .next_proj_div{
+//     padding-right: 1rem;
+//   }
+// }
+
+@media screen and (min-width: 768px) {
   /*------ PROJECT --------*/
-  .project_content{
-    margin-left: 6rem;
-    margin-right: 6rem;
-  }
-}
-
-@media screen and (max-width: 870px){
-
-  /*------ PROJECT --------*/
-  .project_content{
-    margin-left: 2rem;
-    margin-right: 2rem;
-  }
-}
-
-@media screen and (max-width: 800px){
-
-  /*------ PROJECT --------*/
-  .project_content{
-    margin-left: 7rem;
-    margin-right: 7rem;
-  }
-
   .project_content_div{
-    width: 100%
-  }
-
-  .sticky_img_div{
-    margin: 2rem 0 0 0;
-  }
-
-  .project_img_div{
-    margin: 0.5rem 0 0 0;
-  }
-
-  .project_hero{
-    width: 60%;
-  }
-
-  .project_text_div{
-    padding: 0;
-  }
-
-  .skills_padding{
-    padding-bottom: 1.5rem;
-  }
-
-  .caption{
-    padding-bottom: 2rem;
-  }
-
-  .caption_last{
-    padding-bottom: 0;
-  }
-
-  .process_div{
-    padding-bottom: 2rem;
-  }
-
-  .project_hero{
-    width: 70%;
-  }
-
-  /*---------- ABOUT --------*/
-  .self_photo {
-    width: 100%;
+    // width: 50% (originally)
+    width: 50%;
   }
 }
 
-@media screen and (max-width: 730px) {
-
-  /*------  GRID --------*/
-  .col_1of2{
-    width: 60%;
-  }
-}
-
-@media screen and (max-width: 630px) {
+@media screen and (min-width: 521px) {
 
   /*------ PROJECT --------*/
   .project_content{
-    margin-left: 5rem;
-    margin-right: 5rem;
-  }
-
-  .proj_previous_div{
-    padding-left: 1rem;
-  }
-
-  .next_proj_div{
-    padding-right: 1rem;
-  }
-}
-
-@media screen and (max-width: 608px) {
-
-  /*------  GRID --------*/
-  .col_1of2{
-    width: 70%;
-  }
-}
-
-@media screen and (max-width: 521px) {
-
-  /*------  GRID --------*/
-  .col_1of2{
-    width: 90%;
-  }
-
-  /*------ PROJECT --------*/
-  .project_content{
-    margin-left: 3rem;
-    margin-right: 3rem;
+    padding-top: 0;
   }
 
   .project_hero{
     width: 80%;
   }
 
-  .project_header{
-    margin-top: 2rem;
-  }
-
-  .toolbox_div{
-    margin-top: 2rem;
-  }
-
-  .project_img_div{
-    margin-top: 1.5rem;
-  }
-
-  .padding-bottom{
-    margin-bottom: 1rem;
-  }
-}
-
-@media screen and (max-width: 476px){
-
-  /*------ PROJECT --------*/
-  .project_hero{
-    width: 85%;
-  }
-}
-
-@media screen and (max-width: 440px){
-
-  /*------ ABOUT PAGE --------*/
-  .contact_info_div{
-    width: 100%;
-  }
-
-  /*------ PROJECT --------*/
-  .project_hero{
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 405px) {
-
-  /*------  GRID --------*/
-  .col_1of2{
-    width: 100%;
-  }
-
-  /*------ ABOUT PAGE --------*/
-  .about_div{
-    padding: 0 1.5rem;
-  }
-}
-
-@media screen and (max-width: 365px) {
-
-  /*------  NAVBAR --------*/
-  .nav_list li{
-    display: block;
-  }
-
-  .content{
-    padding-top: 3rem;
-  }
-
-  /*------  PROJECT  ------*/
-  .project_content{
-    margin-top: 10rem;
-  }
 }

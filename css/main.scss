@@ -11,7 +11,7 @@ $blue: #5578BB;
 $proj_bottom_padding: 0.3rem;
 $project_column_margin: 1rem;
 $project_title_div: 2rem;
-$project_content_margin: 15%;
+$project_content_margin: 8%; //originally 15%
 
 * {
   box-sizing: border-box;
@@ -261,7 +261,7 @@ button {
 
 .about_div {
   justify-content: center;
-  padding-bottom: 1rem;
+  padding: 0 1.5rem; // originally: padding-bottom: 1rem;
 }
 
 #last{
@@ -285,20 +285,20 @@ button {
 /*------------- PROJECT CONTENT PAGE --------------*/
 
 .project_header {
-  margin: 3rem 0 0 0;
+  margin: 2rem 0 0 0; // orignally 3rem 0 0 0;
 }
 
 .project_subheader {
   margin: 1.5rem 0 0 0;
 }
 
-.project_body_margin {
-  margin-left: 9.5rem;
-  margin-right: 9.5rem;
+.project_content{
+  padding-top: 3rem;
 }
 
 .project_hero {
-  width: 40%;
+  // width: 40%; originally
+  width: 100%;
 }
 
 .hero_img_div{
@@ -328,7 +328,7 @@ button {
 }
 
 .project_img_div {
-  margin: 1rem 0 1rem 0;
+  margin: 1.5rem 0 1rem 0;// originally 1rem 0 1rem 0;
   justify-content: center;
 }
 
@@ -381,7 +381,8 @@ button {
 }
 
 .project_text_div {
-  padding: 0 3rem 0 0;
+  // padding: 0 3rem 0 0; (original)
+  padding: 0;
 }
 
 .process_div{

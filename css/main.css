@@ -161,8 +161,8 @@ button {
 
 .project_content {
   margin-top: 4rem;
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 8%;
+  margin-right: 8%;
   -webkit-transition: margin 0.5s;
   -o-transition: margin 0.5s;
   transition: margin 0.5s; }
@@ -220,7 +220,7 @@ button {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  padding-bottom: 1rem; }
+  padding: 0 1.5rem; }
 
 #last {
   padding-bottom: 2rem; }
@@ -237,17 +237,16 @@ button {
 
 /*------------- PROJECT CONTENT PAGE --------------*/
 .project_header {
-  margin: 3rem 0 0 0; }
+  margin: 2rem 0 0 0; }
 
 .project_subheader {
   margin: 1.5rem 0 0 0; }
 
-.project_body_margin {
-  margin-left: 9.5rem;
-  margin-right: 9.5rem; }
+.project_content {
+  padding-top: 3rem; }
 
 .project_hero {
-  width: 40%; }
+  width: 100%; }
 
 .hero_img_div {
   background-color: rgba(246, 216, 208, 0.4);
@@ -271,7 +270,7 @@ button {
     margin: 1rem 0 0 0; }
 
 .project_img_div {
-  margin: 1rem 0 1rem 0;
+  margin: 1.5rem 0 1rem 0;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center; }
@@ -318,7 +317,7 @@ button {
   padding: 0 2rem 0 2rem; }
 
 .project_text_div {
-  padding: 0 3rem 0 0; }
+  padding: 0; }
 
 .process_div {
   padding-bottom: 3rem; }
