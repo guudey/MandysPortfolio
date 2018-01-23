@@ -160,7 +160,7 @@ button {
   transition: padding 0.5s; }
 
 .project_content {
-  margin-top: 4rem;
+  margin-top: 3rem;
   margin-bottom: 2rem;
   margin-left: 8%;
   margin-right: 8%;
@@ -176,14 +176,25 @@ button {
   padding: 1rem 2rem 2rem 2rem; }
 
 .project_bg {
-  background-color: #F6D8D0; }
+  background-color: #FBEFEC;
+  border: 1rem #FBEFEC solid;
+  -webkit-transition: background-color 0.4s;
+  -o-transition: background-color 0.4s;
+  transition: background-color 0.4s; }
+  .project_bg:hover, .project_bg:focus, .project_bg:active {
+    background-color: white;
+    border: 1rem #FBEFEC solid; }
+
+.project_title {
+  display: none; }
 
 .column_text {
-  width: 60%;
-  height: 2rem; }
+  width: 100%;
+  padding-bottom: 2rem; }
 
-.project_img {
-  width: 50%; }
+.project_title_img {
+  width: 100%;
+  padding: 1rem; }
 
 .contact_div {
   background-color: rgba(246, 216, 208, 0.4);
@@ -274,6 +285,9 @@ button {
   -ms-flex-pack: center;
   justify-content: center; }
 
+.no_img {
+  display: none; }
+
 .sticky_img_div {
   margin: 2rem 0 0 0; }
 
@@ -293,11 +307,11 @@ button {
 
 .project_img {
   width: 100%;
-  padding: 3rem; }
+  padding: 1rem; }
 
 .small_project_img {
-  width: 80%;
-  padding-bottom: 0.4rem; }
+  width: 60%;
+  padding-bottom: 1rem; }
 
 .caption {
   font-size: 0.8rem;

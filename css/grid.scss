@@ -1,5 +1,6 @@
 $main-pink: #F48A82;
 $light-pink: #F6D8D0;
+$lightest-pink: #FBEFEC;
 $hovered-pink: rgba(246, 216, 208, 0.8);
 $hovered-orange: rgba(253, 202, 143, 0.8);
 $faded-pink: rgba(246, 216, 208, 0.6);
@@ -70,7 +71,7 @@ $blue: #5578BB;
   }
 
   /*------ ALL PROJECT --------*/
-  .project_img {
+  .project_title_img {
     padding: 4rem;
   }
 }
@@ -81,9 +82,41 @@ $blue: #5578BB;
     width: 33.333333%;
   }
 
-  /*------ PROJECT --------*/
+  /*------ ALL PROJECT --------*/
+  .project_title_img{
+    margin: 2rem 0;
+    padding: 0rem;
+  }
+
+  .project_bg{
+    border: 0.5rem $lightest-pink solid;
+
+    &:hover, &:focus, &:active{
+      border: 0.5rem $lightest-pink solid;
+    }
+  }
+
+  .project_div{
+    margin: 0 10%;
+    text-align: center;
+  }
+
+  .section_div{
+    margin-top: 1rem;
+  }
+
+  .column_text{
+    width: 80%;
+    padding-bottom: 0rem;
+  }
+
+  /*------ PROJECT CONTENT--------*/
   .project_content_div{
     width: 50%;
+  }
+
+  .no_img{
+    display: block;
   }
 
   .sticky_img_div{
@@ -102,14 +135,9 @@ $blue: #5578BB;
     padding-bottom: 3rem;
   }
 
-  /*------ ALL PROJECT --------*/
-
-  .project_div{
-    margin: 0 1rem;
-  }
-
-  .project_img {
-    padding: 1rem;
+  .small_project_img {
+    width: 80%;
+    padding-bottom: 0.4rem;
   }
 
   /*------ ABOUT ME --------*/
@@ -136,8 +164,22 @@ $blue: #5578BB;
 }
 
 @media screen and (min-width: 1050px) {
-/*------ PROJECT --------*/
+  /*------ ALL PROJECT --------*/
+  .section_div{
+    padding: 0 10%;
+  }
+
+  .project_title_img{
+    width: 80%;
+  }
+
+  /*------ PROJECT --------*/
   .project_hero{
     width: 40%;
+  }
+
+  /*------ ABOUT --------*/
+  .about_div{
+    padding: 0 20%;
   }
 }
