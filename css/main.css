@@ -192,22 +192,24 @@ button {
   width: 100%;
   padding-bottom: 2rem; }
 
+.column_text_last {
+  padding-bottom: 0rem; }
+
 .project_title_img {
   width: 100%;
   padding: 1rem; }
 
 .contact_div {
-  background-color: rgba(246, 216, 208, 0.4);
-  padding: 0.5rem 0 1rem 0;
-  position: fixed;
-  bottom: 0; }
-
-.contact_content {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  text-align: center; }
-  .contact_content a {
+  padding: 1rem 2rem 2rem 2rem; }
+  .contact_div h2 {
+    margin-top: 0; }
+
+.contact_sec {
+  width: 100%; }
+  .contact_sec a {
     color: #5578BB; }
 
 /*------------- ABOUT PAGE----------------*/
@@ -245,7 +247,7 @@ button {
 /*------------- PROJECT CONTENT PAGE --------------*/
 .project_header {
   margin: 2rem 0 0 0;
-  font-size: 1.8rem; }
+  font-size: 1.7rem; }
 
 .project_subheader {
   text-transform: uppercase;
@@ -261,9 +263,6 @@ button {
   background-color: rgba(246, 216, 208, 0.4);
   text-align: center; }
 
-.skills_padding {
-  padding-bottom: 1.5rem; }
-
 .project_hero_div {
   margin-bottom: 2rem; }
 
@@ -271,7 +270,7 @@ button {
   border: 1px solid #F48A82;
   margin: 3rem 0 1rem 0;
   padding: 2rem 0 2rem 0;
-  width: 80%; }
+  width: 70%; }
   .toolbox_div h2 {
     text-align: center;
     margin: 0; }
@@ -291,7 +290,7 @@ button {
   display: none; }
 
 .sticky_img_div {
-  margin: 2rem 0 0 0; }
+  margin: 0; }
 
 .ipad_img_div {
   padding: 0 2rem 0 2rem;

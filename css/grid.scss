@@ -44,6 +44,10 @@ $blue: #5578BB;
 
 @media screen and (min-width: 521px) {
 
+  .contact_sec{
+    margin: 0 2rem;
+  }
+
   /*------ PROJECT --------*/
   .project_content{
     padding-top: 0;
@@ -110,6 +114,10 @@ $blue: #5578BB;
     padding-bottom: 0rem;
   }
 
+  .contact_sec {
+    width: 80%;
+  }
+
   /*------ PROJECT CONTENT--------*/
   .project_content_div{
     width: 50%;
@@ -120,7 +128,15 @@ $blue: #5578BB;
   }
 
   .sticky_img_div{
-    margin: 5rem 0 0 0;
+    margin: 0;
+  }
+
+  .sticky_img_div_temp{
+    margin: 2rem 0 0 0;
+  }
+
+  .ipad_img_div{
+    padding: 0 4rem 0 4rem;
   }
 
   .project_text_div {

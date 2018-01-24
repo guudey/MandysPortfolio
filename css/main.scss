@@ -240,24 +240,31 @@ button {
   padding-bottom: 2rem;
 }
 
+.column_text_last{
+  padding-bottom: 0rem;
+}
+
 .project_title_img{
   width: 100%;
   padding: 1rem;
 }
 
-.contact_div {
-  background-color: $faded-pink;
-  padding: 0.5rem 0 1rem 0;
-  position: fixed;
-  bottom: 0;
+.contact_div{
+  justify-content: center;
+  padding: 1rem 2rem 2rem 2rem;
+
+  h2{
+    margin-top: 0;
+  }
 }
 
-.contact_content{
-  justify-content: center;
-  text-align: center;
+.contact_sec {
+  width: 100%;
   a{
-    color: $blue;
+    color: $blue
   }
+  // position: fixed;
+  // bottom: 0;
 }
 
 /*------------- ABOUT PAGE----------------*/
@@ -304,7 +311,7 @@ button {
 
 .project_header {
   margin: 2rem 0 0 0; // orignally 3rem 0 0 0;
-  font-size: 1.8rem;
+  font-size: 1.7rem;
 }
 
 .project_subheader {
@@ -326,9 +333,9 @@ button {
   text-align: center;
 }
 
-.skills_padding{
-  padding-bottom: 1.5rem;
-}
+// .skills_padding{
+//   padding-bottom: 1.5rem;
+// }
 
 .project_hero_div {
   margin-bottom: 2rem;
@@ -338,7 +345,7 @@ button {
   border: 1px solid $main-pink;
   margin: 3rem 0 1rem 0;
   padding: 2rem 0 2rem 0;
-  width: 80%;
+  width: 70%;
   h2 {
     text-align: center;
     margin: 0;
@@ -361,8 +368,12 @@ button {
 }
 
 .sticky_img_div{
-  margin: 2rem 0 0 0;
+  margin: 0;
 }
+
+  // .sticky_img_div{
+  //   margin: 5rem 0 0 0;
+  // }
 
 .ipad_img_div{
   padding: 0 2rem 0 2rem;
