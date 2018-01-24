@@ -33,7 +33,7 @@ h1, h2 {
 }
 
 h3 {
-  letter-spacing: 0.25rem;
+  letter-spacing: 0.2rem;
   font-size: 1.1rem;
 }
 
@@ -46,7 +46,7 @@ p, ol, ul {
   font-family: 'Athiti', serif;
   font-size: 0.9em;
   color: #393B39;
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.009rem;
 }
 
 a {
@@ -304,9 +304,11 @@ button {
 
 .project_header {
   margin: 2rem 0 0 0; // orignally 3rem 0 0 0;
+  font-size: 1.8rem;
 }
 
 .project_subheader {
+  text-transform: uppercase;
   margin: 1.5rem 0 0 0;
 }
 
