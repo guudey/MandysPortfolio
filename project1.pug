@@ -8,6 +8,8 @@ html(lang='en')
     meta(name='viewport', content='width=device-width, initial-scale=1')
     link(href='https://fonts.googleapis.com/css?family=Athiti', rel='stylesheet')
     link(href='https://fonts.googleapis.com/css?family=Yanone%20Kaffeesatz', rel='stylesheet')
+
+    include includes/favicon.pug
   body
     include includes/navbar.pug
     nav.navbar
@@ -26,80 +28,51 @@ html(lang='en')
     .project_content
       .hero_img_div
           img.project_hero(src='img/Project1_cover.png', alt='active textbook iphone and ipad image')
-      .box
+      .box.center
+        .col_2of3.proj_scope_div 
+          p   Jan. – Apr. 2017
+          p   Internship as a Designer
+          p   At Evident Point, a software company located in Richmond, B.C.
+      .box.process_div
         .project_content_div.project_text_div
-          h1.project_header Scope 
+          h1.project_header About
           p
-            | In 2017, I worked as an intern at a software company called
-            span.highlight  Evident Point
-            |  as an UX Designer. They asked me to 
-            span.highlight re-design their iOS app 
-            |  to make it more "app-like".
+            | Active Textbook is an eBook reader that is available on the web, play store and app store.
+            span.highlight  I was assigned to redesign their flagship iOS app to fit current iOS design standards and enhance the product experience for the users.
+            |  I mainly focused on following Apple’s design guidelines, ensuring the flow of the app was flexible to users’ needs and onboarding for new users using the applications.
         .project_content_div
           h1.project_header My Role 
           p
-            | This was an 
-            span.highlight individual project
-            | , I did research to gather information to make insightful design decisions.
-      .box.center
-        .box.toolbox_div
-          .project_content_div.skills_padding
-            h2 Skills 
-            ul
-              li Research 
-              li Communication 
-              li Presentation 
-          .project_content_div
-            h2  Tools 
-            ul
-              li Adobe Illustrator 
-              li iPad
-              li iPhone 
+            | I did research to gather information about the purpose of Active Textbook and the users’ goal using active textbook. Using this information, I was able to make insightful design decisions on possible actions or flow of actions a user may take using the app. I also analyzed the underperforming parts of the current iOS application and made changes to that. I pitched the changes to my supervisor and the developer explaining my design changes.
       .box.process_div
         .project_content_div
           .sticky_content
             h1.project_header Analysis
-            p
-              | The were many reasons that lead to the app not being “app-like”. Some reasons are the uneven book covers and the missing padding around elements on the app.
-            p
-              | Additionally, some interactions don’t exist in iOS; therefore, it looks weird in the app. Like the floating green "i" icon on the book covers. 
-            p
-              | However, the app's 
-              span.highlight main problem 
-              | was that it's not user friendly. The app's 
-              span.highlight interactions 
-              | were 
-              span.highlight not intuitive or clear
-              | . For example, the bottom navigation bar has a selected icon to indicate that this is the "page" it's on, the icon is highlighted with blue on a green background. The icon is now hard to read. Additionally, the some of the icons used are not conventional, which leads to an unintuitive interface when unlabelled.
+            ul
+              li Visually it was not appealing because the book covers were uneven and padding was missing around visual elements.
+              li Unclear indications on bottom nav bar
+              li Unintuitive interactions within the app
+              li Unlabeled and unconventional icons used
+              li Misuse of two navigation bars, one hamburger menu and one bottom navigation
         .project_content_div.sticky_img_div_temp.ipad_img_div
           img.small_project_img(src='img/atb/atb_1.jpg', alt='cover view before re-design')
           p.caption  Cover view for the books 
-          img.small_project_img(src='img/atb/atb_2.jpg', alt='list view before re-design')
-          p.caption  List view for the books 
+          //- img.small_project_img(src='img/atb/atb_2.jpg', alt='list view before re-design')
+          //- p.caption  List view for the books 
           img.small_project_img(src='img/atb/atb_3.jpg', alt='hamburger menu before re-design')
           p.caption_last  Hamburger menu 
 
       h1.project_header Process 
       .box.process_div
         .project_content_div.project_text_div
-          h3.project_subheader Research 
-          p
-            | To start off, I 
-            span.highlight talked to people 
-            | who are responsible for the app, to see where they thought 
-            span.highlight existing problems 
-            | were or where they thought the app could improve.
-          p 
-            | Then I looked into the 
-            a.highlight(href='https://developer.apple.com/ios/human-interface-guidelines/overview/design-principles/') design guidelines of apple.
-            |  In attempts to make it more “app-like” and to learn apple’s design language.
-        .project_content_div.project_img_div
-          img.project_img(src='img/atb/elements.jpg', alt="elements from apple's design guideline")
-          p.caption_last Elements that inspired the redesign of the active textbook app
-      .box.process_div
-        .project_content_div.project_text_div
           .sticky_content
-            h3.project_subheader Grey Scale Mock-ups 
+            h3.project_subheader Research 
+            p
+              | To start off, I 
+              span.highlight interviewed people 
+              | who were responsible for the app, to see where they thought 
+              span.highlight existing problems 
+              | were or where they thought the app could improve.
             p
               | I looked into the 
               span.highlight actions 
@@ -116,6 +89,7 @@ html(lang='en')
           img.small_project_img(src='img/atb/grey_mockup1.jpg', alt='Grey scale mockup of the top and bottom navigation bar')
           img.small_project_img(src='img/atb/grey_mockup2.jpg', alt='Grey scale mockup of the top and bottom navigation bar')
           img.small_project_img(src='img/atb/grey_mockup3.jpg', alt='Grey scale mockup of the top and bottom navigation bar')
+          p.caption_last  Variations of low fidelity mock-ups
       .box.process_div
         .project_content_div.project_text_div
           .sticky_content
@@ -143,23 +117,7 @@ html(lang='en')
           p.caption_last Book Description
       .box.process_div
         .project_content_div.project_text_div
-          h3.project_subheader Presentation 
-          p
-            | In the presentation slides I put in 
-            span.highlight annotations 
-            | describing the 
-            span.highlight purpose 
-            | and 
-            span.highlight details 
-            | of each element. This way, people reviewing my mockups will know what the purpose of each element is.
-          p
-            a.color_link(href='')  see presentation slides
-        .project_content_div.project_img_div
-          img.project_img(src='img/atb/atb_4.jpg', alt='example presentation slides')
-          p.caption_last  Example of presentation slides 
-      .box.process_div
-        .project_content_div.project_text_div
-          h3.project_subheader Conflict 
+          h3.project_subheader Iterations
           p
             | After finishing the mockups, I presented it to my co-worker and supervisor. We would discuss what we could iterate upon. During discussion, some difficulties arrived when we had different opinions for the app's features. 
           p
@@ -184,11 +142,7 @@ html(lang='en')
           .sticky_content
             h1.project_header Take away 
             p
-              | I 
-              span.highlight wasn't completely happy 
-              | with the solution of adding an onboarding to let the user know the interactions needed to access parts of the app, because 
-              span.highlight not all people read or go through onboarding
-              | . So they can actually miss this information. Onboarding can also be a lot of information to intake at once for the user; therefore I don't think it is the best solution, but it is a solution that my employer agreed to, to drop the floating green 'i' icon.
+              | By adding onboarding to the Active Textbook, new users will be able to learn about how to use the reader. Active Textbook is updated to modern standards of design and allows for a smooth user experience for their readers. This will increase value not only for the readers but for Evident Point. When users feel happy and in control using Active Textbook, they will continue using it and even recommend it to their friends, increasing their user base. 
         .project_content_div.sticky_img_div_temp
             img.project_img(src='img/atb/onboarding_1.jpg', alt='onboarding step 1')
             p.caption  Onboarding: Step 1 

@@ -21,11 +21,12 @@ h4 {
   font-size: 0.85em;
   letter-spacing: 0.12rem; }
 
-p, ol, ul {
+p, ol, ul, li {
   font-family: 'Athiti', serif;
-  font-size: 0.9em;
+  font-size: 1.1em;
   color: #393B39;
-  letter-spacing: 0.009rem; }
+  letter-spacing: 0.02rem;
+  text-transform: none; }
 
 a {
   font-family: 'Athiti', serif;
@@ -64,8 +65,13 @@ button {
   text-align: center; }
 
 .highlight {
-  font-weight: bold;
-  color: #F48A82; }
+  background-color: #FBEFEC; }
+
+.bold {
+  font-weight: bold; }
+
+.whitetext {
+  color: white; }
 
 .color_link {
   color: #5578BB;
@@ -332,6 +338,11 @@ button {
 
 .project_text_div {
   padding: 0; }
+
+.proj_scope_div {
+  text-align: center;
+  padding-top: 1.5rem;
+  padding-bottom: 2rem; }
 
 .process_div {
   padding-bottom: 1.5rem; }

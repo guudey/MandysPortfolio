@@ -8,13 +8,15 @@ html(lang='en')
     meta(name='viewport', content='width=device-width, initial-scale=1')
     link(href='https://fonts.googleapis.com/css?family=Athiti', rel='stylesheet')
     link(href='https://fonts.googleapis.com/css?family=Yanone%20Kaffeesatz', rel='stylesheet')
+
+    include includes/favicon.pug
   body
     include includes/navbar.pug
     nav.navbar
       include includes/project_nav.pug
       .box.nav_div
         .col_2of3
-          h1  ADDING VALUE TO STRAVA
+          h1  Strava x Spotify
       .box.bottom_nav_div     
          .project_nav.proj_previous_div
            a(href='project1.html') prev project
@@ -26,59 +28,43 @@ html(lang='en')
     .project_content
       .hero_img_div
         img.project_hero(src='img/Project3_cover.png', alt='7Trades home page image')
-      .box
+      .box.center
+        .col_2of3.proj_scope_div
+          p   Summer Semester 2016
+          p   School Project
+          p   Team: Mandy Cheung, Michaela Tsumura
+      .box.process.div
         .project_content_div.project_text_div
-          h1.project_header  Scope 
+          h1.project_header  About
           p
-            | School Project. Summer 2016.
-          p
-            span.highlight Research 
-            | and analyze Strava to gain 
-            span.highlight insights 
-            | about the app. Find out where the gaps are between the app and the users' goal. When opportunity is found, use it to add value to Strava.
-          p
-            | Only analyzed Strava on 
-            span.highlight Android 
-            | smart phones.
+            | Strava is an application that track’s an athlete’s running/cycling time and distance travelled. We researched Strava’s position in the market and used IDEO research methods to better understand the app and how the app was being used. By understanding Strava better, 
+            span.highlight we decided to partner Strava with Spotify
+            | , a music streaming app, 
+            span.highlight to implement a music element into Strava. 
+            | The music element will be useful and valuable for Strava users during and after their run/cycle as it will be more convenient for them while providing insightful information. 
         .project_content_div
-          h1.project_header  Team 
-          p Michaela Tsumura, Mandy Cheung
           h1.project_header Work Distribution 
           p
-            | We both conducted research then came together to discuss and compare our findings. Together, we analyzed and brainstormed the direction we would like to move Strava towards to gain value. The mock ups were even distributed amongst ourselves.
-      .box.center
-        .box.toolbox_div
-          .project_content_div.skills_padding
-            h2  Skills 
-            ul
-              li  Research 
-              li  Presentation
-              li  Analysis
-          .project_content_div
-            h2  Tools 
-            ul
-              li  Adobe Illustrator 
+            | I conducted research using IDEO research methods. My partner and I then came together to discuss and compare our findings. After deciding Strava should implement a music feature, I sketched, made grey scale mockups and high fidelity mockups successfully implementing Spotify into Strava.
       h1.project_header Process 
       .box.process_div
         .project_content_div.project_text_div
           h3.project_subheader Ideo Research Methods Used
           p
-            span.highlight Activity Analysis:  
+            span.bold Activity Analysis:  
             | This method allowed us to get to know Strava better by going through the app and listing in detail all actions, tasks, objects, performers and interactions involved in a process.
           p
-            span.highlight Extreme User Interview: 
+            span.bold Extreme User Interview: 
             | In order to find out more about how users use and feel about Strava, we made a questionnaire using Google Survey to conducted a survey with people that used Strava frequently.
         .project_content_div
-          p
-            span.highlight Insights
+          p.bold Insights
             ul
               li Users main objective in the app is to track running / cycling statistics
               li People find the route builder a desirable feature 
               li Most users have a goal to achieve a higher level of fitness
               li Poor compatibility with mobile music applications
               //- li Trouble with using a phone / app while biking
-          p
-            span.highlight Opportunities
+          p.higlight Opportunities
             ul
               li Integrate a music feature: either sync with a music streaming service or access downloaded songs in Strava
               li Privacy Setting: before posting, choose what information to be shared (if any)
@@ -95,22 +81,26 @@ html(lang='en')
           p.caption_last Strava's Brand elements extracted
       .box.process_div
         .project_content_div.project_text_div
-          .sticky_content
-            h3.project_subheader Selecting an Opportunity 
-            p
-              | Between the three choices, we decided to go with  
-              span.highlight integrating a music feature. 
-              | This is because Strava lacks a music feature that a lot of their competitors already have. 
-            p
-              | These days, people mainly use streaming services to access music. It doesn't make sense for Strava to make their own music service because it will take away from the purpose of the app, to track running / cycling routines. Therefore, 
-              span.highlight collborating with a music streaming service 
-              | is probably best for Strava. In this case, we decided to collaborate Strava with
-              span.highlight Spotify.
-            p
-              | However, implementing a music playing feature doesn't give enough value to stand out from their competitors. A music feature that can provide users useful information about their run/cycle corresponding to the music they listened to will allow users to see how to keep up a consistent pace during their run/cycle!
+          h3.project_subheader Selecting an Opportunity 
+          p Between the three choices:
+          ul 
+              li Integrate a music feature
+              li Privacy Setting
+              li Trophies and Achievements
+
+          p We decided to go with  
+            span.highlight integrating a music feature. 
+            | This is because Strava lacks a music feature that a lot of their competitors already have. 
+
         .project_content_div.sticky_img_div
-          img.project_img.no_img(src='img/no-img.png', alt='no image')
-          //- p.caption_last (left) Login screen  |  (right) drop down nav bar
+          h3.project_subheader.whitetext .
+          p
+            | These days, people mainly use streaming services to access music. It doesn't make sense for Strava to make their own music service because it will take away from the purpose of the app, to track running / cycling routines. Therefore, 
+            span.highlight collborating with a music streaming service 
+            | is probably best for Strava. In this case, we decided to collaborate Strava with
+            span.highlight Spotify.
+          p
+            | However, implementing a music playing feature doesn't give enough value to stand out from their competitors. A music feature that can provide users useful information about their run/cycle corresponding to the music they listened to will allow users to see how to keep up a consistent pace during their run/cycle!
       .box.process_div
         .project_content_div.project_text_div
           .sticky_content
@@ -120,12 +110,12 @@ html(lang='en')
             p
               | In Figure 3 and 4, is where the music feature is implemented; creating a playlist and choosing the playlist for the run/cycle.
             p
-              | Lastly, in Figure 5, it shows the progress of your run in correlation to the songs the user listened to during their run/cycle.
+              | Lastly, in Figure 5, it shows the progress of your run in correlation to the songs the user listened to during their run/cycle. Again, keeping consistent with graphics that already exist in the app.
         .project_content_div.sticky_img_div
           img.project_img(src='img/strava/implement_1.png', alt='low fidelity mockups')
           p.caption Figure 1. Placing the Spotify feature in the drop down menu
           img.project_img(src='img/strava/implement_2.png', alt='low fidelity mockups')
-          p.caption Figure 2. Inspiration from the settings page, Spotify will use a similar layout
+          p.caption Figure 2. Inspiration from the settings page, Spotify feature in Strava will use a similar layout
           img.project_img(src='img/strava/implement_3.png', alt='low fidelity mockups')
           p.caption Figure 3. Creating a playlist in Strava
           img.project_img(src='img/strava/implement_4.png', alt='low fidelity mockups')
@@ -135,32 +125,23 @@ html(lang='en')
       .box.process_div
         .project_content_div.project_text_div
           .sticky_content
-            h3.project_subheader Change of plans
+            h3.project_subheader Pivoting the Design
             p
-              | Although our goal was to not turn Strava into a music app and mainly focus on being a running app, we made Strava have a very large section explicitly for music. 
+              | Although our goal was to not turn Strava into a music app and mainly focus on being a running app, we made Strava have a very large section explicitly for music. For example, users would have been able to create playlists and choose certain songs, albuns, artists, stations to play from. When we realized this, we knew we had to change and rethink on how we want to execute the music feature without being too overpowering.
             p
-              | When we realized this, we knew we had to change and rethink on how we want to execute the music feature without being too overpowering.
+              | When people first access Spotify within Strava, they will be greeted to login to Spotify to access the information on Spotify. Instead of making a playlist on Strava, people will be have to pre-make their playlists on Spotify to be synced with Strava. They can also choose to sync stations that they are already following on Spotify.
         .project_content_div.sticky_img_div
           img.project_img(src='img/strava/problem_1.png', alt='problem with implementation')
-          p.caption Examples of turning Strava into a music app
+          p.caption Full screen dedicated to music.
           img.project_img(src='img/strava/implement_3.png', alt='problem with implementation')
-          p.caption_last Examples of turning Strava into a music app
-      .box.process_div
-        .project_content_div.project_text_div
-          .sticky_content
-            h3.project_subheader Listening to music within Strava
-            p
-              | When people first access Spotify within Strava, they will be greeted to login to Spotify to access the information on Spotify, as demonstrated in Figure 6.
-            p 
-              | Instead of making a playlist on Strava, people will be have to pre-make their playlists on Spotify to be synced with Strava. They can also choose to sync stations that they are already following on Spotify.
-        .project_content_div.sticky_img_div
+          p.caption_last Creating a Playlist in Strava
           img.project_img(src='img/strava/solution_1.png', alt='solution to implementation problem')
-          p.caption Figure 6. Logging into Spotify in Strava
+          p.caption Logging into Spotify in Strava
           img.project_img(src='img/strava/solution_2.png', alt='solution to implementation problem')
           p.caption_last Option to sync playlists or stations onto Strava
       .box.process_div
         .project_content_div.project_text_div
-          h3.project_subheader Results: Value Added? 
+          h3.project_subheader Results: Value Added 
           p
             | By implementing Spotify into Strava this way, users will be able to listen to music seamlessly while tracking their run/cycle. Strava also remains being a fitness app and users can see how the songs they listened to affect their performance. 
           p
@@ -172,9 +153,9 @@ html(lang='en')
         .project_content_div.project_text_div
           h1.project_header Take away 
           p
-            | The IDEO research methods gave really good insights on Strava. Although more time to ask a larger group of people for the Extreme User Survey would have been more beneficial to get rid of the outliers in the group.
+            | The IDEO research methods gave really good insights on Strava. Although more time to ask a larger group of people for the Extreme User Survey would have been more beneficial to recieve more feedback and painpoints of Strava.
           p
-            | This project is viable and beneficial for both companies. A problem that could surface is what if Strava were to partner with other streaming companies like Apple Music or Pandora?  
+            | This project is viable and beneficial for both companies because Strava customers will get exposure to Spotify and get an incentive to use Spotify as it is needed for Strava. Spotify users that have the ambition to become more fit will have an incentive to get more fit by using Strava. This collaboration will give exposure to the audience about the respective companies, which will mean more people using both applications, and in turn higher revenue for both companies.
         .project_content_div.project_text_div
           img.project_img(src='img/strava/high_f1.png', alt='running and music feature')
           p.caption Accessing music information in Strava

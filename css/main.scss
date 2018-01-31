@@ -42,12 +42,18 @@ h4 {
   letter-spacing: 0.12rem;
 }
 
-p, ol, ul {
+p, ol, ul, li {
   font-family: 'Athiti', serif;
-  font-size: 0.9em;
+  font-size: 1.1em;
   color: #393B39;
-  letter-spacing: 0.009rem;
+  letter-spacing: 0.02rem;
+  text-transform: none;
 }
+
+// li{
+//   list-style-type: none;
+// }
+
 
 a {
   font-family: 'Athiti', serif;
@@ -86,8 +92,15 @@ button {
 }
 
 .highlight {
+  background-color: $lightest-pink;
+}
+
+.bold{
   font-weight: bold;
-  color: $main-pink;
+}
+
+.whitetext{
+  color: white;
 }
 
 .color_link {
@@ -421,6 +434,12 @@ button {
 
 .project_text_div {
   padding: 0;
+}
+
+.proj_scope_div{
+  text-align: center;
+  padding-top: 1.5rem;
+  padding-bottom: 2rem;
 }
 
 .process_div{
